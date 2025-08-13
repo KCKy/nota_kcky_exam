@@ -1,0 +1,89 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"1eoKHz2eX6Fzs1dUQbFetz5CNDr0husl": {
+			"height": 94,
+			"title": "store",
+			"width": 198,
+			"x": 579,
+			"y": -47
+		},
+		"CbyPMmqPjJuv8aYsd5ZjRfEnaaHXP8GL": {
+			"height": 72,
+			"title": "wait",
+			"width": 131,
+			"x": 622,
+			"y": 158
+		},
+		"ZAtdTjCP2PQ1XQt9r7ha51u1RC0Q5jom": {
+			"height": 92,
+			"title": "nota_kcky_exam.upgrade",
+			"width": 225,
+			"x": 572,
+			"y": 55
+		},
+		"qaKCzlLMVjVAc2DARUAflVIPgqLccwgx": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 242,
+			"y": 76
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "1eoKHz2eX6Fzs1dUQbFetz5CNDr0husl",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "ms"
+			}, {
+				"name": "value",
+				"value": "core.MissionInfo()"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "ZAtdTjCP2PQ1XQt9r7ha51u1RC0Q5jom",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "lineName",
+				"value": "GoodTop"
+			}, {
+				"name": "upgradeLevel",
+				"value": "1"
+			}, {
+				"name": "scriptName",
+				"value": "nota_kcky_exam.upgrade"
+			} ],
+			"scriptName": "nota_kcky_exam.upgrade"
+		}, {
+			"children": [],
+			"id": "CbyPMmqPjJuv8aYsd5ZjRfEnaaHXP8GL",
+			"nodeType": "wait",
+			"parameters": [ {
+				"name": "time",
+				"value": 100
+			} ]
+		} ],
+		"id": "qaKCzlLMVjVAc2DARUAflVIPgqLccwgx",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}
