@@ -1,0 +1,20 @@
+local sensorInfo = {
+	name = "GetStrongpoint",
+	desc = "",
+	author = "KCKy",
+	date = "2025-08-11",
+	license = "MIT",
+}
+
+function getInfo() return { period = -1 } end
+
+local filter = Sensors.nota_kcky_exam.Filter
+local flatten = Sensors.nota_kcky_exam.Flatten
+local map = Sensors.nota_kcky_exam.Map
+local max = Sensors.nota_kcky_exam.Max
+local contains = Sensors.nota_kcky_exam.Contains
+
+return function(lane)
+	local points = Sensors.core.missionInfo().corridors[lane].points
+	return filter(points, function(x) return x.isStrongpoint and x.ownerAllyID == Spring.GetMyAllyTeamID() end)
+end

@@ -1,5 +1,5 @@
 local sensorInfo = {
-	name = "GetBombingTargets",
+	name = "FilterTaken",
 	desc = "Filter a list to exclude items in a different list",
 	author = "KCKy",
 	date = "2025-08-11",

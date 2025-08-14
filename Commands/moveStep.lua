@@ -2,17 +2,17 @@ function getInfo()
     return
     {
         onNoUnits = SUCCESS,
-        tooltip = "Move some units",
+        tooltip = "Move this tick by vector",
 		parameterDefs =
         {
             {
-                name = "units",
+                name = "vector",
                 variableType = "expression",
                 componentType = "editBox",
                 defaultValue = ""
             },
-            {
-                name = "position",
+                        {
+                name = "units",
                 variableType = "expression",
                 componentType = "editBox",
                 defaultValue = ""
@@ -21,14 +21,18 @@ function getInfo()
     }
 end
 
-local commandName = "move"
+local commandName = "moveStep"
 
 function Run(self, units, parameter)
+    local vector = parameter.vector
+
     for _, unit in ipairs(parameter.units) do
-        Spring.GiveOrderToUnit(unit, CMD.MOVE, parameter.position:AsSpringVector(), {})
+        local position = Vec3(Spring.GetUnitPosition(unit))
+        local target = position + vector
+        Spring.GiveOrderToUnit(unit, CMD.MOVE, target:AsSpringVector(), {})
     end
+
     return RUNNING
 end
 
-function Reset(self)
-end
+function Reset() end

@@ -11,31 +11,185 @@
 	"properties": {
 		"1eoKHz2eX6Fzs1dUQbFetz5CNDr0husl": {
 			"height": 94,
-			"title": "store",
+			"title": "Debug",
 			"width": 198,
-			"x": 579,
-			"y": -47
+			"x": 617,
+			"y": -16
 		},
-		"CbyPMmqPjJuv8aYsd5ZjRfEnaaHXP8GL": {
-			"height": 72,
+		"2fw0gVymPwkaosJVJ6jbYi7VkfQzAeTs": {
+			"height": 77,
 			"title": "wait",
-			"width": 131,
-			"x": 622,
-			"y": 158
+			"width": 135,
+			"x": 1492,
+			"y": 471
 		},
-		"ZAtdTjCP2PQ1XQt9r7ha51u1RC0Q5jom": {
+		"8UuMVpNNxYvwICkRcc0apuw3CPXBY6Wl": {
+			"height": 60,
+			"title": "Activate spies",
+			"width": 168,
+			"x": 837,
+			"y": 702
+		},
+		"AptGh5Kz8ulpC8iS22At07E8EPN2zy1i": {
+			"height": 103,
+			"title": "Search for not active spies",
+			"width": 356,
+			"x": 1247,
+			"y": 624
+		},
+		"BD1dq6vzkjIDuxOjxbchdv709PuFqwUQ": {
+			"height": 118,
+			"title": "store",
+			"width": 613,
+			"x": 619,
+			"y": 84
+		},
+		"BDdaAgxJxaWRqlrLYxjHG9lPay7Or8T7": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1118,
+			"y": 1149
+		},
+		"DCmWyDjcl8BpJgvspkk4Qx6QKLF3kPNu": {
+			"height": 54,
+			"title": "Buy strategy",
+			"width": 208,
+			"x": 873,
+			"y": 411
+		},
+		"LVJUK2uFkQiYd5U0HW4f4YmDF3ZFl69c": {
+			"height": 103,
+			"title": "Check we got them",
+			"width": 250,
+			"x": 1288,
+			"y": 1383
+		},
+		"NmboL8hjJEverv5VBQfcOeKRPmTrubcy": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1039,
+			"y": 702
+		},
+		"Rd2NpFWxgLOFRcfRvGHG37ld3ozF8c5j": {
+			"height": 172,
+			"title": "reference",
+			"width": 263,
+			"x": 1843,
+			"y": 1443
+		},
+		"VcOdkr3XoGwbsRtf7gX3kU38q90AhAPf": {
+			"height": 55,
+			"title": "Walk spies",
+			"width": 154,
+			"x": 874,
+			"y": 1513
+		},
+		"aV1xd0lsv8Bx6yw2CXNZUaexvod27wUe": {
+			"height": 116,
+			"title": "store",
+			"width": 160,
+			"x": 629,
+			"y": 246
+		},
+		"f35JGcZK5t0oFSGLafLo96KhOCY2KjSY": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1643,
+			"y": 1382
+		},
+		"gOPicrLCfcQGEfJR3VGI5ZkvY8NrZm7S": {
+			"height": 94,
+			"title": "Try to take four",
+			"width": 222,
+			"x": 1288,
+			"y": 1278
+		},
+		"h8I9Srxz4A99tvF936TzlobkQDXcIqT9": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1125,
+			"y": 405
+		},
+		"hj5wj5wZLEOfpldkZUiGra8WIkrfPnGI": {
+			"height": 60,
+			"title": "Spy management",
+			"width": 209,
+			"x": 877,
+			"y": 1151
+		},
+		"kscPYOHE9MD00lzDkRn23xvX52tL3CED": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 597,
+			"y": 442
+		},
+		"m6Ue8OjVVojHgvMTIDyGa0gGWW1TpDBq": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1083,
+			"y": 1282
+		},
+		"n3ykqz01V7OgOFi6rcX5yNVZJAW9W2Gm": {
+			"height": 103,
+			"title": "nota_kcky_exam.move",
+			"width": 306,
+			"x": 1073,
+			"y": 1555
+		},
+		"nqLzxeyfSpFpWASMCqNFn4JeNKLtIiDJ": {
+			"height": 76,
+			"title": "nota_kcky_exam.buy",
+			"width": 199,
+			"x": 1313,
+			"y": 384
+		},
+		"ppUIH3Vqa0xlwxshReCQDruEI2ne4Dwp": {
 			"height": 92,
-			"title": "nota_kcky_exam.upgrade",
-			"width": 225,
-			"x": 572,
-			"y": 55
+			"title": "Turn off close to safe energy",
+			"width": 243,
+			"x": 1252,
+			"y": 727
+		},
+		"q2TlmcqX2EZDq2eX7t9QbFOuY9PmYoay": {
+			"height": 107,
+			"title": "Check for spies at resting point",
+			"width": 369,
+			"x": 1295,
+			"y": 1019
 		},
 		"qaKCzlLMVjVAc2DARUAflVIPgqLccwgx": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 242,
-			"y": 76
+			"x": 284,
+			"y": -2
+		},
+		"qryOu7S5169ZFXyj8HvuXSYWhf281tyg": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 884,
+			"y": 1279
+		},
+		"w7XYmv1yoUzI9T9Lqe59cG3P4inxcaOB": {
+			"height": 106,
+			"title": "Mark them active",
+			"width": 405,
+			"x": 1255,
+			"y": 823
+		},
+		"wys2iwjNiHTomtcX4vtDXSQcGarmfv6k": {
+			"height": 105,
+			"title": "Take the complement",
+			"width": 358,
+			"x": 1288,
+			"y": 1141
 		}
 	},
 	"roles": [ {
@@ -60,26 +214,246 @@
 			"scriptName": "store"
 		}, {
 			"children": [],
-			"id": "ZAtdTjCP2PQ1XQt9r7ha51u1RC0Q5jom",
+			"id": "BD1dq6vzkjIDuxOjxbchdv709PuFqwUQ",
 			"nodeType": "luaCommand",
 			"parameters": [ {
-				"name": "lineName",
-				"value": "GoodTop"
+				"name": "var",
+				"value": "spyRestPoint"
 			}, {
-				"name": "upgradeLevel",
-				"value": "1"
+				"name": "value",
+				"value": "GetStrongpoints(\"Middle\")[3].position - Vec3(200, 0, 200)"
 			}, {
 				"name": "scriptName",
-				"value": "nota_kcky_exam.upgrade"
+				"value": "store"
 			} ],
-			"scriptName": "nota_kcky_exam.upgrade"
+			"scriptName": "store"
 		}, {
 			"children": [],
-			"id": "CbyPMmqPjJuv8aYsd5ZjRfEnaaHXP8GL",
-			"nodeType": "wait",
+			"id": "aV1xd0lsv8Bx6yw2CXNZUaexvod27wUe",
+			"nodeType": "luaCommand",
 			"parameters": [ {
-				"name": "time",
-				"value": 100
+				"name": "var",
+				"value": "activeSpies"
+			}, {
+				"name": "value",
+				"value": "{}"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [ {
+				"children": [ {
+					"children": [ {
+						"children": [],
+						"id": "nqLzxeyfSpFpWASMCqNFn4JeNKLtIiDJ",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "unitName",
+							"value": "'armspy'"
+						}, {
+							"name": "scriptName",
+							"value": "nota_kcky_exam.buy"
+						} ],
+						"scriptName": "nota_kcky_exam.buy"
+					}, {
+						"children": [],
+						"id": "2fw0gVymPwkaosJVJ6jbYi7VkfQzAeTs",
+						"nodeType": "wait",
+						"parameters": [ {
+							"name": "time",
+							"value": 1
+						} ]
+					} ],
+					"id": "h8I9Srxz4A99tvF936TzlobkQDXcIqT9",
+					"nodeType": "sequence",
+					"parameters": []
+				} ],
+				"id": "DCmWyDjcl8BpJgvspkk4Qx6QKLF3kPNu",
+				"nodeType": "repeat",
+				"parameters": []
+			}, {
+				"children": [ {
+					"children": [ {
+						"children": [],
+						"id": "AptGh5Kz8ulpC8iS22At07E8EPN2zy1i",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "var",
+							"value": "newSpies"
+						}, {
+							"name": "value",
+							"value": "GetNotActiveUnits({\"armspy\"}, activeSpies)"
+						}, {
+							"name": "scriptName",
+							"value": "store"
+						} ],
+						"scriptName": "store"
+					}, {
+						"children": [],
+						"id": "ppUIH3Vqa0xlwxshReCQDruEI2ne4Dwp",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "units",
+							"value": "newSpies"
+						}, {
+							"name": "active",
+							"value": "false"
+						}, {
+							"name": "scriptName",
+							"value": "nota_kcky_exam.setCloak"
+						} ],
+						"scriptName": "nota_kcky_exam.setCloak"
+					}, {
+						"children": [],
+						"id": "w7XYmv1yoUzI9T9Lqe59cG3P4inxcaOB",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "var",
+							"value": "activeSpies"
+						}, {
+							"name": "value",
+							"value": "Flatten({activeSpies, newSpies})"
+						}, {
+							"name": "scriptName",
+							"value": "store"
+						} ],
+						"scriptName": "store"
+					} ],
+					"id": "NmboL8hjJEverv5VBQfcOeKRPmTrubcy",
+					"nodeType": "sequence",
+					"parameters": []
+				} ],
+				"id": "8UuMVpNNxYvwICkRcc0apuw3CPXBY6Wl",
+				"nodeType": "repeat",
+				"parameters": []
+			}, {
+				"children": [ {
+					"children": [ {
+						"children": [],
+						"id": "q2TlmcqX2EZDq2eX7t9QbFOuY9PmYoay",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "var",
+							"value": "area"
+						}, {
+							"name": "value",
+							"value": "FilterArea(activeSpies, spyRestPoint, 300)"
+						}, {
+							"name": "scriptName",
+							"value": "store"
+						} ],
+						"scriptName": "store"
+					}, {
+						"children": [],
+						"id": "wys2iwjNiHTomtcX4vtDXSQcGarmfv6k",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "var",
+							"value": "not_area"
+						}, {
+							"name": "value",
+							"value": "FilterTaken(activeSpies, area)"
+						}, {
+							"name": "scriptName",
+							"value": "store"
+						} ],
+						"scriptName": "store"
+					} ],
+					"id": "BDdaAgxJxaWRqlrLYxjHG9lPay7Or8T7",
+					"nodeType": "sequence",
+					"parameters": []
+				} ],
+				"id": "hj5wj5wZLEOfpldkZUiGra8WIkrfPnGI",
+				"nodeType": "repeat",
+				"parameters": []
+			}, {
+				"children": [ {
+					"children": [ {
+						"children": [],
+						"id": "gOPicrLCfcQGEfJR3VGI5ZkvY8NrZm7S",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "var",
+							"value": "spies"
+						}, {
+							"name": "value",
+							"value": "TakeN(area, 4)"
+						}, {
+							"name": "scriptName",
+							"value": "store"
+						} ],
+						"scriptName": "store"
+					}, {
+						"children": [ {
+							"children": [ {
+								"children": [],
+								"id": "Rd2NpFWxgLOFRcfRvGHG37ld3ozF8c5j",
+								"nodeType": "reference",
+								"parameters": [ {
+									"name": "behaviourName",
+									"value": "nota_kcky_exam.spy"
+								} ],
+								"referenceInputs": [ {
+									"name": "spies",
+									"value": "spies"
+								}, {
+									"name": "lane",
+									"value": "\"Middle\""
+								}, {
+									"name": "bomb_targets",
+									"value": "{\"shika\", \"corfus\"}"
+								} ],
+								"referenceOutputs": []
+							} ],
+							"id": "f35JGcZK5t0oFSGLafLo96KhOCY2KjSY",
+							"nodeType": "sequence",
+							"parameters": []
+						} ],
+						"id": "LVJUK2uFkQiYd5U0HW4f4YmDF3ZFl69c",
+						"nodeType": "luaCondition",
+						"parameters": [ {
+							"name": "expression",
+							"value": "spies"
+						}, {
+							"name": "repeat",
+							"value": "false"
+						} ]
+					} ],
+					"id": "m6Ue8OjVVojHgvMTIDyGa0gGWW1TpDBq",
+					"nodeType": "sequence",
+					"parameters": []
+				} ],
+				"id": "qryOu7S5169ZFXyj8HvuXSYWhf281tyg",
+				"nodeType": "repeat",
+				"parameters": []
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "n3ykqz01V7OgOFi6rcX5yNVZJAW9W2Gm",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "units",
+						"value": "FilterTaken(not_area, spies or {})"
+					}, {
+						"name": "position",
+						"value": "spyRestPoint"
+					}, {
+						"name": "scriptName",
+						"value": "nota_kcky_exam.move"
+					} ],
+					"scriptName": "nota_kcky_exam.move"
+				} ],
+				"id": "VcOdkr3XoGwbsRtf7gX3kU38q90AhAPf",
+				"nodeType": "repeat",
+				"parameters": []
+			} ],
+			"id": "kscPYOHE9MD00lzDkRn23xvX52tL3CED",
+			"nodeType": "parallel",
+			"parameters": [ {
+				"name": "mode",
+				"value": "all-success"
 			} ]
 		} ],
 		"id": "qaKCzlLMVjVAc2DARUAflVIPgqLccwgx",

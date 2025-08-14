@@ -21,11 +21,18 @@ function getInfo()
 end
 
 function Run(self, units, parameter)
+	local price = Sensors.core.MissionInfo().buy[parameter.unitName]
+	if not price then
+		return FAILURE
+	end
+
+	if Spring.GetTeamResources(Spring.GetMyTeamID(), "metal") <= price then
+		return FAILURE
+	end
+
     message.SendRules({
         subject = "swampdota_buyUnit",
-        data = {
-			unitName = parameter.unitName
-		},
+        data = { unitName = parameter.unitName }
     })
 	
 	return SUCCESS
