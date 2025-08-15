@@ -32,6 +32,13 @@
 			"x": 2100,
 			"y": 262
 		},
+		"7clNZR4MVvnePe6WywWFcdKtztFvOGvM": {
+			"height": 54,
+			"title": "success",
+			"width": 132,
+			"x": 2688,
+			"y": 863
+		},
 		"BT3nNoygNdFl4myTfoSCjnFZTKhFacv5": {
 			"height": 72,
 			"title": "wait",
@@ -39,19 +46,26 @@
 			"x": 1237,
 			"y": 296
 		},
+		"HMUI8ITPypxrftI5s4W4oTIsINAXEwhI": {
+			"height": 95,
+			"title": "Assure units are close to target",
+			"width": 564,
+			"x": 2067,
+			"y": 747
+		},
 		"JhL8riJO0SZH8BXLUK1FkUMO7BzfhLKF": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 1897,
-			"y": 738
+			"x": 1855,
+			"y": 769
 		},
 		"K05TX8wVz28JBoZ2wwGjPGIAgu5QmzPE": {
 			"height": 110,
 			"title": "Take out the dead",
 			"width": 395,
-			"x": 1211,
-			"y": -8
+			"x": 1209,
+			"y": 7
 		},
 		"NMUCEo9CqOKtqunl42dmyMcqssark92o": {
 			"height": 70,
@@ -64,8 +78,15 @@
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 2670,
-			"y": 1020
+			"x": 2668,
+			"y": 1104
+		},
+		"QO2CDjClxHdlgU6FlaX5VZFNXnaYBhSR": {
+			"height": 92,
+			"title": "Move to target",
+			"width": 213,
+			"x": 2684,
+			"y": 766
 		},
 		"SBxFb4iS2mW9weL8JOCjsgIjBkkoDe4g": {
 			"height": 90,
@@ -99,8 +120,8 @@
 			"height": 72,
 			"title": "nota_kcky_exam.selfDestruct",
 			"width": 247,
-			"x": 2930,
-			"y": 1245
+			"x": 2928,
+			"y": 1329
 		},
 		"ds4EYxzMbnvtGXtaVMpWwjHTTpRDeab4": {
 			"height": 92,
@@ -113,22 +134,22 @@
 			"height": 84,
 			"title": "waitUntil",
 			"width": 570,
-			"x": 2922,
-			"y": 1023
+			"x": 2920,
+			"y": 1107
 		},
 		"esHo9P00ciPTzQQvVRH1LeH2kG4jvo6Y": {
 			"height": 60,
 			"title": "Attack one by one",
 			"width": 195,
-			"x": 1488,
-			"y": 736
+			"x": 1553,
+			"y": 771
 		},
 		"fsRC3mJNhp9sofElrqXpIZFhzKqo5HFk": {
 			"height": 92,
 			"title": "Move to target",
 			"width": 213,
-			"x": 2878,
-			"y": 904
+			"x": 2876,
+			"y": 988
 		},
 		"graYMOzyJHcgi3fXs4iOWTfA04f2RHay": {
 			"height": 60,
@@ -150,6 +171,13 @@
 			"width": 202,
 			"x": 1648,
 			"y": 430
+		},
+		"lO4y6KpNumbjLeIdCVhw2D1OD8AaOJ2P": {
+			"height": 92,
+			"title": "store",
+			"width": 166,
+			"x": 2074,
+			"y": 912
 		},
 		"lX3nQSPlNV2Bk2kxfQglCmFPPAx4HG3p": {
 			"height": 60,
@@ -176,8 +204,8 @@
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 2388,
-			"y": 919
+			"x": 2339,
+			"y": 936
 		},
 		"noJ5YH22NpbuFzT5sMoPUec6vMnwoSuP": {
 			"height": 60,
@@ -190,22 +218,15 @@
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 2666,
-			"y": 918
-		},
-		"uPQ7S1kxE3kvc5k4eFN1cAH1Z5WRdMUt": {
-			"height": 93,
-			"title": "Pick a unit",
-			"width": 180,
-			"x": 2143,
-			"y": 782
+			"x": 2664,
+			"y": 1002
 		},
 		"v3SCoCcoBiA82r1eg2lwhEiA7BsX5EWj": {
 			"height": 90,
 			"title": "luaCondition",
 			"width": 194,
-			"x": 2146,
-			"y": 913
+			"x": 2077,
+			"y": 1001
 		},
 		"vCgsR2Tk8tgCxD5neNqbA1eg3W3ZQu9m": {
 			"height": 103,
@@ -218,8 +239,15 @@
 			"height": 79,
 			"title": "wait",
 			"width": 133,
-			"x": 2931,
-			"y": 1148
+			"x": 2929,
+			"y": 1232
+		},
+		"xZdMYaqcAM4aSIXkcqypCDkehjPJi7tA": {
+			"height": 72,
+			"title": "nota_kcky_exam.stop",
+			"width": 199,
+			"x": 2072,
+			"y": 845
 		}
 	},
 	"roles": [ {
@@ -370,8 +398,51 @@
 					}, {
 						"children": [ {
 							"children": [ {
+								"children": [ {
+									"children": [],
+									"id": "QO2CDjClxHdlgU6FlaX5VZFNXnaYBhSR",
+									"nodeType": "luaCommand",
+									"parameters": [ {
+										"name": "units",
+										"value": "spies"
+									}, {
+										"name": "position",
+										"value": "target"
+									}, {
+										"name": "scriptName",
+										"value": "nota_kcky_exam.move"
+									} ],
+									"scriptName": "nota_kcky_exam.move"
+								}, {
+									"children": [],
+									"id": "7clNZR4MVvnePe6WywWFcdKtztFvOGvM",
+									"nodeType": "success",
+									"parameters": []
+								} ],
+								"id": "HMUI8ITPypxrftI5s4W4oTIsINAXEwhI",
+								"nodeType": "luaCondition",
+								"parameters": [ {
+									"name": "expression",
+									"value": "spies[1] and (Vec3(Spring.GetUnitPosition(spies[1]))-target):Length() > 400"
+								}, {
+									"name": "repeat",
+									"value": "true"
+								} ]
+							}, {
 								"children": [],
-								"id": "uPQ7S1kxE3kvc5k4eFN1cAH1Z5WRdMUt",
+								"id": "xZdMYaqcAM4aSIXkcqypCDkehjPJi7tA",
+								"nodeType": "luaCommand",
+								"parameters": [ {
+									"name": "units",
+									"value": "spies"
+								}, {
+									"name": "scriptName",
+									"value": "nota_kcky_exam.stop"
+								} ],
+								"scriptName": "nota_kcky_exam.stop"
+							}, {
+								"children": [],
+								"id": "lO4y6KpNumbjLeIdCVhw2D1OD8AaOJ2P",
 								"nodeType": "luaCommand",
 								"parameters": [ {
 									"name": "var",

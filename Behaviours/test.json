@@ -1,0 +1,112 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"6XtTq9MDJoa6wbQ9fOA5XrfNL8a6cAI8": {
+			"height": 74,
+			"title": "echo",
+			"width": 485,
+			"x": 381,
+			"y": -43
+		},
+		"Ba3uWvWiMyvongb8ei0RyFnBU7pkgUu7": {
+			"height": 94,
+			"title": "store",
+			"width": 488,
+			"x": 374,
+			"y": -221
+		},
+		"EPymflE21MsVgFOWHOWLuTYkDOOpvPTq": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 186,
+			"y": 15
+		},
+		"JGvQpBacUFlldthVKYTDwlvcL7oOl3y4": {
+			"height": 94,
+			"title": "store",
+			"width": 488,
+			"x": 381,
+			"y": -136
+		},
+		"guzxbmz15bI9GnDXFO3s0jfkjhnnlJnr": {
+			"height": 74,
+			"title": "echo",
+			"width": 485,
+			"x": 380,
+			"y": 35
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "Ba3uWvWiMyvongb8ei0RyFnBU7pkgUu7",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "ms"
+			}, {
+				"name": "value",
+				"value": "core.MissionInfo()"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "JGvQpBacUFlldthVKYTDwlvcL7oOl3y4",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "x"
+			}, {
+				"name": "value",
+				"value": "ProjectToLane(\"Middle\", Vec3(Spring.GetUnitPosition(units[1])))"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		}, {
+			"children": [],
+			"id": "6XtTq9MDJoa6wbQ9fOA5XrfNL8a6cAI8",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "msg",
+				"value": "x"
+			}, {
+				"name": "scriptName",
+				"value": "echo"
+			} ],
+			"scriptName": "echo"
+		}, {
+			"children": [],
+			"id": "guzxbmz15bI9GnDXFO3s0jfkjhnnlJnr",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "msg",
+				"value": "GetLanePosition(\"Middle\", x)"
+			}, {
+				"name": "scriptName",
+				"value": "echo"
+			} ],
+			"scriptName": "echo"
+		} ],
+		"id": "EPymflE21MsVgFOWHOWLuTYkDOOpvPTq",
+		"nodeType": "sequence",
+		"parameters": []
+	}
+}
