@@ -1,0 +1,314 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 128,
+			"width": 424
+		}
+	},
+	"inputs": [ {
+		"command": "Variable",
+		"name": "lugers"
+	} ],
+	"outputs": [],
+	"properties": {
+		"CCF7fmZ8iqHKEl1CSwRGpetWy6yHROLA": {
+			"height": 108,
+			"title": "GetTheClosestSeenEnemyShikaID",
+			"width": 435,
+			"x": 1128,
+			"y": -26
+		},
+		"F5USeizc1yS35CpDpfjZkycscLmhRbzo": {
+			"height": 104,
+			"title": "AreLugersTooCloseToTheBattleLine?",
+			"width": 656,
+			"x": 1249,
+			"y": 140
+		},
+		"G0GKUYvPgKqbyJ93kWlgbDkz0jGGSDns": {
+			"height": 142,
+			"title": "FormationStepBack",
+			"width": 406,
+			"x": 1974,
+			"y": 315
+		},
+		"G1qULBysxuPrAS3xcN8wYDCimuIemjRt": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 940,
+			"y": -151
+		},
+		"LpJWDGk47CjInpLhy5JQCB4PtgxJTpAb": {
+			"height": 97,
+			"title": "TransformTheLineFormation ",
+			"width": 649,
+			"x": 1125,
+			"y": -128
+		},
+		"PZiuW7xSWtmUqvqHOOznsOQnLKFJj2IQ": {
+			"height": 60,
+			"title": "RepeatInfo",
+			"width": 170,
+			"x": 738,
+			"y": -147
+		},
+		"QWuXXIwoRXxt83lmV05yz9iiaZxmBTh0": {
+			"height": 110,
+			"title": "Take out the dead",
+			"width": 401,
+			"x": 1132,
+			"y": -438
+		},
+		"QlGymNh7d0WZr2H5aCzhkzkUoFde5rnL": {
+			"height": 132,
+			"title": "nota_kyzro_swampdota.moveCustomGroup",
+			"width": 368,
+			"x": 2366,
+			"y": 75
+		},
+		"WESOtCYnFYLbr5rkUtdffXaHvLRH4Svw": {
+			"height": 94,
+			"title": "GetGroupDefinition",
+			"width": 489,
+			"x": 1126,
+			"y": -217
+		},
+		"ZW2jQkBbZu8j2QTTiAfZbbHxvJmZAFna": {
+			"height": 90,
+			"title": "Do we have enough?",
+			"width": 217,
+			"x": 987,
+			"y": 141
+		},
+		"c5lI6Vg9qzubmQu9nLQLdG3y1SIHuxTN": {
+			"height": 92,
+			"title": "nota_mestek_labs.fireAt",
+			"width": 285,
+			"x": 2365,
+			"y": -42
+		},
+		"gejpEmfYGlgg0dYXu4dpQ4nmAVYWc6e9": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 474,
+			"y": 28
+		},
+		"h2WqoPqSmetainT1tLS9XOACSYGpBBfC": {
+			"height": 60,
+			"title": "RepeatBattle",
+			"width": 163,
+			"x": 752,
+			"y": 152
+		},
+		"v5z3wH24aZLpNAfTzB3qngaKo6pJDL34": {
+			"height": 90,
+			"title": "DoWeSeeTheEnemyShika?",
+			"width": 258,
+			"x": 2021,
+			"y": 100
+		},
+		"w856dhEgApjPVaXhR5j124BTOZ1qyjUb": {
+			"height": 94,
+			"title": "GetTheLineFormation",
+			"width": 601,
+			"x": 1133,
+			"y": -316
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [ {
+					"children": [],
+					"id": "QWuXXIwoRXxt83lmV05yz9iiaZxmBTh0",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "lugers"
+					}, {
+						"name": "value",
+						"value": "nota_mestek_labs.FilterLivingUnits(lugers).filtered"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "w856dhEgApjPVaXhR5j124BTOZ1qyjUb",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "formationDefinition"
+					}, {
+						"name": "value",
+						"value": "nota_kyzro_sandsail2.GetLineFormation()"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "WESOtCYnFYLbr5rkUtdffXaHvLRH4Svw",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "groupDefinition"
+					}, {
+						"name": "value",
+						"value": "nota_kyzro_sandsail2.GetUnitsInFormationFormat(lugers)"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "LpJWDGk47CjInpLhy5JQCB4PtgxJTpAb",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "formationTransformed"
+					}, {
+						"name": "value",
+						"value": "formation.StaticTransform(formationDefinition, Vec3(1,0,-1), Vec3(0,0,0), Vec3(70,1,70))"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "CCF7fmZ8iqHKEl1CSwRGpetWy6yHROLA",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "closestEnemyShikaMidID"
+					}, {
+						"name": "value",
+						"value": "nota_kcky_exam.FindClosestEnemyShikaID(\"Middle\")"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				} ],
+				"id": "G1qULBysxuPrAS3xcN8wYDCimuIemjRt",
+				"nodeType": "sequence",
+				"parameters": []
+			} ],
+			"id": "PZiuW7xSWtmUqvqHOOznsOQnLKFJj2IQ",
+			"nodeType": "repeat",
+			"parameters": []
+		}, {
+			"children": [ {
+				"children": [ {
+					"children": [ {
+						"children": [ {
+							"children": [],
+							"id": "c5lI6Vg9qzubmQu9nLQLdG3y1SIHuxTN",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "unitsIDs",
+								"value": "lugers"
+							}, {
+								"name": "targetUnitID",
+								"value": "closestEnemyShikaMidID"
+							}, {
+								"name": "scriptName",
+								"value": "nota_mestek_labs.fireAt"
+							} ],
+							"scriptName": "nota_mestek_labs.fireAt"
+						}, {
+							"children": [],
+							"id": "QlGymNh7d0WZr2H5aCzhkzkUoFde5rnL",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "groupDefintion",
+								"value": "groupDefinition"
+							}, {
+								"name": "position",
+								"value": "global.middlePosition - Vec3(500, 0, -500)"
+							}, {
+								"name": "formation",
+								"value": "formationTransformed"
+							}, {
+								"name": "fight",
+								"value": "true"
+							}, {
+								"name": "scriptName",
+								"value": "nota_kyzro_swampdota.moveCustomGroup"
+							} ],
+							"scriptName": "nota_kyzro_swampdota.moveCustomGroup"
+						} ],
+						"id": "v5z3wH24aZLpNAfTzB3qngaKo6pJDL34",
+						"nodeType": "luaCondition",
+						"parameters": [ {
+							"name": "expression",
+							"value": "closestEnemyShikaMidID"
+						}, {
+							"name": "repeat",
+							"value": "true"
+						} ]
+					}, {
+						"children": [],
+						"id": "G0GKUYvPgKqbyJ93kWlgbDkz0jGGSDns",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "groupDefintion",
+							"value": "groupDefinition"
+						}, {
+							"name": "position",
+							"value": "global.middlePosition - Vec3(500, 0, -500)"
+						}, {
+							"name": "formation",
+							"value": "formationTransformed"
+						}, {
+							"name": "fight",
+							"value": "false"
+						}, {
+							"name": "scriptName",
+							"value": "nota_kyzro_swampdota.moveCustomGroup"
+						} ],
+						"scriptName": "nota_kyzro_swampdota.moveCustomGroup"
+					} ],
+					"id": "F5USeizc1yS35CpDpfjZkycscLmhRbzo",
+					"nodeType": "luaCondition",
+					"parameters": [ {
+						"name": "expression",
+						"value": "ProjectToLane(\"Middle\", Vec3(Spring.GetUnitPosition(lugers[1]))) < global.middleProgress - 0.03"
+					}, {
+						"name": "repeat",
+						"value": "true"
+					} ]
+				} ],
+				"id": "ZW2jQkBbZu8j2QTTiAfZbbHxvJmZAFna",
+				"nodeType": "luaCondition",
+				"parameters": [ {
+					"name": "expression",
+					"value": "#lugers >= 0"
+				}, {
+					"name": "repeat",
+					"value": "true"
+				} ]
+			} ],
+			"id": "h2WqoPqSmetainT1tLS9XOACSYGpBBfC",
+			"nodeType": "repeat",
+			"parameters": []
+		} ],
+		"id": "gejpEmfYGlgg0dYXu4dpQ4nmAVYWc6e9",
+		"nodeType": "parallel",
+		"parameters": [ {
+			"name": "mode",
+			"value": "all-success"
+		} ]
+	}
+}

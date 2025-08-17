@@ -1,21 +1,18 @@
--- get madatory module operators
-VFS.Include("modules.lua") -- modules table
-VFS.Include(modules.attach.data.path .. modules.attach.data.head) -- attach lib module
-
--- get other madatory dependencies
-attach.Module(modules, "message") -- communication backend load
+VFS.Include("modules.lua")
+VFS.Include(modules.attach.data.path .. modules.attach.data.head)
+attach.Module(modules, "message")
 
 function getInfo()
 	return {
-		onNoUnits = SUCCESS, -- instant success
-		tooltip = "Buy unit in param",
+		onNoUnits = SUCCESS,
+		tooltip = "Try to buy specified unit",
 		parameterDefs = {
 			{ 
 				name = "unitName",
 				variableType = "expression",
 				componentType = "editBox",
-				defaultValue = "'armbox'",
-			},
+				defaultValue = "'armspy'",
+			}
 		}
 	}
 end
@@ -37,7 +34,6 @@ function Run(self, units, parameter)
 	
 	return SUCCESS
 end
-
 
 function Reset(self)
 	return self

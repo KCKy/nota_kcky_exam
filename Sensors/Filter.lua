@@ -1,5 +1,5 @@
 local sensorInfo = {
-	name = "GetBombingTargets",
+	name = "Filter",
 	desc = "Filter a list by predicate",
 	author = "KCKy",
 	date = "2025-08-11",

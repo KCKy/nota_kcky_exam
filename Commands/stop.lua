@@ -2,20 +2,18 @@ function getInfo()
     return
     {
         onNoUnits = SUCCESS,
-        tooltip = "Stop",
+        tooltip = "Give the stop command to units",
 		parameterDefs =
         {
             {
                 name = "units",
                 variableType = "expression",
                 componentType = "editBox",
-                defaultValue = ""
+                defaultValue = "units"
             }
         }
     }
 end
-
-local commandName = "stop"
 
 function Run(self, units, parameter)
     for _, unit in ipairs(parameter.units) do
@@ -25,4 +23,5 @@ function Run(self, units, parameter)
 end
 
 function Reset(self)
+	return self
 end

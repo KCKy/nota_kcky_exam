@@ -1,6 +1,6 @@
 local sensorInfo = {
 	name = "TakeN",
-	desc = "",
+	desc = "Try to take N things out of a list",
 	author = "KCKy",
 	date = "2025-08-11",
 	license = "MIT",

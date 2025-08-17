@@ -1,0 +1,41 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"qqlxpIIEIgFL3LniI4814HprtpGOpx6Y": {
+			"height": 151,
+			"title": "reference",
+			"width": 220,
+			"x": 286,
+			"y": -55
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [],
+		"id": "qqlxpIIEIgFL3LniI4814HprtpGOpx6Y",
+		"nodeType": "reference",
+		"parameters": [ {
+			"name": "behaviourName",
+			"value": "nota_kcky_exam.luger"
+		} ],
+		"referenceInputs": [ {
+			"name": "lugers",
+			"value": "units"
+		}, {
+			"name": "min",
+			"value": "0"
+		} ],
+		"referenceOutputs": []
+	}
+}

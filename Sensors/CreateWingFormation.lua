@@ -1,6 +1,6 @@
 local sensorInfo = {
-	name = "CreateWing",
-	desc = "",
+	name = "CreateWingFormation",
+	desc = "Create a wing formation of points",
 	author = "KCKy",
 	date = "2025-08-11",
 	license = "MIT",

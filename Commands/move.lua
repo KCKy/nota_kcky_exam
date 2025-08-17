@@ -2,26 +2,24 @@ function getInfo()
     return
     {
         onNoUnits = SUCCESS,
-        tooltip = "Move some units",
+        tooltip = "Continuously move units to given position",
 		parameterDefs =
         {
             {
                 name = "units",
                 variableType = "expression",
                 componentType = "editBox",
-                defaultValue = ""
+                defaultValue = "units"
             },
             {
                 name = "position",
                 variableType = "expression",
                 componentType = "editBox",
-                defaultValue = ""
+                defaultValue = "Vec3(0, 0, 0)"
             }
         }
     }
 end
-
-local commandName = "move"
 
 function Run(self, units, parameter)
     for _, unit in ipairs(parameter.units) do
@@ -31,4 +29,5 @@ function Run(self, units, parameter)
 end
 
 function Reset(self)
+	return self
 end

@@ -1,6 +1,6 @@
 local sensorInfo = {
 	name = "GetStrongpoint",
-	desc = "",
+	desc = "Get ally strongpoints positions of a lane",
 	author = "KCKy",
 	date = "2025-08-11",
 	license = "MIT",

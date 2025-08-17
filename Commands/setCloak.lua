@@ -2,7 +2,7 @@ function getInfo()
     return
     {
         onNoUnits = SUCCESS,
-        tooltip = "Order units to not wander, nor attack, nor repeat queued actions",
+        tooltip = "Set the cloak state of units",
         parameterDefs = {			
         { 
             name = "units",
@@ -19,8 +19,6 @@ function getInfo()
     }
 end
 
-local commandName = "keepCalm"
-
 function Run(self, units, params)
     local mode
     if params.active then
@@ -35,4 +33,6 @@ function Run(self, units, params)
     return SUCCESS
 end
 
-function Reset() end
+function Reset(self)
+	return self
+end

@@ -1,6 +1,6 @@
 local sensorInfo = {
 	name = "FilterArea",
-	desc = "",
+	desc = "Give units in given circular area",
 	author = "KCKy",
 	date = "2025-08-11",
 	license = "MIT",

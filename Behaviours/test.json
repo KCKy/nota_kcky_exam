@@ -1,5 +1,44 @@
 {
-	"additionalNodes": [],
+	"additionalNodes": [ {
+		"children": [],
+		"id": "guzxbmz15bI9GnDXFO3s0jfkjhnnlJnr",
+		"nodeType": "luaCommand",
+		"parameters": [ {
+			"name": "msg",
+			"value": "GetLanePosition(\"Middle\", x)"
+		}, {
+			"name": "scriptName",
+			"value": "echo"
+		} ],
+		"scriptName": "echo"
+	}, {
+		"children": [],
+		"id": "JGvQpBacUFlldthVKYTDwlvcL7oOl3y4",
+		"nodeType": "luaCommand",
+		"parameters": [ {
+			"name": "var",
+			"value": "x"
+		}, {
+			"name": "value",
+			"value": "ProjectToLane(\"Middle\", Vec3(Spring.GetUnitPosition(units[1])))"
+		}, {
+			"name": "scriptName",
+			"value": "store"
+		} ],
+		"scriptName": "store"
+	}, {
+		"children": [],
+		"id": "6XtTq9MDJoa6wbQ9fOA5XrfNL8a6cAI8",
+		"nodeType": "luaCommand",
+		"parameters": [ {
+			"name": "msg",
+			"value": "x"
+		}, {
+			"name": "scriptName",
+			"value": "echo"
+		} ],
+		"scriptName": "echo"
+	} ],
 	"additionalParameters": {
 		"root": {
 			"height": 88,
@@ -9,40 +48,54 @@
 	"inputs": [],
 	"outputs": [],
 	"properties": {
+		"6JwTClF5yV8MDs0sWW1TvGAr9TzzBurN": {
+			"height": 74,
+			"title": "echo",
+			"width": 300,
+			"x": 463,
+			"y": 461
+		},
 		"6XtTq9MDJoa6wbQ9fOA5XrfNL8a6cAI8": {
 			"height": 74,
 			"title": "echo",
 			"width": 485,
-			"x": 381,
-			"y": -43
+			"x": 447,
+			"y": 301
 		},
 		"Ba3uWvWiMyvongb8ei0RyFnBU7pkgUu7": {
 			"height": 94,
 			"title": "store",
 			"width": 488,
-			"x": 374,
-			"y": -221
+			"x": 440,
+			"y": 123
 		},
 		"EPymflE21MsVgFOWHOWLuTYkDOOpvPTq": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 186,
-			"y": 15
+			"x": 269,
+			"y": 214
 		},
 		"JGvQpBacUFlldthVKYTDwlvcL7oOl3y4": {
 			"height": 94,
 			"title": "store",
 			"width": 488,
-			"x": 381,
-			"y": -136
+			"x": 447,
+			"y": 208
 		},
 		"guzxbmz15bI9GnDXFO3s0jfkjhnnlJnr": {
 			"height": 74,
 			"title": "echo",
 			"width": 485,
-			"x": 380,
-			"y": 35
+			"x": 446,
+			"y": 379
+		},
+		"vcU6XmXME5PqPoUSwY7QF4Q8foZVMmuZ": {
+			"height": 72,
+			"title": "wait",
+			"width": 131,
+			"x": 463,
+			"y": 537
 		}
 	},
 	"roles": [ {
@@ -67,26 +120,11 @@
 			"scriptName": "store"
 		}, {
 			"children": [],
-			"id": "JGvQpBacUFlldthVKYTDwlvcL7oOl3y4",
-			"nodeType": "luaCommand",
-			"parameters": [ {
-				"name": "var",
-				"value": "x"
-			}, {
-				"name": "value",
-				"value": "ProjectToLane(\"Middle\", Vec3(Spring.GetUnitPosition(units[1])))"
-			}, {
-				"name": "scriptName",
-				"value": "store"
-			} ],
-			"scriptName": "store"
-		}, {
-			"children": [],
-			"id": "6XtTq9MDJoa6wbQ9fOA5XrfNL8a6cAI8",
+			"id": "6JwTClF5yV8MDs0sWW1TvGAr9TzzBurN",
 			"nodeType": "luaCommand",
 			"parameters": [ {
 				"name": "msg",
-				"value": "x"
+				"value": "GetMiddleBattleLine(\"Middle\", 800)"
 			}, {
 				"name": "scriptName",
 				"value": "echo"
@@ -94,16 +132,12 @@
 			"scriptName": "echo"
 		}, {
 			"children": [],
-			"id": "guzxbmz15bI9GnDXFO3s0jfkjhnnlJnr",
-			"nodeType": "luaCommand",
+			"id": "vcU6XmXME5PqPoUSwY7QF4Q8foZVMmuZ",
+			"nodeType": "wait",
 			"parameters": [ {
-				"name": "msg",
-				"value": "GetLanePosition(\"Middle\", x)"
-			}, {
-				"name": "scriptName",
-				"value": "echo"
-			} ],
-			"scriptName": "echo"
+				"name": "time",
+				"value": 1
+			} ]
 		} ],
 		"id": "EPymflE21MsVgFOWHOWLuTYkDOOpvPTq",
 		"nodeType": "sequence",

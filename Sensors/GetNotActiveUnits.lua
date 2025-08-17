@@ -1,6 +1,6 @@
 local sensorInfo = {
 	name = "GetNotActiveUnits",
-	desc = "",
+	desc = "Get units of specified type which are not in the given list",
 	author = "KCKy",
 	date = "2025-08-11",
 	license = "MIT",

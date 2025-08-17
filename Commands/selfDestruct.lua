@@ -13,8 +13,6 @@ function getInfo()
     }
 end
 
-local commandName = "selfDestruct"
-
 function Run(self, units, parameters)
     for _, unit in ipairs(parameters.units) do
         Spring.GiveOrderToUnit(unit, CMD.SELFD, {}, {})
@@ -24,4 +22,5 @@ function Run(self, units, parameters)
 end
 
 function Reset(self)
+	return self
 end

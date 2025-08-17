@@ -1,6 +1,6 @@
 local sensorInfo = {
     name = "GetLanePosition",
-    desc = "",
+    desc = "Get position of a lane at given percentage",
     author = "KCKy",
     date = "2025-08-11",
     license = "MIT",

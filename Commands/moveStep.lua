@@ -2,26 +2,24 @@ function getInfo()
     return
     {
         onNoUnits = SUCCESS,
-        tooltip = "Move this tick by vector",
+        tooltip = "Continuously move units every tick by given vector",
 		parameterDefs =
         {
             {
                 name = "vector",
                 variableType = "expression",
                 componentType = "editBox",
-                defaultValue = ""
+                defaultValue = "Vec3(0, 0, 0)"
             },
-                        {
+            {
                 name = "units",
                 variableType = "expression",
                 componentType = "editBox",
-                defaultValue = ""
+                defaultValue = "units"
             }
         }
     }
 end
-
-local commandName = "moveStep"
 
 function Run(self, units, parameter)
     local vector = parameter.vector
@@ -35,4 +33,6 @@ function Run(self, units, parameter)
     return RUNNING
 end
 
-function Reset() end
+function Reset(self)
+	return self
+end
