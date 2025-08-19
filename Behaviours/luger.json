@@ -6,32 +6,29 @@
 			"width": 424
 		}
 	},
-	"inputs": [ {
-		"command": "Variable",
-		"name": "lugers"
-	} ],
+	"inputs": [],
 	"outputs": [],
 	"properties": {
 		"CCF7fmZ8iqHKEl1CSwRGpetWy6yHROLA": {
-			"height": 108,
+			"height": 95,
 			"title": "GetTheClosestSeenEnemyShikaID",
-			"width": 435,
+			"width": 427,
 			"x": 1128,
-			"y": -26
+			"y": -50
 		},
 		"F5USeizc1yS35CpDpfjZkycscLmhRbzo": {
 			"height": 104,
 			"title": "AreLugersTooCloseToTheBattleLine?",
-			"width": 656,
-			"x": 1249,
-			"y": 140
+			"width": 676,
+			"x": 1234,
+			"y": 135
 		},
 		"G0GKUYvPgKqbyJ93kWlgbDkz0jGGSDns": {
 			"height": 142,
 			"title": "FormationStepBack",
 			"width": 406,
-			"x": 1974,
-			"y": 315
+			"x": 2006,
+			"y": 249
 		},
 		"G1qULBysxuPrAS3xcN8wYDCimuIemjRt": {
 			"height": 60,
@@ -44,22 +41,22 @@
 			"height": 97,
 			"title": "TransformTheLineFormation ",
 			"width": 649,
-			"x": 1125,
-			"y": -128
+			"x": 1128,
+			"y": -151
 		},
 		"PZiuW7xSWtmUqvqHOOznsOQnLKFJj2IQ": {
 			"height": 60,
 			"title": "RepeatInfo",
 			"width": 170,
-			"x": 738,
-			"y": -147
+			"x": 748,
+			"y": -151
 		},
 		"QWuXXIwoRXxt83lmV05yz9iiaZxmBTh0": {
-			"height": 110,
+			"height": 112,
 			"title": "Take out the dead",
-			"width": 401,
-			"x": 1132,
-			"y": -438
+			"width": 550,
+			"x": 1127,
+			"y": -446
 		},
 		"QlGymNh7d0WZr2H5aCzhkzkUoFde5rnL": {
 			"height": 132,
@@ -71,15 +68,15 @@
 		"WESOtCYnFYLbr5rkUtdffXaHvLRH4Svw": {
 			"height": 94,
 			"title": "GetGroupDefinition",
-			"width": 489,
-			"x": 1126,
-			"y": -217
+			"width": 473,
+			"x": 1130,
+			"y": -244
 		},
 		"ZW2jQkBbZu8j2QTTiAfZbbHxvJmZAFna": {
 			"height": 90,
 			"title": "Do we have enough?",
 			"width": 217,
-			"x": 987,
+			"x": 974,
 			"y": 141
 		},
 		"c5lI6Vg9qzubmQu9nLQLdG3y1SIHuxTN": {
@@ -113,9 +110,9 @@
 		"w856dhEgApjPVaXhR5j124BTOZ1qyjUb": {
 			"height": 94,
 			"title": "GetTheLineFormation",
-			"width": 601,
-			"x": 1133,
-			"y": -316
+			"width": 351,
+			"x": 1128,
+			"y": -337
 		}
 	},
 	"roles": [ {
@@ -131,10 +128,10 @@
 					"nodeType": "luaCommand",
 					"parameters": [ {
 						"name": "var",
-						"value": "lugers"
+						"value": "bb.lugers"
 					}, {
 						"name": "value",
-						"value": "nota_mestek_labs.FilterLivingUnits(lugers).filtered"
+						"value": "bb.lugers and nota_mestek_labs.FilterLivingUnits(bb.lugers).filtered or {}"
 					}, {
 						"name": "scriptName",
 						"value": "store"
@@ -164,7 +161,7 @@
 						"value": "groupDefinition"
 					}, {
 						"name": "value",
-						"value": "nota_kyzro_sandsail2.GetUnitsInFormationFormat(lugers)"
+						"value": "nota_kyzro_sandsail2.GetUnitsInFormationFormat(bb.lugers)"
 					}, {
 						"name": "scriptName",
 						"value": "store"
@@ -218,7 +215,7 @@
 							"nodeType": "luaCommand",
 							"parameters": [ {
 								"name": "unitsIDs",
-								"value": "lugers"
+								"value": "bb.lugers"
 							}, {
 								"name": "targetUnitID",
 								"value": "closestEnemyShikaMidID"
@@ -236,7 +233,7 @@
 								"value": "groupDefinition"
 							}, {
 								"name": "position",
-								"value": "global.middlePosition - Vec3(500, 0, -500)"
+								"value": "bb.middlePosition - Vec3(500, 0, -500)"
 							}, {
 								"name": "formation",
 								"value": "formationTransformed"
@@ -267,7 +264,7 @@
 							"value": "groupDefinition"
 						}, {
 							"name": "position",
-							"value": "global.middlePosition - Vec3(500, 0, -500)"
+							"value": "bb.middlePosition - Vec3(500, 0, -500)"
 						}, {
 							"name": "formation",
 							"value": "formationTransformed"
@@ -284,7 +281,7 @@
 					"nodeType": "luaCondition",
 					"parameters": [ {
 						"name": "expression",
-						"value": "ProjectToLane(\"Middle\", Vec3(Spring.GetUnitPosition(lugers[1]))) < global.middleProgress - 0.03"
+						"value": "ProjectToLane(\"Middle\", Vec3(Spring.GetUnitPosition(bb.lugers[1]))) < bb.middleProgress - 0.03"
 					}, {
 						"name": "repeat",
 						"value": "true"
@@ -294,7 +291,7 @@
 				"nodeType": "luaCondition",
 				"parameters": [ {
 					"name": "expression",
-					"value": "#lugers >= 0"
+					"value": "#bb.lugers > 0"
 				}, {
 					"name": "repeat",
 					"value": "true"

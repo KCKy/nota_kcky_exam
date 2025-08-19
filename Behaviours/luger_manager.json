@@ -9,103 +9,54 @@
 	"inputs": [],
 	"outputs": [],
 	"properties": {
-		"5INhapH3V2AvNiW6SyVWY2IzkuNwZv17": {
-			"height": 103,
-			"title": "Check if new arrived",
-			"width": 250,
-			"x": 992,
-			"y": 172
+		"0wE62gbjRYSg90kSyIK9B8Bm8QMGv5Ca": {
+			"height": 110,
+			"title": "reference",
+			"width": 263,
+			"x": 480,
+			"y": -23
 		},
-		"6gpJSmX7UOspEXo5cig9EFLAqjZU8yjA": {
-			"height": 97,
-			"title": "Signal to restart if new lugers",
-			"width": 265,
-			"x": 1049,
-			"y": -68
+		"5YGjXwr9r8hYj42rXHz0XBDPlbeG1dOn": {
+			"height": 110,
+			"title": "reference",
+			"width": 263,
+			"x": 480,
+			"y": -130
 		},
-		"6uMmmjsg7ThpDikBQLQyQgTCoj2lGkl0": {
-			"height": 60,
-			"title": "sequence",
-			"width": 143,
-			"x": 853,
-			"y": -79
+		"Doi4JWQQwuZy8mWLfpc4YFYHCTlAmbRd": {
+			"height": 110,
+			"title": "reference",
+			"width": 263,
+			"x": 484,
+			"y": 85
 		},
-		"IkptXneDZecHUYEHUOckOUHBlzDmukZh": {
-			"height": 62,
-			"title": "Send lugers to the battle line",
-			"width": 318,
-			"x": 648,
-			"y": 186
-		},
-		"JOjH3vYAO3QvXiS6KxcMHojbymSQ8YQV": {
-			"height": 106,
-			"title": "Mark them active",
-			"width": 405,
-			"x": 1051,
-			"y": 33
-		},
-		"TjEIPnmo7FVDVHiGPoarroJARN63yBxU": {
-			"height": 92,
-			"title": "store",
-			"width": 131,
-			"x": 1305,
-			"y": 176
+		"LJUxvCdaTlgnR8a9qNcXNfrrzyNfqkOY": {
+			"height": 110,
+			"title": "reference",
+			"width": 263,
+			"x": 484,
+			"y": 194
 		},
 		"VdgjVjx4eWdPl9ZikAJ6c9whsXNtHWNf": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 412,
-			"y": 25
+			"x": 213,
+			"y": 7
 		},
-		"WL0silwzsQnv8kESsR9yyuQVFAHbBdXX": {
-			"height": 103,
-			"title": "Check we got them",
-			"width": 250,
-			"x": 1311,
-			"y": 289
-		},
-		"YFkb6yho4CS3YrfXtnX0CupFAhPyQr5N": {
-			"height": 60,
-			"title": "Activate spies",
-			"width": 168,
-			"x": 656,
-			"y": -78
-		},
-		"dRAkgJAoLe4c9XN6OehG0yquYb22RWkQ": {
-			"height": 60,
-			"title": "sequence",
-			"width": 143,
-			"x": 223,
-			"y": 11
-		},
-		"g7k3kgo9P4DfndqSPNwOcHnS0GZVAtyy": {
-			"height": 116,
-			"title": "store",
-			"width": 212,
-			"x": 412,
-			"y": -221
-		},
-		"iVCheNEBqHLWx213bciNRHtBtNj28bXx": {
-			"height": 116,
-			"title": "store",
-			"width": 212,
-			"x": 414,
-			"y": -97
-		},
-		"xnbfF0qHhJUOgM3Ulav9zXXqnKupVdcN": {
-			"height": 103,
-			"title": "Search for not active lugers",
-			"width": 375,
-			"x": 1052,
-			"y": -172
+		"pk7uuzpZw762AnBYDiXyc7E2DZZZCfeb": {
+			"height": 110,
+			"title": "reference",
+			"width": 263,
+			"x": 477,
+			"y": -235
 		},
 		"ycZuE8zEDk0WNeqpbP6F9PZoxuyWBRLw": {
-			"height": 130,
+			"height": 109,
 			"title": "reference",
-			"width": 220,
-			"x": 1595,
-			"y": 279
+			"width": 225,
+			"x": 485,
+			"y": 303
 		}
 	},
 	"roles": [ {
@@ -115,155 +66,70 @@
 	"root": {
 		"children": [ {
 			"children": [],
-			"id": "g7k3kgo9P4DfndqSPNwOcHnS0GZVAtyy",
-			"nodeType": "luaCommand",
+			"id": "pk7uuzpZw762AnBYDiXyc7E2DZZZCfeb",
+			"nodeType": "reference",
 			"parameters": [ {
-				"name": "var",
-				"value": "activeLugers"
-			}, {
-				"name": "value",
-				"value": "{}"
-			}, {
-				"name": "scriptName",
-				"value": "store"
+				"name": "behaviourName",
+				"value": "nota_kcky_exam.move_luger"
 			} ],
-			"scriptName": "store"
+			"referenceInputs": [],
+			"referenceOutputs": []
 		}, {
 			"children": [],
-			"id": "iVCheNEBqHLWx213bciNRHtBtNj28bXx",
-			"nodeType": "luaCommand",
+			"id": "5YGjXwr9r8hYj42rXHz0XBDPlbeG1dOn",
+			"nodeType": "reference",
 			"parameters": [ {
-				"name": "var",
-				"value": "refresh"
-			}, {
-				"name": "value",
-				"value": "false"
-			}, {
-				"name": "scriptName",
-				"value": "store"
+				"name": "behaviourName",
+				"value": "nota_kcky_exam.move_luger"
 			} ],
-			"scriptName": "store"
+			"referenceInputs": [],
+			"referenceOutputs": []
 		}, {
-			"children": [ {
-				"children": [ {
-					"children": [ {
-						"children": [],
-						"id": "xnbfF0qHhJUOgM3Ulav9zXXqnKupVdcN",
-						"nodeType": "luaCommand",
-						"parameters": [ {
-							"name": "var",
-							"value": "new"
-						}, {
-							"name": "value",
-							"value": "GetNotActiveUnits({\"armmart\"}, activeLugers)"
-						}, {
-							"name": "scriptName",
-							"value": "store"
-						} ],
-						"scriptName": "store"
-					}, {
-						"children": [],
-						"id": "6gpJSmX7UOspEXo5cig9EFLAqjZU8yjA",
-						"nodeType": "luaCommand",
-						"parameters": [ {
-							"name": "var",
-							"value": "refresh"
-						}, {
-							"name": "value",
-							"value": "#new > 0"
-						}, {
-							"name": "scriptName",
-							"value": "store"
-						} ],
-						"scriptName": "store"
-					}, {
-						"children": [],
-						"id": "JOjH3vYAO3QvXiS6KxcMHojbymSQ8YQV",
-						"nodeType": "luaCommand",
-						"parameters": [ {
-							"name": "var",
-							"value": "activeLugers"
-						}, {
-							"name": "value",
-							"value": "Flatten({activeLugers, new})"
-						}, {
-							"name": "scriptName",
-							"value": "store"
-						} ],
-						"scriptName": "store"
-					} ],
-					"id": "6uMmmjsg7ThpDikBQLQyQgTCoj2lGkl0",
-					"nodeType": "sequence",
-					"parameters": []
-				} ],
-				"id": "YFkb6yho4CS3YrfXtnX0CupFAhPyQr5N",
-				"nodeType": "repeat",
-				"parameters": []
-			}, {
-				"children": [ {
-					"children": [ {
-						"children": [],
-						"id": "TjEIPnmo7FVDVHiGPoarroJARN63yBxU",
-						"nodeType": "luaCommand",
-						"parameters": [ {
-							"name": "var",
-							"value": "refresh"
-						}, {
-							"name": "value",
-							"value": "false"
-						}, {
-							"name": "scriptName",
-							"value": "store"
-						} ],
-						"scriptName": "store"
-					}, {
-						"children": [ {
-							"children": [],
-							"id": "ycZuE8zEDk0WNeqpbP6F9PZoxuyWBRLw",
-							"nodeType": "reference",
-							"parameters": [ {
-								"name": "behaviourName",
-								"value": "nota_kcky_exam.luger"
-							} ],
-							"referenceInputs": [ {
-								"name": "lugers",
-								"value": "activeLugers"
-							} ],
-							"referenceOutputs": []
-						} ],
-						"id": "WL0silwzsQnv8kESsR9yyuQVFAHbBdXX",
-						"nodeType": "luaCondition",
-						"parameters": [ {
-							"name": "expression",
-							"value": "#activeLugers > 0"
-						}, {
-							"name": "repeat",
-							"value": "false"
-						} ]
-					} ],
-					"id": "5INhapH3V2AvNiW6SyVWY2IzkuNwZv17",
-					"nodeType": "luaCondition",
-					"parameters": [ {
-						"name": "expression",
-						"value": "refresh"
-					}, {
-						"name": "repeat",
-						"value": "true"
-					} ]
-				} ],
-				"id": "IkptXneDZecHUYEHUOckOUHBlzDmukZh",
-				"nodeType": "repeat",
-				"parameters": []
-			} ],
-			"id": "VdgjVjx4eWdPl9ZikAJ6c9whsXNtHWNf",
-			"nodeType": "parallel",
+			"children": [],
+			"id": "0wE62gbjRYSg90kSyIK9B8Bm8QMGv5Ca",
+			"nodeType": "reference",
 			"parameters": [ {
-				"name": "mode",
-				"value": "all-success"
-			} ]
+				"name": "behaviourName",
+				"value": "nota_kcky_exam.move_luger"
+			} ],
+			"referenceInputs": [],
+			"referenceOutputs": []
+		}, {
+			"children": [],
+			"id": "Doi4JWQQwuZy8mWLfpc4YFYHCTlAmbRd",
+			"nodeType": "reference",
+			"parameters": [ {
+				"name": "behaviourName",
+				"value": "nota_kcky_exam.move_luger"
+			} ],
+			"referenceInputs": [],
+			"referenceOutputs": []
+		}, {
+			"children": [],
+			"id": "LJUxvCdaTlgnR8a9qNcXNfrrzyNfqkOY",
+			"nodeType": "reference",
+			"parameters": [ {
+				"name": "behaviourName",
+				"value": "nota_kcky_exam.move_luger"
+			} ],
+			"referenceInputs": [],
+			"referenceOutputs": []
+		}, {
+			"children": [],
+			"id": "ycZuE8zEDk0WNeqpbP6F9PZoxuyWBRLw",
+			"nodeType": "reference",
+			"parameters": [ {
+				"name": "behaviourName",
+				"value": "nota_kcky_exam.luger"
+			} ],
+			"referenceInputs": [],
+			"referenceOutputs": []
 		} ],
-		"id": "dRAkgJAoLe4c9XN6OehG0yquYb22RWkQ",
-		"nodeType": "sequence",
-		"parameters": []
+		"id": "VdgjVjx4eWdPl9ZikAJ6c9whsXNtHWNf",
+		"nodeType": "parallel",
+		"parameters": [ {
+			"name": "mode",
+			"value": "all-success"
+		} ]
 	}
 }

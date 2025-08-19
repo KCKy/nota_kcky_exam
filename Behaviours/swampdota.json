@@ -9,6 +9,13 @@
 	"inputs": [],
 	"outputs": [],
 	"properties": {
+		"1zXpr5FKcVOqJTZV9N82QwKanERE3NkR": {
+			"height": 73,
+			"title": "Buy",
+			"width": 196,
+			"x": 1684,
+			"y": -162
+		},
 		"2SUaS6C2EtHtxoCvJXyAwLJy03sXY5Fi": {
 			"height": 95,
 			"title": "store",
@@ -37,6 +44,20 @@
 			"x": 862,
 			"y": -621
 		},
+		"B9V7obLgd9g5MuujuXe38cIHQog3nnIc": {
+			"height": 78,
+			"title": "nota_kcky_exam.upgrade",
+			"width": 225,
+			"x": 2958,
+			"y": 234
+		},
+		"D7Fxro5uhdYU3ppxscCpxhtH159EdgxH": {
+			"height": 94,
+			"title": "Check amount",
+			"width": 305,
+			"x": 1340,
+			"y": -169
+		},
 		"GaS8hlfO0moKqoxgZgbu1D3AqW1aeNeT": {
 			"height": 57,
 			"title": "Buy units",
@@ -58,12 +79,26 @@
 			"x": 376,
 			"y": 12
 		},
+		"Mty6z0iZQTOs3XTu97NoeGmYwreMj4g4": {
+			"height": 94,
+			"title": "store",
+			"width": 323,
+			"x": 646,
+			"y": -882
+		},
+		"OmyNcbsGaXoHgL1g9lSdOBQEaQuESENU": {
+			"height": 73,
+			"title": "Buy",
+			"width": 196,
+			"x": 2602,
+			"y": 50
+		},
 		"PR16zrw2bpWnlfSZj5PZ9Z7pgI8tebGN": {
 			"height": 73,
 			"title": "Buy",
 			"width": 196,
-			"x": 1510,
-			"y": -258
+			"x": 1337,
+			"y": -260
 		},
 		"PmjRmUdpIO1RyE90BZzZDEzL13iUBJEt": {
 			"height": 151,
@@ -72,12 +107,12 @@
 			"x": 638,
 			"y": -109
 		},
-		"RN7heX4mDzsrDBPeRz0sP1tYyZnYadHl": {
-			"height": 54,
-			"title": "success",
-			"width": 132,
-			"x": 1513,
-			"y": -182
+		"VFZjfciYJeKRMVucW8KopOSoOYuR23sY": {
+			"height": 94,
+			"title": "Check amount",
+			"width": 305,
+			"x": 2606,
+			"y": 151
 		},
 		"XY6JKLKw4jTN8ztCsiNbRibMi2QlAr7Y": {
 			"height": 94,
@@ -85,6 +120,13 @@
 			"width": 401,
 			"x": 1049,
 			"y": -584
+		},
+		"XyHk9uwo2iH9GbRqZQcnEg2vaeDSv5Vq": {
+			"height": 94,
+			"title": "Check amount",
+			"width": 509,
+			"x": 2069,
+			"y": 41
 		},
 		"Y8Fz9NyYMmOI6vtWn1b4Pi0YcwIDWzod": {
 			"height": 151,
@@ -107,19 +149,19 @@
 			"x": 625,
 			"y": -621
 		},
-		"Zu1QTACHGkrVBF5D068MIzN6NygjFxcJ": {
-			"height": 60,
-			"title": "sequence",
-			"width": 143,
-			"x": 1014,
-			"y": -253
-		},
 		"etgnKjIsaoGcfDjTi5SY4ZOe6i7t9VTx": {
 			"height": 94,
 			"title": "store",
 			"width": 441,
 			"x": 648,
 			"y": -1158
+		},
+		"fkYY2Jhj5La5jU9o2zdacgpasUWbz7Aw": {
+			"height": 110,
+			"title": "reference",
+			"width": 210,
+			"x": 653,
+			"y": 649
 		},
 		"i2AVwLBJMNxJX5Tx99x5nNKzxtevGEil": {
 			"height": 94,
@@ -142,6 +184,13 @@
 			"x": 640,
 			"y": 39
 		},
+		"mA38pQMJzyyOJeh0iW3k1Ll78TlGp1iZ": {
+			"height": 92,
+			"title": "Check amount",
+			"width": 324,
+			"x": 1690,
+			"y": -56
+		},
 		"oZAmyzKWDQrdPMw2Y0dTAKSTfUGNlLFZ": {
 			"height": 94,
 			"title": "store",
@@ -151,9 +200,9 @@
 		},
 		"pFdeRGmusmkEwejto0ELledanuFMwrKW": {
 			"height": 92,
-			"title": "lf not enough spies",
-			"width": 288,
-			"x": 1191,
+			"title": "Check amount",
+			"width": 292,
+			"x": 999,
 			"y": -264
 		},
 		"qaKCzlLMVjVAc2DARUAflVIPgqLccwgx": {
@@ -177,12 +226,26 @@
 			"x": 1053,
 			"y": -491
 		},
+		"tSLdEa7qE1G76UzPgaXoe4DE3buWrFsB": {
+			"height": 110,
+			"title": "reference",
+			"width": 285,
+			"x": 655,
+			"y": 755
+		},
 		"vaiCJXRW2enG37NraxSQ5MutoZvpMF9m": {
-			"height": 73,
+			"height": 74,
 			"title": "Wait for metal",
 			"width": 170,
-			"x": 1015,
-			"y": -171
+			"x": 1008,
+			"y": -164
+		},
+		"wJiNUE0vXlBdzb9RsaW0R96Xs03Ndjwd": {
+			"height": 73,
+			"title": "Buy",
+			"width": 196,
+			"x": 2957,
+			"y": 157
 		},
 		"zjCuGmXMrBGdnNWz3buthEuJxSYlFYfe": {
 			"height": 94,
@@ -190,6 +253,13 @@
 			"width": 441,
 			"x": 1052,
 			"y": -397
+		},
+		"zzybwMQw6dGtYQWJGlR8AMRliYFHILGc": {
+			"height": 73,
+			"title": "Buy",
+			"width": 196,
+			"x": 2066,
+			"y": -54
 		}
 	},
 	"roles": [ {
@@ -253,6 +323,21 @@
 				}, {
 					"name": "value",
 					"value": "GetStrongpoints(\"Bottom\")[3].position"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "Mty6z0iZQTOs3XTu97NoeGmYwreMj4g4",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bb.lugers"
+				}, {
+					"name": "value",
+					"value": "{}"
 				}, {
 					"name": "scriptName",
 					"value": "store"
@@ -352,37 +437,131 @@
 				"children": [ {
 					"children": [ {
 						"children": [ {
+							"children": [],
+							"id": "PR16zrw2bpWnlfSZj5PZ9Z7pgI8tebGN",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "unitName",
+								"value": "'armfark'"
+							}, {
+								"name": "scriptName",
+								"value": "nota_kcky_exam.buy"
+							} ],
+							"scriptName": "nota_kcky_exam.buy"
+						}, {
 							"children": [ {
 								"children": [],
-								"id": "PR16zrw2bpWnlfSZj5PZ9Z7pgI8tebGN",
+								"id": "1zXpr5FKcVOqJTZV9N82QwKanERE3NkR",
 								"nodeType": "luaCommand",
 								"parameters": [ {
 									"name": "unitName",
-									"value": "'armfark'"
+									"value": "'armspy'"
 								}, {
 									"name": "scriptName",
 									"value": "nota_kcky_exam.buy"
 								} ],
 								"scriptName": "nota_kcky_exam.buy"
 							}, {
-								"children": [],
-								"id": "RN7heX4mDzsrDBPeRz0sP1tYyZnYadHl",
-								"nodeType": "success",
-								"parameters": []
+								"children": [ {
+									"children": [],
+									"id": "zzybwMQw6dGtYQWJGlR8AMRliYFHILGc",
+									"nodeType": "luaCommand",
+									"parameters": [ {
+										"name": "unitName",
+										"value": "'armatlas'"
+									}, {
+										"name": "scriptName",
+										"value": "nota_kcky_exam.buy"
+									} ],
+									"scriptName": "nota_kcky_exam.buy"
+								}, {
+									"children": [ {
+										"children": [],
+										"id": "OmyNcbsGaXoHgL1g9lSdOBQEaQuESENU",
+										"nodeType": "luaCommand",
+										"parameters": [ {
+											"name": "unitName",
+											"value": "'armmav'"
+										}, {
+											"name": "scriptName",
+											"value": "nota_kcky_exam.buy"
+										} ],
+										"scriptName": "nota_kcky_exam.buy"
+									}, {
+										"children": [ {
+											"children": [],
+											"id": "wJiNUE0vXlBdzb9RsaW0R96Xs03Ndjwd",
+											"nodeType": "luaCommand",
+											"parameters": [ {
+												"name": "unitName",
+												"value": "'armmart'"
+											}, {
+												"name": "scriptName",
+												"value": "nota_kcky_exam.buy"
+											} ],
+											"scriptName": "nota_kcky_exam.buy"
+										}, {
+											"children": [],
+											"id": "B9V7obLgd9g5MuujuXe38cIHQog3nnIc",
+											"nodeType": "luaCommand",
+											"parameters": [ {
+												"name": "lineName",
+												"value": "'GoodMiddle'"
+											}, {
+												"name": "scriptName",
+												"value": "nota_kcky_exam.upgrade"
+											} ],
+											"scriptName": "nota_kcky_exam.upgrade"
+										} ],
+										"id": "VFZjfciYJeKRMVucW8KopOSoOYuR23sY",
+										"nodeType": "luaCondition",
+										"parameters": [ {
+											"name": "expression",
+											"value": "#GetNotActiveUnits({\"armmart\"}, {}) < 8"
+										}, {
+											"name": "repeat",
+											"value": "true"
+										} ]
+									} ],
+									"id": "XyHk9uwo2iH9GbRqZQcnEg2vaeDSv5Vq",
+									"nodeType": "luaCondition",
+									"parameters": [ {
+										"name": "expression",
+										"value": "#GetNotActiveUnits({\"armmav\"}, {}) < #GetNotActiveUnits({\"armmart\"}, {})"
+									}, {
+										"name": "repeat",
+										"value": "true"
+									} ]
+								} ],
+								"id": "mA38pQMJzyyOJeh0iW3k1Ll78TlGp1iZ",
+								"nodeType": "luaCondition",
+								"parameters": [ {
+									"name": "expression",
+									"value": "#GetNotActiveUnits({\"armatlas\"}, {}) < 2"
+								}, {
+									"name": "repeat",
+									"value": "true"
+								} ]
 							} ],
-							"id": "pFdeRGmusmkEwejto0ELledanuFMwrKW",
+							"id": "D7Fxro5uhdYU3ppxscCpxhtH159EdgxH",
 							"nodeType": "luaCondition",
 							"parameters": [ {
 								"name": "expression",
-								"value": "#GetNotActiveUnits({\"armfark\"}, {}) < 3"
+								"value": "#GetNotActiveUnits({\"armspy\"}, {}) < 1"
 							}, {
 								"name": "repeat",
-								"value": "false"
+								"value": "true"
 							} ]
 						} ],
-						"id": "Zu1QTACHGkrVBF5D068MIzN6NygjFxcJ",
-						"nodeType": "sequence",
-						"parameters": []
+						"id": "pFdeRGmusmkEwejto0ELledanuFMwrKW",
+						"nodeType": "luaCondition",
+						"parameters": [ {
+							"name": "expression",
+							"value": "#GetNotActiveUnits({\"armfark\"}, {}) < 3"
+						}, {
+							"name": "repeat",
+							"value": "true"
+						} ]
 					}, {
 						"children": [],
 						"id": "vaiCJXRW2enG37NraxSQ5MutoZvpMF9m",
@@ -481,6 +660,26 @@
 					"name": "destination",
 					"value": "\"safeMiddle\""
 				} ],
+				"referenceOutputs": []
+			}, {
+				"children": [],
+				"id": "fkYY2Jhj5La5jU9o2zdacgpasUWbz7Aw",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_kcky_exam.spy"
+				} ],
+				"referenceInputs": [],
+				"referenceOutputs": []
+			}, {
+				"children": [],
+				"id": "tSLdEa7qE1G76UzPgaXoe4DE3buWrFsB",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_kcky_exam.luger_manager"
+				} ],
+				"referenceInputs": [],
 				"referenceOutputs": []
 			} ],
 			"id": "InGAQeESJ7Q3CLh6bQ3P1U7KRDp16otg",

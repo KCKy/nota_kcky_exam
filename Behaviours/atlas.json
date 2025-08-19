@@ -64,6 +64,13 @@
 			"x": 1781,
 			"y": 18
 		},
+		"G2oJXJ3IV5pGFnFLqFGBYQAKgPSwmOhC": {
+			"height": 92,
+			"title": "nota_krejci_exam.unloadUnit",
+			"width": 323,
+			"x": 1519,
+			"y": -248
+		},
 		"Hq0AAAHhkEh7ybpndNnq3Stz1HbKBgxC": {
 			"height": 88,
 			"title": "Come close to destination",
@@ -113,13 +120,6 @@
 			"x": 2074,
 			"y": -355
 		},
-		"hlinTT7vuPcudiW2VkBDB5hW2xkCIbTD": {
-			"height": 96,
-			"title": "nota_mestek_labs.unload",
-			"width": 414,
-			"x": 1507,
-			"y": -249
-		},
 		"iTqd6ZnJqrE85kbQGCYq7zc9S80WqHwf": {
 			"height": 92,
 			"title": "store",
@@ -159,8 +159,8 @@
 			"height": 92,
 			"title": "nota_krejci_exam.loadUnit",
 			"width": 229,
-			"x": 2564,
-			"y": 8
+			"x": 2583,
+			"y": 1
 		},
 		"vB5qgY5Hp2d6ybPmHyVNlukQMU6c8vRE": {
 			"height": 94,
@@ -241,19 +241,19 @@
 							} ]
 						}, {
 							"children": [],
-							"id": "hlinTT7vuPcudiW2VkBDB5hW2xkCIbTD",
+							"id": "G2oJXJ3IV5pGFnFLqFGBYQAKgPSwmOhC",
 							"nodeType": "luaCommand",
 							"parameters": [ {
-								"name": "unitTransportID",
+								"name": "transporter",
 								"value": "atlas"
 							}, {
-								"name": "areaToUnloadTo",
-								"value": "{center = bb[destination], radius = 100}"
+								"name": "area",
+								"value": "{center = bb[destination], radius = 300}"
 							}, {
 								"name": "scriptName",
-								"value": "nota_mestek_labs.unload"
+								"value": "nota_krejci_exam.unloadUnit"
 							} ],
-							"scriptName": "nota_mestek_labs.unload"
+							"scriptName": "nota_krejci_exam.unloadUnit"
 						}, {
 							"children": [],
 							"id": "PPmhcfBSZDEhmX7Rl5EUuKCIDJ8B0ewB",
