@@ -1,0 +1,277 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 148,
+			"width": 221
+		}
+	},
+	"inputs": [ {
+		"command": "Variable",
+		"name": "requests"
+	}, {
+		"command": "Variable",
+		"name": "destination"
+	}, {
+		"command": "Variable",
+		"name": "myId"
+	} ],
+	"outputs": [],
+	"properties": {
+		"A7RDLjiCX7iWFevIKYUMMIB2hSH7BXGc": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 228,
+			"x": 755,
+			"y": 11
+		},
+		"CK8TBLrgqSZegDnrakVb68wR8vi8zXNx": {
+			"height": 94,
+			"title": "store",
+			"width": 260,
+			"x": 747,
+			"y": -123
+		},
+		"EnQrnrEegaaHQtUD48EUc8vVDc5qqyOH": {
+			"height": 72,
+			"title": "wait",
+			"width": 131,
+			"x": 1737,
+			"y": 220
+		},
+		"KnBc9XsaZhLRtDsQAQoRhzfzilUhanLf": {
+			"height": 81,
+			"title": "waitUntil",
+			"width": 353,
+			"x": 753,
+			"y": 261
+		},
+		"ck6Yl9PFE9GvZK4SGBp511Tm8HGd0mNf": {
+			"height": 54,
+			"title": "success",
+			"width": 132,
+			"x": 1565,
+			"y": 54
+		},
+		"eZilIqgNpHZs6kCK3pRpiRzxVw7MmJmn": {
+			"height": 72,
+			"title": "nota_kcky_exam.stop",
+			"width": 199,
+			"x": 1738,
+			"y": 155
+		},
+		"eh56mtlDNybgtbCoZfhn1hEy3JUSFYlV": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 559,
+			"y": 29
+		},
+		"hzxj7DGJy8d6qLAPF1j9M3fKj5L01nLE": {
+			"height": 94,
+			"title": "store",
+			"width": 294,
+			"x": 411,
+			"y": 121
+		},
+		"j7VApQdAjeL9WueZBVzaZsCSR7L5pKRr": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1552,
+			"y": 215
+		},
+		"jACBcV1JO1d7NnFCk1oyQEsHnE8IqF5Q": {
+			"height": 93,
+			"title": "nota_krejci_exam.moveUnit",
+			"width": 238,
+			"x": 1031,
+			"y": -26
+		},
+		"lSUz6n68ktAZFb0PDz0KmrIScXOub4BG": {
+			"height": 70,
+			"title": "selector",
+			"width": 131,
+			"x": 243,
+			"y": 27
+		},
+		"tALH3oR5zeO4AGlbNsK0vRQsvrDKHaDO": {
+			"height": 101,
+			"title": "store",
+			"width": 302,
+			"x": 749,
+			"y": 148
+		},
+		"uwg4x5l46DXE0UNcFUA9XAqI0j86B85e": {
+			"height": 93,
+			"title": "nota_krejci_exam.moveUnit",
+			"width": 238,
+			"x": 1736,
+			"y": 290
+		},
+		"vVPxSCbvS0Bv1a9ONcJTGsbRSexlVpcz": {
+			"height": 90,
+			"title": "luaCondition",
+			"width": 418,
+			"x": 1109,
+			"y": 86
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [],
+				"id": "CK8TBLrgqSZegDnrakVb68wR8vi8zXNx",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bb[requests][#bb[requests]+1]"
+				}, {
+					"name": "value",
+					"value": "myId"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "jACBcV1JO1d7NnFCk1oyQEsHnE8IqF5Q",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "unit",
+						"value": "myId"
+					}, {
+						"name": "position",
+						"value": "bb[destination]"
+					}, {
+						"name": "scriptName",
+						"value": "nota_krejci_exam.moveUnit"
+					} ],
+					"scriptName": "nota_krejci_exam.moveUnit"
+				}, {
+					"children": [ {
+						"children": [],
+						"id": "ck6Yl9PFE9GvZK4SGBp511Tm8HGd0mNf",
+						"nodeType": "success",
+						"parameters": []
+					}, {
+						"children": [ {
+							"children": [],
+							"id": "eZilIqgNpHZs6kCK3pRpiRzxVw7MmJmn",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "units",
+								"value": "{myId}"
+							}, {
+								"name": "scriptName",
+								"value": "nota_kcky_exam.stop"
+							} ],
+							"scriptName": "nota_kcky_exam.stop"
+						}, {
+							"children": [],
+							"id": "EnQrnrEegaaHQtUD48EUc8vVDc5qqyOH",
+							"nodeType": "wait",
+							"parameters": [ {
+								"name": "time",
+								"value": 60
+							} ]
+						}, {
+							"children": [],
+							"id": "uwg4x5l46DXE0UNcFUA9XAqI0j86B85e",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "unit",
+								"value": "myId"
+							}, {
+								"name": "position",
+								"value": "bb[destination]"
+							}, {
+								"name": "scriptName",
+								"value": "nota_krejci_exam.moveUnit"
+							} ],
+							"scriptName": "nota_krejci_exam.moveUnit"
+						} ],
+						"id": "j7VApQdAjeL9WueZBVzaZsCSR7L5pKRr",
+						"nodeType": "sequence",
+						"parameters": []
+					} ],
+					"id": "vVPxSCbvS0Bv1a9ONcJTGsbRSexlVpcz",
+					"nodeType": "luaCondition",
+					"parameters": [ {
+						"name": "expression",
+						"value": "Spring.GetUnitTransporter(myId)"
+					}, {
+						"name": "repeat",
+						"value": "true"
+					} ]
+				} ],
+				"id": "A7RDLjiCX7iWFevIKYUMMIB2hSH7BXGc",
+				"nodeType": "luaCondition",
+				"parameters": [ {
+					"name": "expression",
+					"value": "Contains(bb[requests], myId)"
+				}, {
+					"name": "repeat",
+					"value": "true"
+				} ]
+			}, {
+				"children": [],
+				"id": "tALH3oR5zeO4AGlbNsK0vRQsvrDKHaDO",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bb[requests]"
+				}, {
+					"name": "value",
+					"value": "FilterTaken(bb[requests], {myId})"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "KnBc9XsaZhLRtDsQAQoRhzfzilUhanLf",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "condition",
+					"value": "not Spring.GetUnitTransporter(myId)"
+				}, {
+					"name": "scriptName",
+					"value": "waitUntil"
+				} ],
+				"scriptName": "waitUntil"
+			} ],
+			"id": "eh56mtlDNybgtbCoZfhn1hEy3JUSFYlV",
+			"nodeType": "sequence",
+			"parameters": []
+		}, {
+			"children": [],
+			"id": "hzxj7DGJy8d6qLAPF1j9M3fKj5L01nLE",
+			"nodeType": "luaCommand",
+			"parameters": [ {
+				"name": "var",
+				"value": "bb[requests]"
+			}, {
+				"name": "value",
+				"value": "FilterTaken(bb[requests], {myId})"
+			}, {
+				"name": "scriptName",
+				"value": "store"
+			} ],
+			"scriptName": "store"
+		} ],
+		"id": "lSUz6n68ktAZFb0PDz0KmrIScXOub4BG",
+		"nodeType": "selector",
+		"parameters": [ {
+			"name": "active",
+			"value": "false"
+		} ]
+	}
+}

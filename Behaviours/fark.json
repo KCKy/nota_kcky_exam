@@ -1,0 +1,230 @@
+{
+	"additionalNodes": [ {
+		"children": [],
+		"id": "oqCWfQ48XqRAYDgS1w2pnnEl7r8PSD8h",
+		"nodeType": "reference",
+		"parameters": [ {
+			"name": "behaviourName",
+			"value": "nota_kcky_exam.atlas"
+		} ],
+		"referenceInputs": [ {
+			"name": "requests",
+			"value": "requests"
+		}, {
+			"name": "destination",
+			"value": "positionVariable"
+		} ],
+		"referenceOutputs": []
+	} ],
+	"additionalParameters": {
+		"root": {
+			"height": 128,
+			"width": 254
+		}
+	},
+	"inputs": [ {
+		"command": "Variable",
+		"name": "positionVariable"
+	}, {
+		"command": "Variable",
+		"name": "requests"
+	} ],
+	"outputs": [],
+	"properties": {
+		"4GJopRV1v6vtqfFm2uEcv0HhymdEz7Ur": {
+			"height": 172,
+			"title": "reference",
+			"width": 269,
+			"x": 1048,
+			"y": -216
+		},
+		"7v8EYASruvcBh9Qkd0neRB0EJnggziXM": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 1058,
+			"y": -9
+		},
+		"LeCVsxxzFukiagi9bConw6uNxOHVRAlp": {
+			"height": 92,
+			"title": "store",
+			"width": 276,
+			"x": 1024,
+			"y": 274
+		},
+		"M5i8dIWKqdJUzqqD1xjsOeuVbFi5bkOC": {
+			"height": 94,
+			"title": "store",
+			"width": 421,
+			"x": 1028,
+			"y": 182
+		},
+		"Mwex1M1PV7Exrn4UT9faCviHZtWcLSnL": {
+			"height": 112,
+			"title": "nota_sirwok_exam.reclaimMetal",
+			"width": 409,
+			"x": 1220,
+			"y": -27
+		},
+		"PNh9waozPUX64yxSwxsU5YjKetXxc2KG": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 273,
+			"y": 16
+		},
+		"UwtRvUJEIsQ3iHjKNDyNNOMnQOK9pnt1": {
+			"height": 103,
+			"title": "Does our fark exist?",
+			"width": 350,
+			"x": 443,
+			"y": 1
+		},
+		"VZcPmBufiXXUKgReiZPzTOpYwBaGbSsq": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 838,
+			"y": 105
+		},
+		"adyfihLYO7ASSXMLilmXftNu6EIpqEWk": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 836,
+			"y": -114
+		},
+		"o0BDhPVoqdJcoGHa2zdcYzac3NNkSPCF": {
+			"height": 92,
+			"title": "store",
+			"width": 202,
+			"x": 1024,
+			"y": 89
+		},
+		"oqCWfQ48XqRAYDgS1w2pnnEl7r8PSD8h": {
+			"height": 151,
+			"title": "reference",
+			"width": 236,
+			"x": 1030,
+			"y": 377
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [ {
+					"children": [],
+					"id": "4GJopRV1v6vtqfFm2uEcv0HhymdEz7Ur",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_kcky_exam.moveToSafe"
+					} ],
+					"referenceInputs": [ {
+						"name": "requests",
+						"value": "requests"
+					}, {
+						"name": "destination",
+						"value": "positionVariable"
+					}, {
+						"name": "myId",
+						"value": "fark"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [ {
+						"children": [],
+						"id": "Mwex1M1PV7Exrn4UT9faCviHZtWcLSnL",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "armfarkID",
+							"value": "fark"
+						}, {
+							"name": "reclaimPosition",
+							"value": "bb[positionVariable] + Vec3(800, 0, -750)"
+						}, {
+							"name": "reclaimRadius",
+							"value": "900"
+						}, {
+							"name": "scriptName",
+							"value": "nota_sirwok_exam.reclaimMetal"
+						} ],
+						"scriptName": "nota_sirwok_exam.reclaimMetal"
+					} ],
+					"id": "7v8EYASruvcBh9Qkd0neRB0EJnggziXM",
+					"nodeType": "repeat",
+					"parameters": []
+				} ],
+				"id": "adyfihLYO7ASSXMLilmXftNu6EIpqEWk",
+				"nodeType": "sequence",
+				"parameters": []
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "o0BDhPVoqdJcoGHa2zdcYzac3NNkSPCF",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "bb.usedFarks"
+					}, {
+						"name": "value",
+						"value": "bb.usedFarks or {}"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "M5i8dIWKqdJUzqqD1xjsOeuVbFi5bkOC",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "fark"
+					}, {
+						"name": "value",
+						"value": "GetNotActiveUnits({\"armfark\"}, bb.usedFarks)[1]"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "LeCVsxxzFukiagi9bConw6uNxOHVRAlp",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "bb.usedFarks[#bb.usedFarks+1]"
+					}, {
+						"name": "value",
+						"value": "fark"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				} ],
+				"id": "VZcPmBufiXXUKgReiZPzTOpYwBaGbSsq",
+				"nodeType": "sequence",
+				"parameters": []
+			} ],
+			"id": "UwtRvUJEIsQ3iHjKNDyNNOMnQOK9pnt1",
+			"nodeType": "luaCondition",
+			"parameters": [ {
+				"name": "expression",
+				"value": "fark and Spring.GetUnitIsDead(fark) == false"
+			}, {
+				"name": "repeat",
+				"value": "true"
+			} ]
+		} ],
+		"id": "PNh9waozPUX64yxSwxsU5YjKetXxc2KG",
+		"nodeType": "repeat",
+		"parameters": []
+	}
+}

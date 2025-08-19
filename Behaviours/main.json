@@ -10,144 +10,186 @@
 	"outputs": [],
 	"properties": {
 		"2SUaS6C2EtHtxoCvJXyAwLJy03sXY5Fi": {
-			"height": 101,
+			"height": 95,
 			"title": "store",
-			"width": 444,
-			"x": 1089,
-			"y": -179
+			"width": 301,
+			"x": 648,
+			"y": -1070
 		},
 		"3qBZlqWec18dEUf7J2QixTvt0XqBi8om": {
 			"height": 70,
 			"title": "selector",
 			"width": 131,
-			"x": 846,
-			"y": 3
+			"x": 828,
+			"y": -257
 		},
 		"8m9PQDdxOzdZAyClpQQ1laHfmP97EtZk": {
-			"height": 112,
+			"height": 94,
 			"title": "store",
-			"width": 273,
-			"x": 1081,
-			"y": -586
+			"width": 198,
+			"x": 1051,
+			"y": -767
 		},
 		"90V1MSlGMFrvx7K3i8b1dacmV9RFHJmo": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 872,
-			"y": -476
+			"x": 862,
+			"y": -621
 		},
 		"GaS8hlfO0moKqoxgZgbu1D3AqW1aeNeT": {
 			"height": 57,
 			"title": "Buy units",
 			"width": 145,
-			"x": 668,
-			"y": 8
+			"x": 650,
+			"y": -253
+		},
+		"Gsmy4rsLX6zkvyvcwLmlD1qUFbuXWzlq": {
+			"height": 151,
+			"title": "reference",
+			"width": 232,
+			"x": 649,
+			"y": 346
 		},
 		"InGAQeESJ7Q3CLh6bQ3P1U7KRDp16otg": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 357,
-			"y": 8
+			"x": 376,
+			"y": 12
 		},
 		"PR16zrw2bpWnlfSZj5PZ9Z7pgI8tebGN": {
 			"height": 73,
-			"title": "Buy spy",
+			"title": "Buy",
 			"width": 196,
-			"x": 1553,
-			"y": 5
+			"x": 1510,
+			"y": -258
 		},
 		"PmjRmUdpIO1RyE90BZzZDEzL13iUBJEt": {
-			"height": 130,
+			"height": 151,
 			"title": "reference",
 			"width": 277,
-			"x": 824,
-			"y": 178
+			"x": 638,
+			"y": -109
 		},
 		"RN7heX4mDzsrDBPeRz0sP1tYyZnYadHl": {
 			"height": 54,
 			"title": "success",
 			"width": 132,
-			"x": 1558,
-			"y": 88
+			"x": 1513,
+			"y": -182
 		},
 		"XY6JKLKw4jTN8ztCsiNbRibMi2QlAr7Y": {
-			"height": 101,
+			"height": 94,
 			"title": "store",
-			"width": 400,
-			"x": 1085,
-			"y": -371
+			"width": 401,
+			"x": 1049,
+			"y": -584
+		},
+		"Y8Fz9NyYMmOI6vtWn1b4Pi0YcwIDWzod": {
+			"height": 151,
+			"title": "reference",
+			"width": 232,
+			"x": 651,
+			"y": 497
+		},
+		"YMh4i34SrBrEtmNg2ejOnaANGiG8o3uc": {
+			"height": 94,
+			"title": "store",
+			"width": 441,
+			"x": 645,
+			"y": -1260
 		},
 		"Z4YBZkkhTkKeBielYyPl5JdMGT8ge5iw": {
 			"height": 60,
 			"title": "Update battlelines info",
 			"width": 223,
-			"x": 614,
-			"y": -474
+			"x": 625,
+			"y": -621
 		},
 		"Zu1QTACHGkrVBF5D068MIzN6NygjFxcJ": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 1049,
-			"y": 8
+			"x": 1014,
+			"y": -253
+		},
+		"etgnKjIsaoGcfDjTi5SY4ZOe6i7t9VTx": {
+			"height": 94,
+			"title": "store",
+			"width": 441,
+			"x": 648,
+			"y": -1158
 		},
 		"i2AVwLBJMNxJX5Tx99x5nNKzxtevGEil": {
-			"height": 112,
+			"height": 94,
 			"title": "store",
-			"width": 273,
-			"x": 1084,
-			"y": -472
+			"width": 246,
+			"x": 1049,
+			"y": -674
 		},
 		"lyo3eAohyXjcuUHOHV5dib3Dde5VAsAB": {
-			"height": 130,
+			"height": 151,
 			"title": "reference",
 			"width": 277,
-			"x": 821,
-			"y": 425
+			"x": 643,
+			"y": 187
 		},
 		"m1uBrRU2DQWQ18vC1YFjT6waOHrEayYi": {
-			"height": 130,
+			"height": 151,
 			"title": "reference",
 			"width": 277,
-			"x": 822,
-			"y": 296
+			"x": 640,
+			"y": 39
 		},
 		"oZAmyzKWDQrdPMw2Y0dTAKSTfUGNlLFZ": {
-			"height": 101,
+			"height": 94,
 			"title": "store",
-			"width": 444,
-			"x": 1088,
-			"y": -92
+			"width": 323,
+			"x": 650,
+			"y": -983
 		},
 		"pFdeRGmusmkEwejto0ELledanuFMwrKW": {
 			"height": 92,
 			"title": "lf not enough spies",
 			"width": 288,
-			"x": 1243,
-			"y": -1
+			"x": 1191,
+			"y": -264
 		},
 		"qaKCzlLMVjVAc2DARUAflVIPgqLccwgx": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 182,
-			"y": 9
+			"x": 196,
+			"y": 10
+		},
+		"rsLuH8z02yGp5vmzI8b8kUiwPcSWFPrf": {
+			"height": 60,
+			"title": "Initialize",
+			"width": 143,
+			"x": 451,
+			"y": -992
 		},
 		"s4ObQjGdjxTfXUqyUyi9smBiuKU0qVVB": {
-			"height": 101,
+			"height": 96,
 			"title": "store",
-			"width": 577,
-			"x": 1087,
-			"y": -275
+			"width": 441,
+			"x": 1053,
+			"y": -491
 		},
 		"vaiCJXRW2enG37NraxSQ5MutoZvpMF9m": {
 			"height": 73,
 			"title": "Wait for metal",
 			"width": 170,
-			"x": 1035,
-			"y": 105
+			"x": 1015,
+			"y": -171
+		},
+		"zjCuGmXMrBGdnNWz3buthEuJxSYlFYfe": {
+			"height": 94,
+			"title": "store",
+			"width": 441,
+			"x": 1052,
+			"y": -397
 		}
 	},
 	"roles": [ {
@@ -156,6 +198,71 @@
 	} ],
 	"root": {
 		"children": [ {
+			"children": [ {
+				"children": [],
+				"id": "YMh4i34SrBrEtmNg2ejOnaANGiG8o3uc",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bb.trash"
+				}, {
+					"name": "value",
+					"value": "{}"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "etgnKjIsaoGcfDjTi5SY4ZOe6i7t9VTx",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bb.middleRequests"
+				}, {
+					"name": "value",
+					"value": "{}"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "2SUaS6C2EtHtxoCvJXyAwLJy03sXY5Fi",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bb.farkTop"
+				}, {
+					"name": "value",
+					"value": "GetStrongpoints(\"Top\")[3].position"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			}, {
+				"children": [],
+				"id": "oZAmyzKWDQrdPMw2Y0dTAKSTfUGNlLFZ",
+				"nodeType": "luaCommand",
+				"parameters": [ {
+					"name": "var",
+					"value": "bb.farkBottom"
+				}, {
+					"name": "value",
+					"value": "GetStrongpoints(\"Bottom\")[3].position"
+				}, {
+					"name": "scriptName",
+					"value": "store"
+				} ],
+				"scriptName": "store"
+			} ],
+			"id": "rsLuH8z02yGp5vmzI8b8kUiwPcSWFPrf",
+			"nodeType": "sequence",
+			"parameters": []
+		}, {
 			"children": [ {
 				"children": [ {
 					"children": [ {
@@ -197,7 +304,7 @@
 							"value": "bb.middlePosition"
 						}, {
 							"name": "value",
-							"value": "GetLanePosition(\"Middle\", global.middleProgress)"
+							"value": "GetLanePosition(\"Middle\", bb.middleProgress)"
 						}, {
 							"name": "scriptName",
 							"value": "store"
@@ -212,7 +319,7 @@
 							"value": "bb.farkMiddle"
 						}, {
 							"name": "value",
-							"value": "GetLanePosition(\"Middle\", global.middleProgress - 0.05)"
+							"value": "GetLanePosition(\"Middle\", bb.middleProgress - 0.05)"
 						}, {
 							"name": "scriptName",
 							"value": "store"
@@ -220,29 +327,14 @@
 						"scriptName": "store"
 					}, {
 						"children": [],
-						"id": "2SUaS6C2EtHtxoCvJXyAwLJy03sXY5Fi",
+						"id": "zjCuGmXMrBGdnNWz3buthEuJxSYlFYfe",
 						"nodeType": "luaCommand",
 						"parameters": [ {
 							"name": "var",
-							"value": "bb.farkTop"
+							"value": "bb.safeMiddle"
 						}, {
 							"name": "value",
-							"value": "GetStrongpoints(\"Top\")[3].position"
-						}, {
-							"name": "scriptName",
-							"value": "store"
-						} ],
-						"scriptName": "store"
-					}, {
-						"children": [],
-						"id": "oZAmyzKWDQrdPMw2Y0dTAKSTfUGNlLFZ",
-						"nodeType": "luaCommand",
-						"parameters": [ {
-							"name": "var",
-							"value": "bb.farkBottom"
-						}, {
-							"name": "value",
-							"value": "GetStrongpoints(\"Bottom\")[3].position"
+							"value": "GetLanePosition(\"Middle\", bb.middleProgress - 0.1)"
 						}, {
 							"name": "scriptName",
 							"value": "store"
@@ -316,11 +408,14 @@
 				"nodeType": "reference",
 				"parameters": [ {
 					"name": "behaviourName",
-					"value": "nota_kcky_exam.fark_manager"
+					"value": "nota_kcky_exam.fark"
 				} ],
 				"referenceInputs": [ {
 					"name": "positionVariable",
 					"value": "\"farkMiddle\""
+				}, {
+					"name": "requests",
+					"value": "\"middleRequests\""
 				} ],
 				"referenceOutputs": []
 			}, {
@@ -329,11 +424,14 @@
 				"nodeType": "reference",
 				"parameters": [ {
 					"name": "behaviourName",
-					"value": "nota_kcky_exam.fark_manager"
+					"value": "nota_kcky_exam.fark"
 				} ],
 				"referenceInputs": [ {
 					"name": "positionVariable",
 					"value": "\"farkTop\""
+				}, {
+					"name": "requests",
+					"value": "\"trash\""
 				} ],
 				"referenceOutputs": []
 			}, {
@@ -342,11 +440,46 @@
 				"nodeType": "reference",
 				"parameters": [ {
 					"name": "behaviourName",
-					"value": "nota_kcky_exam.fark_manager"
+					"value": "nota_kcky_exam.fark"
 				} ],
 				"referenceInputs": [ {
 					"name": "positionVariable",
 					"value": "\"farkBottom\""
+				}, {
+					"name": "requests",
+					"value": "\"trash\""
+				} ],
+				"referenceOutputs": []
+			}, {
+				"children": [],
+				"id": "Gsmy4rsLX6zkvyvcwLmlD1qUFbuXWzlq",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_kcky_exam.atlas"
+				} ],
+				"referenceInputs": [ {
+					"name": "requests",
+					"value": "\"middleRequests\""
+				}, {
+					"name": "destination",
+					"value": "\"safeMiddle\""
+				} ],
+				"referenceOutputs": []
+			}, {
+				"children": [],
+				"id": "Y8Fz9NyYMmOI6vtWn1b4Pi0YcwIDWzod",
+				"nodeType": "reference",
+				"parameters": [ {
+					"name": "behaviourName",
+					"value": "nota_kcky_exam.atlas"
+				} ],
+				"referenceInputs": [ {
+					"name": "requests",
+					"value": "\"middleRequests\""
+				}, {
+					"name": "destination",
+					"value": "\"safeMiddle\""
 				} ],
 				"referenceOutputs": []
 			} ],
