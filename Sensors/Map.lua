@@ -9,9 +9,9 @@ local sensorInfo = {
 function getInfo() return { period = -1 } end
 
 return function(list, f)
-  local result = { }
-  for i,x in pairs(list) do
-    result[i] = f(x)
-  end
-  return result
+    local result = { }
+    for i,x in pairs(list) do
+        result[i] = f(x)
+    end
+    return result
 end

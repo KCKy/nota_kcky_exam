@@ -9,11 +9,11 @@ local sensorInfo = {
 function getInfo() return { period = -1 } end
 
 return function(list, comparison)
-  local max = nil
-  for _, x in ipairs(list) do
-    if max == nil or comparison(x, max) then
-      max = x
+    local max = nil
+    for _, x in ipairs(list) do
+        if max == nil or comparison(x, max) then
+            max = x
+        end
     end
-  end
-  return max
+    return max
 end
