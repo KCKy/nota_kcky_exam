@@ -20,5 +20,5 @@ return function(maxDistance)
     units = map(units, function(x) return {id = x, pos = Vec3(Spring.GetUnitPosition(x))} end)
     units = filter(units, function(x) return math.abs((Game.mapSizeX - x.pos.x) - x.pos.z) <= maxDistance end)
     unit = max(units, function(x, y) return x.pos.x - x.pos.z > y.pos.x - y.pos.z end)
-    return unit and Sensors.nota_kcky_exam.ProjectToLane("Middle", unit.pos) or 0
+    return unit and Sensors.nota_kcky_exam.ProjectMiddle(unit.pos) or 0
 end

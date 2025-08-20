@@ -327,7 +327,7 @@
 					"nodeType": "luaCondition",
 					"parameters": [ {
 						"name": "expression",
-						"value": "ProjectToLane(\"Middle\", Vec3(Spring.GetUnitPosition(bb.lugers[1]))) < bb.middleProgress - 0.03"
+						"value": "ProjectMiddle(Vec3(Spring.GetUnitPosition(bb.lugers[1]))) < bb.middleProgress - 0.03"
 					}, {
 						"name": "repeat",
 						"value": "true"

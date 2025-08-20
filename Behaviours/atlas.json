@@ -289,7 +289,7 @@
 						"nodeType": "luaCondition",
 						"parameters": [ {
 							"name": "expression",
-							"value": "(Vec3(Spring.GetUnitPosition(atlas))-bb[destination]):Length() > 600"
+							"value": "(Vec3(Spring.GetUnitPosition(atlas))-bb[destination]):Length() > 400"
 						}, {
 							"name": "repeat",
 							"value": "true"
@@ -303,7 +303,7 @@
 							"value": "atlas"
 						}, {
 							"name": "area",
-							"value": "{center = bb[destination]+Vec3(-200, 0, 200), radius = 100}"
+							"value": "{center = bb[destination], radius = 100}"
 						}, {
 							"name": "scriptName",
 							"value": "nota_krejci_exam.unloadUnit"

@@ -271,7 +271,7 @@
 		"zjCuGmXMrBGdnNWz3buthEuJxSYlFYfe": {
 			"height": 94,
 			"title": "store",
-			"width": 470,
+			"width": 616,
 			"x": 1052,
 			"y": -397
 		},
@@ -425,7 +425,7 @@
 							"value": "bb.middlePosition"
 						}, {
 							"name": "value",
-							"value": "GetLanePosition(\"Middle\", bb.middleProgress)"
+							"value": "GetMiddlePosition(bb.middleProgress)"
 						}, {
 							"name": "scriptName",
 							"value": "store"
@@ -440,7 +440,7 @@
 							"value": "bb.farkMiddle"
 						}, {
 							"name": "value",
-							"value": "bb.mavPos or GetLanePosition(\"Middle\", bb.middleProgress - 0.05)"
+							"value": "bb.mavPos or GetMiddlePosition(bb.middleProgress - 0.05)"
 						}, {
 							"name": "scriptName",
 							"value": "store"
@@ -455,7 +455,7 @@
 							"value": "bb.safeMiddle"
 						}, {
 							"name": "value",
-							"value": "bb.mavPos or GetLanePosition(\"Middle\", bb.middleProgress)"
+							"value": "(bb.mavPos or GetMiddlePosition(bb.middleProgress)) + Vec3(-200, 0, 200)"
 						}, {
 							"name": "scriptName",
 							"value": "store"

@@ -321,7 +321,7 @@
 							"nodeType": "luaCommand",
 							"parameters": [ {
 								"name": "msg",
-								"value": "A"
+								"value": "\"A\""
 							}, {
 								"name": "scriptName",
 								"value": "echo"

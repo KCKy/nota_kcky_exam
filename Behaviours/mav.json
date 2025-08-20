@@ -293,7 +293,7 @@
 					"nodeType": "luaCondition",
 					"parameters": [ {
 						"name": "expression",
-						"value": "closestEnemyTowerMid and ProjectToLane(\"Middle\", closestEnemyTowerMid) < bb.middleProgress + 0.08"
+						"value": "closestEnemyTowerMid and ProjectMiddle(closestEnemyTowerMid) < bb.middleProgress + 0.08"
 					}, {
 						"name": "repeat",
 						"value": "true"
