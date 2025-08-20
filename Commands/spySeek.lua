@@ -1,7 +1,7 @@
 function getInfo()
 	return {
 		onNoUnits = SUCCESS, -- instant success
-		tooltip = "Spy seek shika",
+		tooltip = "Spy seek tower",
 		parameterDefs = {
 			{ 
 				name = "spyID",
@@ -11,6 +11,12 @@ function getInfo()
 			},
 			{ 
 				name = "seekPosition",
+				variableType = "expression",
+				componentType = "editBox",
+				defaultValue = "",
+			},
+			{ 
+				name = "offset",
 				variableType = "expression",
 				componentType = "editBox",
 				defaultValue = "",
@@ -24,7 +30,7 @@ end
 function Reset(self) end
 
 function Run(self, units, parameter)
-    local shika = Sensors.nota_kcky_exam.FindClosestEnemyShikaID("Middle")
+    local shika = Sensors.nota_kcky_exam.FindClosestEnemyTowerID("Middle")
 	shika = shika and Vec3(Spring.GetUnitPosition(shika))
     local seek_pos = parameter.seekPosition
 	if parameter.spyID == nil or parameter.seekPosition == nil then
@@ -39,7 +45,7 @@ function Run(self, units, parameter)
 
     if shika ~= nil then
         Spring.GiveOrderToUnit(parameter.spyID, CMD.STOP,{},{})
-        Spring.GiveOrderToUnit(parameter.spyID, CMD.MOVE,{shika.x - 100,shika.y,shika.z +100},{})
+        Spring.GiveOrderToUnit(parameter.spyID, CMD.MOVE, (shika+parameter.offset):AsSpringVector(),{})
 		return SUCCESS
 	end
 

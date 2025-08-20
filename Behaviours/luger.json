@@ -9,10 +9,17 @@
 	"inputs": [],
 	"outputs": [],
 	"properties": {
+		"8ssf7sTwILpQP7C2v3AIYjls3c7CYOF8": {
+			"height": 90,
+			"title": "",
+			"width": 504,
+			"x": 2560,
+			"y": 28
+		},
 		"CCF7fmZ8iqHKEl1CSwRGpetWy6yHROLA": {
 			"height": 95,
 			"title": "GetTheClosestSeenEnemyShikaID",
-			"width": 427,
+			"width": 430,
 			"x": 1128,
 			"y": -50
 		},
@@ -26,7 +33,7 @@
 		"G0GKUYvPgKqbyJ93kWlgbDkz0jGGSDns": {
 			"height": 142,
 			"title": "FormationStepBack",
-			"width": 406,
+			"width": 448,
 			"x": 2006,
 			"y": 249
 		},
@@ -58,13 +65,6 @@
 			"x": 1127,
 			"y": -446
 		},
-		"QlGymNh7d0WZr2H5aCzhkzkUoFde5rnL": {
-			"height": 132,
-			"title": "nota_kyzro_swampdota.moveCustomGroup",
-			"width": 368,
-			"x": 2366,
-			"y": 75
-		},
 		"WESOtCYnFYLbr5rkUtdffXaHvLRH4Svw": {
 			"height": 94,
 			"title": "GetGroupDefinition",
@@ -82,9 +82,9 @@
 		"c5lI6Vg9qzubmQu9nLQLdG3y1SIHuxTN": {
 			"height": 92,
 			"title": "nota_mestek_labs.fireAt",
-			"width": 285,
-			"x": 2365,
-			"y": -42
+			"width": 289,
+			"x": 3081,
+			"y": 6
 		},
 		"gejpEmfYGlgg0dYXu4dpQ4nmAVYWc6e9": {
 			"height": 70,
@@ -100,12 +100,26 @@
 			"x": 752,
 			"y": 152
 		},
+		"h60tgAVjzvtWESwd4CbBgaB5PEQnmIlO": {
+			"height": 132,
+			"title": "nota_kyzro_swampdota.moveCustomGroup",
+			"width": 448,
+			"x": 2570,
+			"y": 205
+		},
+		"r0v1WRr0KFGdtOPb86DsRWGrQu7ywpgd": {
+			"height": 132,
+			"title": "nota_kyzro_swampdota.moveCustomGroup",
+			"width": 448,
+			"x": 3130,
+			"y": 169
+		},
 		"v5z3wH24aZLpNAfTzB3qngaKo6pJDL34": {
 			"height": 90,
-			"title": "DoWeSeeTheEnemyShika?",
-			"width": 258,
-			"x": 2021,
-			"y": 100
+			"title": "",
+			"width": 504,
+			"x": 2001,
+			"y": 95
 		},
 		"w856dhEgApjPVaXhR5j124BTOZ1qyjUb": {
 			"height": 94,
@@ -188,10 +202,10 @@
 					"nodeType": "luaCommand",
 					"parameters": [ {
 						"name": "var",
-						"value": "closestEnemyShikaMidID"
+						"value": "closestEnemyTowerMidID"
 					}, {
 						"name": "value",
-						"value": "nota_kcky_exam.FindClosestEnemyShikaID(\"Middle\")"
+						"value": "nota_kcky_exam.FindClosestEnemyTowerID(\"Middle\")"
 					}, {
 						"name": "scriptName",
 						"value": "store"
@@ -210,30 +224,62 @@
 				"children": [ {
 					"children": [ {
 						"children": [ {
-							"children": [],
-							"id": "c5lI6Vg9qzubmQu9nLQLdG3y1SIHuxTN",
-							"nodeType": "luaCommand",
-							"parameters": [ {
-								"name": "unitsIDs",
-								"value": "bb.lugers"
+							"children": [ {
+								"children": [],
+								"id": "c5lI6Vg9qzubmQu9nLQLdG3y1SIHuxTN",
+								"nodeType": "luaCommand",
+								"parameters": [ {
+									"name": "unitsIDs",
+									"value": "bb.lugers"
+								}, {
+									"name": "targetUnitID",
+									"value": "closestEnemyTowerMidID"
+								}, {
+									"name": "scriptName",
+									"value": "nota_mestek_labs.fireAt"
+								} ],
+								"scriptName": "nota_mestek_labs.fireAt"
 							}, {
-								"name": "targetUnitID",
-								"value": "closestEnemyShikaMidID"
-							}, {
-								"name": "scriptName",
-								"value": "nota_mestek_labs.fireAt"
+								"children": [],
+								"id": "r0v1WRr0KFGdtOPb86DsRWGrQu7ywpgd",
+								"nodeType": "luaCommand",
+								"parameters": [ {
+									"name": "groupDefintion",
+									"value": "groupDefinition"
+								}, {
+									"name": "position",
+									"value": "(bb.mavPos or bb.middlePosition) - Vec3(200, 0, -200)"
+								}, {
+									"name": "formation",
+									"value": "formationTransformed"
+								}, {
+									"name": "fight",
+									"value": "false"
+								}, {
+									"name": "scriptName",
+									"value": "nota_kyzro_swampdota.moveCustomGroup"
+								} ],
+								"scriptName": "nota_kyzro_swampdota.moveCustomGroup"
 							} ],
-							"scriptName": "nota_mestek_labs.fireAt"
+							"id": "8ssf7sTwILpQP7C2v3AIYjls3c7CYOF8",
+							"nodeType": "luaCondition",
+							"parameters": [ {
+								"name": "expression",
+								"value": "AreUnitsClose(bb.lugers, \"Middle\", 0.01)"
+							}, {
+								"name": "repeat",
+								"value": "true"
+							} ]
 						}, {
 							"children": [],
-							"id": "QlGymNh7d0WZr2H5aCzhkzkUoFde5rnL",
+							"id": "h60tgAVjzvtWESwd4CbBgaB5PEQnmIlO",
 							"nodeType": "luaCommand",
 							"parameters": [ {
 								"name": "groupDefintion",
 								"value": "groupDefinition"
 							}, {
 								"name": "position",
-								"value": "bb.middlePosition - Vec3(500, 0, -500)"
+								"value": "(bb.mavPos or bb.middlePosition) - Vec3(200, 0, -200)"
 							}, {
 								"name": "formation",
 								"value": "formationTransformed"
@@ -250,7 +296,7 @@
 						"nodeType": "luaCondition",
 						"parameters": [ {
 							"name": "expression",
-							"value": "closestEnemyShikaMidID"
+							"value": "closestEnemyTowerMidID"
 						}, {
 							"name": "repeat",
 							"value": "true"
@@ -264,7 +310,7 @@
 							"value": "groupDefinition"
 						}, {
 							"name": "position",
-							"value": "bb.middlePosition - Vec3(500, 0, -500)"
+							"value": "(bb.mavPos or bb.middlePosition) - Vec3(200, 0, -200)"
 						}, {
 							"name": "formation",
 							"value": "formationTransformed"

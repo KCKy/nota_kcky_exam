@@ -1,0 +1,227 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 128,
+			"width": 254
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"1jwj3EpZIyh1u22n6MGhyVFmCXIdtLsP": {
+			"height": 92,
+			"title": "store",
+			"width": 292,
+			"x": 1014,
+			"y": 284
+		},
+		"Ap0NYyShN2tkA0S9hFUcdoNlhv9qVbba": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 823,
+			"y": 113
+		},
+		"BVh6VrU5juAdr7rSELAXKEplxNx4I5Ny": {
+			"height": 103,
+			"title": "Does our unit exist?",
+			"width": 350,
+			"x": 430,
+			"y": 8
+		},
+		"G3vyvR84PHOiMUa2aXp18IsGFfYUGcN5": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 276,
+			"y": 24
+		},
+		"IAHrO7IqaNsZzotqeSXq88UivWgalsIW": {
+			"height": 102,
+			"title": "store",
+			"width": 226,
+			"x": 1019,
+			"y": -115
+		},
+		"Khm1VvnLHNHnEMzgNdWddXmYUK2eyTmZ": {
+			"height": 173,
+			"title": "reference",
+			"width": 269,
+			"x": 1013,
+			"y": -286
+		},
+		"UgP8QhsbxBz8L5ag2PTKkMr9gDFwqQif": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 825,
+			"y": -91
+		},
+		"UjWpYLB0DPTyaEfH21dtRFmva7dqYaqr": {
+			"height": 102,
+			"title": "store",
+			"width": 226,
+			"x": 1027,
+			"y": -13
+		},
+		"VhUjN54DBKvSrneBCMeUXAQCU14wxc1O": {
+			"height": 92,
+			"title": "store",
+			"width": 210,
+			"x": 1009,
+			"y": 97
+		},
+		"Y8T7GzXH6uFhLse7UhdVBEmEYFyFqclh": {
+			"height": 72,
+			"title": "nota_kcky_exam.disableMoveState",
+			"width": 285,
+			"x": 1024,
+			"y": -368
+		},
+		"s5KgdAiIntD3b94u0GYLXup2C8ts6b8k": {
+			"height": 94,
+			"title": "store",
+			"width": 421,
+			"x": 1013,
+			"y": 190
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [ {
+					"children": [],
+					"id": "Y8T7GzXH6uFhLse7UhdVBEmEYFyFqclh",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "units",
+						"value": "{mav}"
+					}, {
+						"name": "scriptName",
+						"value": "nota_kcky_exam.disableMoveState"
+					} ],
+					"scriptName": "nota_kcky_exam.disableMoveState"
+				}, {
+					"children": [],
+					"id": "Khm1VvnLHNHnEMzgNdWddXmYUK2eyTmZ",
+					"nodeType": "reference",
+					"parameters": [ {
+						"name": "behaviourName",
+						"value": "nota_kcky_exam.moveToSafe"
+					} ],
+					"referenceInputs": [ {
+						"name": "requests",
+						"value": "\"middleRequests\""
+					}, {
+						"name": "destination",
+						"value": "\"safeMiddle\""
+					}, {
+						"name": "myId",
+						"value": "mav"
+					} ],
+					"referenceOutputs": []
+				}, {
+					"children": [],
+					"id": "IAHrO7IqaNsZzotqeSXq88UivWgalsIW",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "bb.mavs[#bb.mavs+1]"
+					}, {
+						"name": "value",
+						"value": "mav"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "UjWpYLB0DPTyaEfH21dtRFmva7dqYaqr",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "mav"
+					}, {
+						"name": "value",
+						"value": "nil"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				} ],
+				"id": "UgP8QhsbxBz8L5ag2PTKkMr9gDFwqQif",
+				"nodeType": "sequence",
+				"parameters": []
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "VhUjN54DBKvSrneBCMeUXAQCU14wxc1O",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "bb.usedMavs"
+					}, {
+						"name": "value",
+						"value": "bb.usedMavs or {}"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "s5KgdAiIntD3b94u0GYLXup2C8ts6b8k",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "mav"
+					}, {
+						"name": "value",
+						"value": "GetNotActiveUnits({\"armmav\"}, bb.usedMavs)[1]"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "1jwj3EpZIyh1u22n6MGhyVFmCXIdtLsP",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "bb.usedMavs[#bb.usedMavs+1]"
+					}, {
+						"name": "value",
+						"value": "mav"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				} ],
+				"id": "Ap0NYyShN2tkA0S9hFUcdoNlhv9qVbba",
+				"nodeType": "sequence",
+				"parameters": []
+			} ],
+			"id": "BVh6VrU5juAdr7rSELAXKEplxNx4I5Ny",
+			"nodeType": "luaCondition",
+			"parameters": [ {
+				"name": "expression",
+				"value": "mav and Spring.GetUnitIsDead(mav) == false"
+			}, {
+				"name": "repeat",
+				"value": "true"
+			} ]
+		} ],
+		"id": "G3vyvR84PHOiMUa2aXp18IsGFfYUGcN5",
+		"nodeType": "repeat",
+		"parameters": []
+	}
+}

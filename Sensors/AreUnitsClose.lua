@@ -1,0 +1,20 @@
+local sensorInfo = {
+    name = "AreUnitsClose",
+    desc = "Get the units close to each other?",
+    author = "KCKy",
+    date = "2025-08-11",
+    license = "MIT",
+}
+
+local filter = Sensors.nota_kcky_exam.Filter
+local flatten = Sensors.nota_kcky_exam.Flatten
+local map = Sensors.nota_kcky_exam.Map
+local max = Sensors.nota_kcky_exam.Max
+local contains = Sensors.nota_kcky_exam.Contains
+
+function getInfo() return { period = 20 } end
+
+return function(units, laneName, margin)
+    local distances = map(units, function(x) return Sensors.nota_kcky_exam.ProjectToLane(laneName, Vec3(Spring.GetUnitPosition(x))) end)
+    return (max(distances) - max(distances, function(x, y) return x < y end)) < margin
+end

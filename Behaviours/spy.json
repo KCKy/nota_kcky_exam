@@ -6,7 +6,10 @@
 			"width": 254
 		}
 	},
-	"inputs": [],
+	"inputs": [ {
+		"command": "Variable",
+		"name": "offset"
+	} ],
 	"outputs": [],
 	"properties": {
 		"8NO1bdsiQnSO01KXqD7W6FuW52PGDWPq": {
@@ -27,8 +30,15 @@
 			"height": 173,
 			"title": "reference",
 			"width": 274,
-			"x": 1012,
-			"y": -272
+			"x": 1014,
+			"y": -342
+		},
+		"C0di5CHNMG7LjGnJxePyP8KYKD7mHyRe": {
+			"height": 94,
+			"title": "nota_mestek_labs.followPath",
+			"width": 314,
+			"x": 1024,
+			"y": -170
 		},
 		"CuCVMIdZXvUNwTyvovzkZh2ViWi17QJ1": {
 			"height": 60,
@@ -43,6 +53,13 @@
 			"width": 350,
 			"x": 430,
 			"y": 8
+		},
+		"KBaezOsBDuGrBWvB3OoLRZGGlkQ48aJq": {
+			"height": 112,
+			"title": "nota_kcky_exam.spySeek",
+			"width": 246,
+			"x": 1196,
+			"y": -75
 		},
 		"O2fdihnuSksgE79ndqe6p5EvCFOrQ2b6": {
 			"height": 60,
@@ -64,13 +81,6 @@
 			"width": 131,
 			"x": 1039,
 			"y": -63
-		},
-		"pIFfDdpQiWWKjQI2Ku8tDmWeYaXXNAxn": {
-			"height": 94,
-			"title": "nota_kcky_exam.spySeekShika",
-			"width": 261,
-			"x": 1206,
-			"y": -77
 		},
 		"uiGdDtHfdYnITNq3pKvr8OkkogheijVB": {
 			"height": 92,
@@ -107,21 +117,39 @@
 					} ],
 					"referenceOutputs": []
 				}, {
+					"children": [],
+					"id": "C0di5CHNMG7LjGnJxePyP8KYKD7mHyRe",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "unitID",
+						"value": "spy"
+					}, {
+						"name": "path",
+						"value": "{bb.safeMiddle + offset * 2}"
+					}, {
+						"name": "scriptName",
+						"value": "nota_mestek_labs.followPath"
+					} ],
+					"scriptName": "nota_mestek_labs.followPath"
+				}, {
 					"children": [ {
 						"children": [],
-						"id": "pIFfDdpQiWWKjQI2Ku8tDmWeYaXXNAxn",
+						"id": "KBaezOsBDuGrBWvB3OoLRZGGlkQ48aJq",
 						"nodeType": "luaCommand",
 						"parameters": [ {
 							"name": "spyID",
 							"value": "spy"
 						}, {
 							"name": "seekPosition",
-							"value": "Vec3(10000, 0, 240)"
+							"value": "Vec3(10000, 0, 0)"
+						}, {
+							"name": "offset",
+							"value": "offset"
 						}, {
 							"name": "scriptName",
-							"value": "nota_kcky_exam.spySeekShika"
+							"value": "nota_kcky_exam.spySeek"
 						} ],
-						"scriptName": "nota_kcky_exam.spySeekShika"
+						"scriptName": "nota_kcky_exam.spySeek"
 					} ],
 					"id": "i1YQRM9lCkA1DOfv9VscCDmK4Gey3qji",
 					"nodeType": "repeat",

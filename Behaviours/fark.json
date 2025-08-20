@@ -1,21 +1,5 @@
 {
-	"additionalNodes": [ {
-		"children": [],
-		"id": "oqCWfQ48XqRAYDgS1w2pnnEl7r8PSD8h",
-		"nodeType": "reference",
-		"parameters": [ {
-			"name": "behaviourName",
-			"value": "nota_kcky_exam.atlas"
-		} ],
-		"referenceInputs": [ {
-			"name": "requests",
-			"value": "requests"
-		}, {
-			"name": "destination",
-			"value": "positionVariable"
-		} ],
-		"referenceOutputs": []
-	} ],
+	"additionalNodes": [],
 	"additionalParameters": {
 		"root": {
 			"height": 128,
@@ -42,8 +26,8 @@
 			"height": 172,
 			"title": "reference",
 			"width": 269,
-			"x": 1048,
-			"y": -216
+			"x": 1034,
+			"y": -229
 		},
 		"7IVSemp5GmkChYwvANEXanWZX3phMDfD": {
 			"height": 60,
@@ -56,8 +40,8 @@
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 1058,
-			"y": -9
+			"x": 1040,
+			"y": -44
 		},
 		"GZ1YEg92Np4EzaSS5I2Z07uhFgtC4Rgy": {
 			"height": 54,
@@ -72,6 +56,13 @@
 			"width": 202,
 			"x": 1270,
 			"y": -408
+		},
+		"HAxOdfsfW6906CuvIwCy9uroojTB67Go": {
+			"height": 72,
+			"title": "echo",
+			"width": 131,
+			"x": 1393,
+			"y": -152
 		},
 		"LeCVsxxzFukiagi9bConw6uNxOHVRAlp": {
 			"height": 92,
@@ -91,8 +82,8 @@
 			"height": 112,
 			"title": "nota_sirwok_exam.reclaimMetal",
 			"width": 409,
-			"x": 1220,
-			"y": -27
+			"x": 1386,
+			"y": -60
 		},
 		"PNh9waozPUX64yxSwxsU5YjKetXxc2KG": {
 			"height": 60,
@@ -129,6 +120,13 @@
 			"x": 838,
 			"y": 105
 		},
+		"Vm9LF7BguXBRP2oVyqGkFIdJ1gJNuCtR": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1191,
+			"y": -45
+		},
 		"adyfihLYO7ASSXMLilmXftNu6EIpqEWk": {
 			"height": 60,
 			"title": "sequence",
@@ -156,13 +154,6 @@
 			"width": 202,
 			"x": 1024,
 			"y": 89
-		},
-		"oqCWfQ48XqRAYDgS1w2pnnEl7r8PSD8h": {
-			"height": 151,
-			"title": "reference",
-			"width": 236,
-			"x": 1030,
-			"y": 377
 		},
 		"rBX8bMLcfVg4OIbUXUZDuJmyPCBu5Qr7": {
 			"height": 90,
@@ -324,23 +315,40 @@
 					"referenceOutputs": []
 				}, {
 					"children": [ {
-						"children": [],
-						"id": "Mwex1M1PV7Exrn4UT9faCviHZtWcLSnL",
-						"nodeType": "luaCommand",
-						"parameters": [ {
-							"name": "armfarkID",
-							"value": "fark"
+						"children": [ {
+							"children": [],
+							"id": "HAxOdfsfW6906CuvIwCy9uroojTB67Go",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "msg",
+								"value": "A"
+							}, {
+								"name": "scriptName",
+								"value": "echo"
+							} ],
+							"scriptName": "echo"
 						}, {
-							"name": "reclaimPosition",
-							"value": "bb[positionVariable] + Vec3(800, 0, -750)"
-						}, {
-							"name": "reclaimRadius",
-							"value": "900"
-						}, {
-							"name": "scriptName",
-							"value": "nota_sirwok_exam.reclaimMetal"
+							"children": [],
+							"id": "Mwex1M1PV7Exrn4UT9faCviHZtWcLSnL",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "armfarkID",
+								"value": "fark"
+							}, {
+								"name": "reclaimPosition",
+								"value": "bb[positionVariable] + Vec3(800, 0, -750)"
+							}, {
+								"name": "reclaimRadius",
+								"value": "900"
+							}, {
+								"name": "scriptName",
+								"value": "nota_sirwok_exam.reclaimMetal"
+							} ],
+							"scriptName": "nota_sirwok_exam.reclaimMetal"
 						} ],
-						"scriptName": "nota_sirwok_exam.reclaimMetal"
+						"id": "Vm9LF7BguXBRP2oVyqGkFIdJ1gJNuCtR",
+						"nodeType": "sequence",
+						"parameters": []
 					} ],
 					"id": "7v8EYASruvcBh9Qkd0neRB0EJnggziXM",
 					"nodeType": "repeat",

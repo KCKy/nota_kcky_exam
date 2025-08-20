@@ -16,7 +16,7 @@ local contains = Sensors.nota_kcky_exam.Contains
 
 return function(maxDistance)
     local units = Spring.GetAllUnits()
-    units = filter(units, Spring.IsUnitAllied)
+    units = filter(units, function(x) return Spring.IsUnitAllied(x) and UnitDefs[Spring.GetUnitDefID(x)].name ~= 'armspy' end)
     units = map(units, function(x) return {id = x, pos = Vec3(Spring.GetUnitPosition(x))} end)
     units = filter(units, function(x) return math.abs((Game.mapSizeX - x.pos.x) - x.pos.z) <= maxDistance end)
     unit = max(units, function(x, y) return x.pos.x - x.pos.z > y.pos.x - y.pos.z end)
