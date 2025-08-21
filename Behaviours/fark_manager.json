@@ -18,21 +18,14 @@
 		},
 		"LVjVgGS9xMpmv6PHC2i2fTag6gTtmjtR": {
 			"height": 151,
-			"title": "Top",
+			"title": "Fark 2",
 			"width": 242,
 			"x": 442,
 			"y": -2
 		},
-		"P5yBVt8hRvB1ObTyF8zDpqcuNGkKRDYn": {
-			"height": 151,
-			"title": "Bottom",
-			"width": 252,
-			"x": 439,
-			"y": 151
-		},
 		"y4ltB9z0lHhN0Yhl0KUTRSDGPlUz2ibS": {
 			"height": 151,
-			"title": "Middle",
+			"title": "Fark 1",
 			"width": 250,
 			"x": 441,
 			"y": -159
@@ -69,26 +62,10 @@
 			} ],
 			"referenceInputs": [ {
 				"name": "positionVariable",
-				"value": "\"farkTop\""
+				"value": "\"farkMiddle\""
 			}, {
 				"name": "requests",
-				"value": "\"trash\""
-			} ],
-			"referenceOutputs": []
-		}, {
-			"children": [],
-			"id": "P5yBVt8hRvB1ObTyF8zDpqcuNGkKRDYn",
-			"nodeType": "reference",
-			"parameters": [ {
-				"name": "behaviourName",
-				"value": "nota_kcky_exam.fark"
-			} ],
-			"referenceInputs": [ {
-				"name": "positionVariable",
-				"value": "\"farkBottom\""
-			}, {
-				"name": "requests",
-				"value": "\"trash\""
+				"value": "\"middleRequests\""
 			} ],
 			"referenceOutputs": []
 		} ],

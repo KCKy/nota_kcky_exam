@@ -244,7 +244,7 @@
 					"value": "Vec3(10, 0, -10)"
 				}, {
 					"name": "gap",
-					"value": "30"
+					"value": "60"
 				}, {
 					"name": "attack",
 					"value": "true"

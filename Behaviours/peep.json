@@ -1,0 +1,179 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 128,
+			"width": 254
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"7uNImUwdVFKrhdZEIXMQaVWOwY4h2vww": {
+			"height": 72,
+			"title": "Make the peep not suicidal",
+			"width": 285,
+			"x": 1021,
+			"y": -185
+		},
+		"MIBtYnhjekaOoEOferW0PAdwyb254pcZ": {
+			"height": 92,
+			"title": "Stay above lugers",
+			"width": 246,
+			"x": 1018,
+			"y": -109
+		},
+		"OBrI5dZR05zsDzU90iBuWLxLlKNntkMC": {
+			"height": 60,
+			"title": "Get a peep",
+			"width": 152,
+			"x": 842,
+			"y": 105
+		},
+		"SYjq8PFShPJGBD7pzFRQKhbRsVQmNk3L": {
+			"height": 103,
+			"title": "Does our peep exist?",
+			"width": 350,
+			"x": 448,
+			"y": 1
+		},
+		"bPeqBiKCmqtDCDcO8QUah7eTAL8TAies": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 829,
+			"y": -95
+		},
+		"oUQUVye78dzddMHPimbS5Ad5hCbbbhOU": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 274,
+			"y": 16
+		},
+		"pwuaBTKU893723RJgVyeLd55FkqsVIMB": {
+			"height": 92,
+			"title": "store",
+			"width": 284,
+			"x": 1031,
+			"y": 254
+		},
+		"uC2Y7utiNWojE5v80Cl0fdBb59P5oJ1H": {
+			"height": 94,
+			"title": "store",
+			"width": 421,
+			"x": 1032,
+			"y": 162
+		},
+		"yeeACkiUsvat5IG27az9facYycn8wcMw": {
+			"height": 92,
+			"title": "store",
+			"width": 206,
+			"x": 1030,
+			"y": 68
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [ {
+				"children": [ {
+					"children": [],
+					"id": "7uNImUwdVFKrhdZEIXMQaVWOwY4h2vww",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "units",
+						"value": "{peep}"
+					}, {
+						"name": "scriptName",
+						"value": "nota_kcky_exam.disableMoveState"
+					} ],
+					"scriptName": "nota_kcky_exam.disableMoveState"
+				}, {
+					"children": [],
+					"id": "MIBtYnhjekaOoEOferW0PAdwyb254pcZ",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "units",
+						"value": "{peep}"
+					}, {
+						"name": "positionRef",
+						"value": "\"lugerPos\""
+					}, {
+						"name": "scriptName",
+						"value": "nota_kcky_exam.moveToRef"
+					} ],
+					"scriptName": "nota_kcky_exam.moveToRef"
+				} ],
+				"id": "bPeqBiKCmqtDCDcO8QUah7eTAL8TAies",
+				"nodeType": "sequence",
+				"parameters": []
+			}, {
+				"children": [ {
+					"children": [],
+					"id": "yeeACkiUsvat5IG27az9facYycn8wcMw",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "bb.usedPeeps"
+					}, {
+						"name": "value",
+						"value": "bb.usedPeeps or {}"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "uC2Y7utiNWojE5v80Cl0fdBb59P5oJ1H",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "peep"
+					}, {
+						"name": "value",
+						"value": "GetNotActiveUnits({\"armpeep\"}, bb.usedPeeps)[1]"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "pwuaBTKU893723RJgVyeLd55FkqsVIMB",
+					"nodeType": "luaCommand",
+					"parameters": [ {
+						"name": "var",
+						"value": "bb.usedPeeps[#bb.usedPeeps+1]"
+					}, {
+						"name": "value",
+						"value": "peep"
+					}, {
+						"name": "scriptName",
+						"value": "store"
+					} ],
+					"scriptName": "store"
+				} ],
+				"id": "OBrI5dZR05zsDzU90iBuWLxLlKNntkMC",
+				"nodeType": "sequence",
+				"parameters": []
+			} ],
+			"id": "SYjq8PFShPJGBD7pzFRQKhbRsVQmNk3L",
+			"nodeType": "luaCondition",
+			"parameters": [ {
+				"name": "expression",
+				"value": "peep and Spring.GetUnitIsDead(peep) == false"
+			}, {
+				"name": "repeat",
+				"value": "true"
+			} ]
+		} ],
+		"id": "oUQUVye78dzddMHPimbS5Ad5hCbbbhOU",
+		"nodeType": "repeat",
+		"parameters": []
+	}
+}

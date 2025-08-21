@@ -1,17 +1,5 @@
 {
-	"additionalNodes": [ {
-		"children": [],
-		"id": "9fwABz17lKUhr5hVUQYBYFB2NsKc4Nh7",
-		"nodeType": "luaCommand",
-		"parameters": [ {
-			"name": "msg",
-			"value": "This behavior is bit too suicidal, but works well enough"
-		}, {
-			"name": "scriptName",
-			"value": "echo"
-		} ],
-		"scriptName": "echo"
-	} ],
+	"additionalNodes": [],
 	"additionalParameters": {
 		"root": {
 			"height": 128,
@@ -27,124 +15,159 @@
 	} ],
 	"outputs": [],
 	"properties": {
-		"4GJopRV1v6vtqfFm2uEcv0HhymdEz7Ur": {
-			"height": 172,
-			"title": "Move to the battleline",
-			"width": 278,
-			"x": 1036,
-			"y": -265
-		},
-		"7v8EYASruvcBh9Qkd0neRB0EJnggziXM": {
+		"BPDkNKtfp4mWsNNV3ZYdNM1X7yzLd2G1": {
 			"height": 60,
-			"title": "repeat",
-			"width": 131,
-			"x": 1039,
-			"y": -64
-		},
-		"9fwABz17lKUhr5hVUQYBYFB2NsKc4Nh7": {
-			"height": 82,
-			"title": "NOTE",
-			"width": 426,
-			"x": 1191,
-			"y": 12
+			"title": "Update targetarea",
+			"width": 198,
+			"x": 1267,
+			"y": -234
 		},
 		"LeCVsxxzFukiagi9bConw6uNxOHVRAlp": {
 			"height": 92,
 			"title": "store",
 			"width": 276,
-			"x": 1025,
+			"x": 1036,
 			"y": 274
 		},
 		"M5i8dIWKqdJUzqqD1xjsOeuVbFi5bkOC": {
 			"height": 94,
 			"title": "store",
 			"width": 421,
-			"x": 1029,
+			"x": 1040,
 			"y": 182
-		},
-		"Mwex1M1PV7Exrn4UT9faCviHZtWcLSnL": {
-			"height": 112,
-			"title": "Reclaim metal at position",
-			"width": 409,
-			"x": 1194,
-			"y": -94
 		},
 		"PNh9waozPUX64yxSwxsU5YjKetXxc2KG": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 273,
+			"x": 275,
 			"y": 16
 		},
 		"UAu9k317axIsBJatTQgHbq3qQixtyzxD": {
 			"height": 72,
 			"title": "wait",
 			"width": 131,
-			"x": 1810,
-			"y": -268
+			"x": 1800,
+			"y": -376
 		},
 		"UWbnIpq3r3Q4qfQjooXceJfOr9oMXNoY": {
-			"height": 101,
+			"height": 97,
 			"title": "Reclaim the useless unit",
-			"width": 802,
-			"x": 1800,
-			"y": -366
+			"width": 783,
+			"x": 1790,
+			"y": -474
 		},
 		"UwtRvUJEIsQ3iHjKNDyNNOMnQOK9pnt1": {
 			"height": 103,
 			"title": "Does our fark exist?",
 			"width": 350,
-			"x": 445,
+			"x": 451,
 			"y": 1
 		},
 		"VZcPmBufiXXUKgReiZPzTOpYwBaGbSsq": {
 			"height": 60,
 			"title": "Get a fark",
 			"width": 144,
-			"x": 840,
+			"x": 852,
 			"y": 105
 		},
 		"WAIEMl2t6zoSVEy99d7qSNJOpfJPL9hW": {
 			"height": 54,
 			"title": "success",
 			"width": 132,
-			"x": 1499,
-			"y": -234
+			"x": 1493,
+			"y": -342
 		},
 		"adyfihLYO7ASSXMLilmXftNu6EIpqEWk": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 838,
+			"x": 850,
 			"y": -114
+		},
+		"d2qB447QpOLwBtDQpXMKhMy0YMzP1pYS": {
+			"height": 60,
+			"title": "Move and collect",
+			"width": 188,
+			"x": 1271,
+			"y": -115
 		},
 		"dFZ13ySVNHjkX0u1hhoJk8OoSmJJVnIS": {
 			"height": 93,
 			"title": "Are there spawn units we can scrap?",
 			"width": 417,
-			"x": 1030,
-			"y": -363
+			"x": 1033,
+			"y": -462
 		},
 		"eniEcf0vv9rIwIaFec9HfcI0pugFJL5f": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 1501,
-			"y": -350
+			"x": 1495,
+			"y": -458
+		},
+		"jCISbKmKcEejhgNOqDbb0CtefayljvYJ": {
+			"height": 92,
+			"title": "Move",
+			"width": 246,
+			"x": 2066,
+			"y": -48
+		},
+		"jJ5h7e3CFjBSoUz2uzNQrbQkwl8XsYhr": {
+			"height": 98,
+			"title": "store",
+			"width": 457,
+			"x": 1481,
+			"y": -253
+		},
+		"jv8QB5vUlBpNPQSS1vBfzgmuicqLGOeC": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1883,
+			"y": -150
+		},
+		"nFJmGAfO3ghOkdheucNOVD1Qwi9WnuGF": {
+			"height": 72,
+			"title": "wait",
+			"width": 131,
+			"x": 2069,
+			"y": -125
+		},
+		"njQ7C1NImBHfD6hhbEvms7GnFA8h09QB": {
+			"height": 91,
+			"title": "We move only when not enough metal",
+			"width": 324,
+			"x": 1482,
+			"y": -126
 		},
 		"o0BDhPVoqdJcoGHa2zdcYzac3NNkSPCF": {
 			"height": 92,
 			"title": "store",
 			"width": 202,
-			"x": 1025,
+			"x": 1036,
 			"y": 89
+		},
+		"uGdymTCvi2ep8j9WOigoNmi2pdhH8vxQ": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 1032,
+			"y": -121
 		},
 		"v9EvgrKmjhQnx5XuGyLMKtXsD0ZPUrrk": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 1639,
-			"y": -352
+			"x": 1632,
+			"y": -460
+		},
+		"vnwQKlk65vQrhScSojj8wom8NpJxqBT3": {
+			"height": 103,
+			"title": "Collect",
+			"width": 771,
+			"x": 2068,
+			"y": -229
 		}
 	},
 	"roles": [ {
@@ -198,53 +221,98 @@
 					"nodeType": "luaCondition",
 					"parameters": [ {
 						"name": "expression",
-						"value": "GetNotActiveUnits({\"armpeep\", \"armbox\", \"armwar\"}, {})[1]"
+						"value": "GetNotActiveUnits({\"armbox\", \"armwar\"}, {})[1]"
 					}, {
 						"name": "repeat",
 						"value": "true"
 					} ]
 				}, {
-					"children": [],
-					"id": "4GJopRV1v6vtqfFm2uEcv0HhymdEz7Ur",
-					"nodeType": "reference",
-					"parameters": [ {
-						"name": "behaviourName",
-						"value": "nota_kcky_exam.move_to_safe"
-					} ],
-					"referenceInputs": [ {
-						"name": "requests",
-						"value": "requests"
-					}, {
-						"name": "destination",
-						"value": "positionVariable"
-					}, {
-						"name": "myId",
-						"value": "fark"
-					} ],
-					"referenceOutputs": []
-				}, {
 					"children": [ {
-						"children": [],
-						"id": "Mwex1M1PV7Exrn4UT9faCviHZtWcLSnL",
-						"nodeType": "luaCommand",
-						"parameters": [ {
-							"name": "armfarkID",
-							"value": "fark"
-						}, {
-							"name": "reclaimPosition",
-							"value": "bb[positionVariable] + Vec3(800, 0, -750)"
-						}, {
-							"name": "reclaimRadius",
-							"value": "900"
-						}, {
-							"name": "scriptName",
-							"value": "nota_sirwok_exam.reclaimMetal"
+						"children": [ {
+							"children": [],
+							"id": "jJ5h7e3CFjBSoUz2uzNQrbQkwl8XsYhr",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "var",
+								"value": "area"
+							}, {
+								"name": "value",
+								"value": "{center = Vec3(Spring.GetUnitPosition(fark)), radius = 400}"
+							}, {
+								"name": "scriptName",
+								"value": "store"
+							} ],
+							"scriptName": "store"
 						} ],
-						"scriptName": "nota_sirwok_exam.reclaimMetal"
+						"id": "BPDkNKtfp4mWsNNV3ZYdNM1X7yzLd2G1",
+						"nodeType": "repeat",
+						"parameters": []
+					}, {
+						"children": [ {
+							"children": [ {
+								"children": [ {
+									"children": [],
+									"id": "vnwQKlk65vQrhScSojj8wom8NpJxqBT3",
+									"nodeType": "luaCommand",
+									"parameters": [ {
+										"name": "var",
+										"value": "_"
+									}, {
+										"name": "value",
+										"value": "Spring.GiveOrderToUnit(fark, CMD.RECLAIM,{area.center.x, area.center.y, area.center.z, area.radius},{})"
+									}, {
+										"name": "scriptName",
+										"value": "store"
+									} ],
+									"scriptName": "store"
+								}, {
+									"children": [],
+									"id": "nFJmGAfO3ghOkdheucNOVD1Qwi9WnuGF",
+									"nodeType": "wait",
+									"parameters": [ {
+										"name": "time",
+										"value": 10
+									} ]
+								} ],
+								"id": "jv8QB5vUlBpNPQSS1vBfzgmuicqLGOeC",
+								"nodeType": "sequence",
+								"parameters": []
+							}, {
+								"children": [],
+								"id": "jCISbKmKcEejhgNOqDbb0CtefayljvYJ",
+								"nodeType": "luaCommand",
+								"parameters": [ {
+									"name": "units",
+									"value": "{fark}"
+								}, {
+									"name": "positionRef",
+									"value": "positionVariable"
+								}, {
+									"name": "scriptName",
+									"value": "nota_kcky_exam.moveToRef"
+								} ],
+								"scriptName": "nota_kcky_exam.moveToRef"
+							} ],
+							"id": "njQ7C1NImBHfD6hhbEvms7GnFA8h09QB",
+							"nodeType": "luaCondition",
+							"parameters": [ {
+								"name": "expression",
+								"value": "nota_mestek_labs.MetalInArea(area) > 20"
+							}, {
+								"name": "repeat",
+								"value": "true"
+							} ]
+						} ],
+						"id": "d2qB447QpOLwBtDQpXMKhMy0YMzP1pYS",
+						"nodeType": "repeat",
+						"parameters": []
 					} ],
-					"id": "7v8EYASruvcBh9Qkd0neRB0EJnggziXM",
-					"nodeType": "repeat",
-					"parameters": []
+					"id": "uGdymTCvi2ep8j9WOigoNmi2pdhH8vxQ",
+					"nodeType": "parallel",
+					"parameters": [ {
+						"name": "mode",
+						"value": "all-success"
+					} ]
 				} ],
 				"id": "adyfihLYO7ASSXMLilmXftNu6EIpqEWk",
 				"nodeType": "sequence",

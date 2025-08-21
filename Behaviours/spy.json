@@ -8,7 +8,10 @@
 	},
 	"inputs": [ {
 		"command": "Variable",
-		"name": "offset"
+		"name": "startOffset"
+	}, {
+		"command": "Variable",
+		"name": "endOffset"
 	} ],
 	"outputs": [],
 	"properties": {
@@ -50,7 +53,7 @@
 		"IHEwZcNJoB16LSmwjr0xk2lD94F41UHp": {
 			"height": 92,
 			"title": "nota_krejci_exam.moveUnit",
-			"width": 263,
+			"width": 273,
 			"x": 1018,
 			"y": -168
 		},
@@ -125,7 +128,7 @@
 						"value": "spy"
 					}, {
 						"name": "position",
-						"value": "bb.safeMiddle + offset * 2"
+						"value": "bb.safeMiddle + startOffset"
 					}, {
 						"name": "scriptName",
 						"value": "nota_krejci_exam.moveUnit"
@@ -144,7 +147,7 @@
 							"value": "Vec3(10000, 0, 0)"
 						}, {
 							"name": "offset",
-							"value": "offset"
+							"value": "endOffset"
 						}, {
 							"name": "scriptName",
 							"value": "nota_kcky_exam.spySeek"

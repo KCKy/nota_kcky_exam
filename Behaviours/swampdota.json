@@ -13,57 +13,50 @@
 			"height": 73,
 			"title": "Buy",
 			"width": 196,
-			"x": 1656,
+			"x": 1682,
 			"y": -159
-		},
-		"2SUaS6C2EtHtxoCvJXyAwLJy03sXY5Fi": {
-			"height": 95,
-			"title": "Desired fark top position",
-			"width": 301,
-			"x": 659,
-			"y": -1089
 		},
 		"3qBZlqWec18dEUf7J2QixTvt0XqBi8om": {
 			"height": 70,
 			"title": "selector",
 			"width": 131,
-			"x": 800,
+			"x": 799,
 			"y": -254
 		},
 		"8m9PQDdxOzdZAyClpQQ1laHfmP97EtZk": {
 			"height": 94,
 			"title": "Mission info",
 			"width": 198,
-			"x": 1029,
+			"x": 1027,
 			"y": -743
 		},
 		"90V1MSlGMFrvx7K3i8b1dacmV9RFHJmo": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 848,
+			"x": 847,
 			"y": -535
 		},
 		"B9V7obLgd9g5MuujuXe38cIHQog3nnIc": {
 			"height": 78,
 			"title": "Upgrade",
 			"width": 225,
-			"x": 3290,
-			"y": 125
+			"x": 3281,
+			"y": 138
 		},
 		"D7Fxro5uhdYU3ppxscCpxhtH159EdgxH": {
 			"height": 89,
-			"title": "Spy with and an extra as a redundancy",
-			"width": 328,
-			"x": 1293,
+			"title": "We need multiple spies to have redundancy",
+			"width": 358,
+			"x": 1291,
 			"y": -165
 		},
 		"FvmoUY6E5nWMq1epCNaVQsVRT7t2MM0L": {
 			"height": 110,
 			"title": "Manager mavs",
 			"width": 285,
-			"x": 650,
-			"y": 674
+			"x": 652,
+			"y": 323
 		},
 		"GaS8hlfO0moKqoxgZgbu1D3AqW1aeNeT": {
 			"height": 57,
@@ -73,67 +66,60 @@
 			"y": -250
 		},
 		"Gsmy4rsLX6zkvyvcwLmlD1qUFbuXWzlq": {
-			"height": 151,
-			"title": "Atlas 1",
-			"width": 232,
-			"x": 652,
-			"y": 23
+			"height": 109,
+			"title": "Manage atlases",
+			"width": 283,
+			"x": 646,
+			"y": 12
 		},
 		"InGAQeESJ7Q3CLh6bQ3P1U7KRDp16otg": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 375,
+			"x": 376,
 			"y": 12
 		},
 		"Mty6z0iZQTOs3XTu97NoeGmYwreMj4g4": {
 			"height": 94,
 			"title": "Luger units partaking in battle",
 			"width": 323,
-			"x": 661,
-			"y": -900
+			"x": 660,
+			"y": -1083
 		},
 		"OmyNcbsGaXoHgL1g9lSdOBQEaQuESENU": {
 			"height": 73,
 			"title": "Buy",
 			"width": 196,
-			"x": 2643,
-			"y": 48
+			"x": 2628,
+			"y": 49
 		},
 		"PR16zrw2bpWnlfSZj5PZ9Z7pgI8tebGN": {
 			"height": 73,
 			"title": "Buy",
 			"width": 196,
-			"x": 1309,
+			"x": 1306,
 			"y": -257
 		},
 		"STyf99qTO2jihVuXvi86WPumevyJXqUf": {
 			"height": 94,
 			"title": "Mav units partaking in battle",
 			"width": 323,
-			"x": 659,
-			"y": -807
+			"x": 661,
+			"y": -989
 		},
 		"XY6JKLKw4jTN8ztCsiNbRibMi2QlAr7Y": {
 			"height": 95,
 			"title": "Current position at the middle lane",
 			"width": 330,
-			"x": 1033,
+			"x": 1031,
 			"y": -563
 		},
 		"XyHk9uwo2iH9GbRqZQcnEg2vaeDSv5Vq": {
 			"height": 89,
 			"title": "Buy mavs when we got enough lugers to advance",
-			"width": 532,
-			"x": 2036,
-			"y": 44
-		},
-		"YMh4i34SrBrEtmNg2ejOnaANGiG8o3uc": {
-			"height": 94,
-			"title": "Dummy table for atlas requests for other lanes",
-			"width": 441,
-			"x": 658,
-			"y": -1179
+			"width": 564,
+			"x": 2034,
+			"y": 39
 		},
 		"Z4YBZkkhTkKeBielYyPl5JdMGT8ge5iw": {
 			"height": 60,
@@ -145,65 +131,44 @@
 		"a6SkVW7nX7AVtjnPGIzrdWzdqkpfOB1c": {
 			"height": 90,
 			"title": "Upgrade middle lane when we got enough lugers to advance",
-			"width": 611,
-			"x": 2644,
-			"y": 125
-		},
-		"aG3VE9529DcHjKhvJHgtCQFV0IujiXKz": {
-			"height": 130,
-			"title": "Spy 2",
-			"width": 224,
-			"x": 653,
-			"y": 439
+			"width": 628,
+			"x": 2629,
+			"y": 133
 		},
 		"etgnKjIsaoGcfDjTi5SY4ZOe6i7t9VTx": {
 			"height": 94,
-			"title": "Atlas passenger request table for middle",
+			"title": "Atlas passenger request table",
 			"width": 441,
-			"x": 657,
-			"y": -1267
+			"x": 659,
+			"y": -1180
 		},
 		"fkYY2Jhj5La5jU9o2zdacgpasUWbz7Aw": {
-			"height": 130,
-			"title": "Spy 1",
-			"width": 224,
-			"x": 655,
-			"y": 312
-		},
-		"gzTxrAXKgSt5hgXxB2n588p2tLSM9HIe": {
-			"height": 151,
-			"title": "Atlas 2",
-			"width": 232,
-			"x": 655,
-			"y": 166
+			"height": 109,
+			"title": "Manage spys",
+			"width": 275,
+			"x": 648,
+			"y": 115
 		},
 		"i2AVwLBJMNxJX5Tx99x5nNKzxtevGEil": {
 			"height": 94,
 			"title": "Progress on the middle lane",
 			"width": 259,
-			"x": 1031,
+			"x": 1029,
 			"y": -653
 		},
 		"mA38pQMJzyyOJeh0iW3k1Ll78TlGp1iZ": {
 			"height": 92,
-			"title": "Keep 2 atlases for transport",
+			"title": "Keep atlases for transport",
 			"width": 324,
-			"x": 1652,
+			"x": 1674,
 			"y": -59
-		},
-		"oZAmyzKWDQrdPMw2Y0dTAKSTfUGNlLFZ": {
-			"height": 94,
-			"title": "Desired fark bottom position",
-			"width": 323,
-			"x": 661,
-			"y": -993
 		},
 		"pFdeRGmusmkEwejto0ELledanuFMwrKW": {
 			"height": 92,
-			"title": "We meed a fark for each lane",
+			"title": "We need farks",
 			"width": 292,
-			"x": 971,
-			"y": -261
+			"x": 969,
+			"y": -262
 		},
 		"qaKCzlLMVjVAc2DARUAflVIPgqLccwgx": {
 			"height": 60,
@@ -216,56 +181,56 @@
 			"height": 60,
 			"title": "Initialize",
 			"width": 143,
-			"x": 451,
+			"x": 452,
 			"y": -992
 		},
 		"s4ObQjGdjxTfXUqyUyi9smBiuKU0qVVB": {
 			"height": 96,
 			"title": "Desired fark middle position",
-			"width": 511,
-			"x": 1031,
+			"width": 726,
+			"x": 1029,
 			"y": -473
 		},
 		"tSLdEa7qE1G76UzPgaXoe4DE3buWrFsB": {
 			"height": 110,
 			"title": "Manage lugers",
 			"width": 285,
-			"x": 651,
-			"y": 565
+			"x": 649,
+			"y": 218
 		},
 		"vaiCJXRW2enG37NraxSQ5MutoZvpMF9m": {
 			"height": 74,
 			"title": "Wait for more metal",
 			"width": 207,
-			"x": 971,
+			"x": 969,
 			"y": -165
 		},
 		"wJiNUE0vXlBdzb9RsaW0R96Xs03Ndjwd": {
 			"height": 73,
 			"title": "Buy",
 			"width": 196,
-			"x": 3292,
-			"y": 200
+			"x": 3283,
+			"y": 216
 		},
 		"xGuBma2AU2Me37DGmgL6CQrACBxqczJM": {
 			"height": 110,
 			"title": "Manage farks",
 			"width": 277,
-			"x": 649,
-			"y": -92
+			"x": 643,
+			"y": -93
 		},
 		"zjCuGmXMrBGdnNWz3buthEuJxSYlFYfe": {
 			"height": 94,
 			"title": "Atlas destination for middle lane",
 			"width": 616,
-			"x": 1032,
+			"x": 1030,
 			"y": -382
 		},
 		"zzybwMQw6dGtYQWJGlR8AMRliYFHILGc": {
 			"height": 73,
 			"title": "Buy",
 			"width": 196,
-			"x": 2037,
+			"x": 2035,
 			"y": -48
 		}
 	},
@@ -285,51 +250,6 @@
 				}, {
 					"name": "value",
 					"value": "{}"
-				}, {
-					"name": "scriptName",
-					"value": "store"
-				} ],
-				"scriptName": "store"
-			}, {
-				"children": [],
-				"id": "YMh4i34SrBrEtmNg2ejOnaANGiG8o3uc",
-				"nodeType": "luaCommand",
-				"parameters": [ {
-					"name": "var",
-					"value": "bb.trash"
-				}, {
-					"name": "value",
-					"value": "{}"
-				}, {
-					"name": "scriptName",
-					"value": "store"
-				} ],
-				"scriptName": "store"
-			}, {
-				"children": [],
-				"id": "2SUaS6C2EtHtxoCvJXyAwLJy03sXY5Fi",
-				"nodeType": "luaCommand",
-				"parameters": [ {
-					"name": "var",
-					"value": "bb.farkTop"
-				}, {
-					"name": "value",
-					"value": "GetStrongpoints(\"Top\")[3].position"
-				}, {
-					"name": "scriptName",
-					"value": "store"
-				} ],
-				"scriptName": "store"
-			}, {
-				"children": [],
-				"id": "oZAmyzKWDQrdPMw2Y0dTAKSTfUGNlLFZ",
-				"nodeType": "luaCommand",
-				"parameters": [ {
-					"name": "var",
-					"value": "bb.farkBottom"
-				}, {
-					"name": "value",
-					"value": "GetStrongpoints(\"Bottom\")[3].position"
 				}, {
 					"name": "scriptName",
 					"value": "store"
@@ -426,7 +346,7 @@
 							"value": "bb.farkMiddle"
 						}, {
 							"name": "value",
-							"value": "bb.mavPos or GetMiddlePosition(bb.middleProgress - 0.05)"
+							"value": "bb.mavPos and (bb.mavPos + Vec3(-200, 0, 200)) or GetMiddlePosition(bb.middleProgress - 0.05)"
 						}, {
 							"name": "scriptName",
 							"value": "store"
@@ -441,7 +361,7 @@
 							"value": "bb.safeMiddle"
 						}, {
 							"name": "value",
-							"value": "(bb.mavPos or GetMiddlePosition(bb.middleProgress)) + Vec3(-200, 0, 200)"
+							"value": "(bb.mavPos or GetMiddlePosition(bb.middleProgress)) + Vec3(-400, 0, 400)"
 						}, {
 							"name": "scriptName",
 							"value": "store"
@@ -539,7 +459,7 @@
 										"nodeType": "luaCondition",
 										"parameters": [ {
 											"name": "expression",
-											"value": "ms.battleLines.GoodMiddle.extraSpawnSize + 2 < #GetNotActiveUnits({\"armmart\"}, {}) / 2"
+											"value": "ms.battleLines.GoodMiddle.extraSpawnSize + 3 < #GetNotActiveUnits({\"armmart\"}, {}) / 2.5"
 										}, {
 											"name": "repeat",
 											"value": "true"
@@ -549,7 +469,7 @@
 									"nodeType": "luaCondition",
 									"parameters": [ {
 										"name": "expression",
-										"value": "#GetNotActiveUnits({\"armmav\"}, {}) < #GetNotActiveUnits({\"armmart\"}, {}) / 2"
+										"value": "#GetNotActiveUnits({\"armmav\"}, {}) + 1 < #GetNotActiveUnits({\"armmart\"}, {}) / 2.5"
 									}, {
 										"name": "repeat",
 										"value": "true"
@@ -559,7 +479,7 @@
 								"nodeType": "luaCondition",
 								"parameters": [ {
 									"name": "expression",
-									"value": "#GetNotActiveUnits({\"armatlas\"}, {}) < 2"
+									"value": "#GetNotActiveUnits({\"armatlas\"}, {}) < 3"
 								}, {
 									"name": "repeat",
 									"value": "true"
@@ -569,7 +489,7 @@
 							"nodeType": "luaCondition",
 							"parameters": [ {
 								"name": "expression",
-								"value": "#GetNotActiveUnits({\"armspy\"}, {}) < 2"
+								"value": "#GetNotActiveUnits({\"armspy\"}, {}) < 3"
 							}, {
 								"name": "repeat",
 								"value": "true"
@@ -579,7 +499,7 @@
 						"nodeType": "luaCondition",
 						"parameters": [ {
 							"name": "expression",
-							"value": "#GetNotActiveUnits({\"armfark\"}, {}) < 3"
+							"value": "#GetNotActiveUnits({\"armfark\"}, {}) < 2"
 						}, {
 							"name": "repeat",
 							"value": "true"
@@ -619,31 +539,9 @@
 				"nodeType": "reference",
 				"parameters": [ {
 					"name": "behaviourName",
-					"value": "nota_kcky_exam.atlas"
+					"value": "nota_kcky_exam.atlas_manager"
 				} ],
-				"referenceInputs": [ {
-					"name": "requests",
-					"value": "\"middleRequests\""
-				}, {
-					"name": "destination",
-					"value": "\"safeMiddle\""
-				} ],
-				"referenceOutputs": []
-			}, {
-				"children": [],
-				"id": "gzTxrAXKgSt5hgXxB2n588p2tLSM9HIe",
-				"nodeType": "reference",
-				"parameters": [ {
-					"name": "behaviourName",
-					"value": "nota_kcky_exam.atlas"
-				} ],
-				"referenceInputs": [ {
-					"name": "requests",
-					"value": "\"middleRequests\""
-				}, {
-					"name": "destination",
-					"value": "\"safeMiddle\""
-				} ],
+				"referenceInputs": [],
 				"referenceOutputs": []
 			}, {
 				"children": [],
@@ -651,25 +549,9 @@
 				"nodeType": "reference",
 				"parameters": [ {
 					"name": "behaviourName",
-					"value": "nota_kcky_exam.spy"
+					"value": "nota_kcky_exam.spy_manager"
 				} ],
-				"referenceInputs": [ {
-					"name": "offset",
-					"value": "Vec3(-150, 0, -150)"
-				} ],
-				"referenceOutputs": []
-			}, {
-				"children": [],
-				"id": "aG3VE9529DcHjKhvJHgtCQFV0IujiXKz",
-				"nodeType": "reference",
-				"parameters": [ {
-					"name": "behaviourName",
-					"value": "nota_kcky_exam.spy"
-				} ],
-				"referenceInputs": [ {
-					"name": "offset",
-					"value": "Vec3(150, 0, 150)"
-				} ],
+				"referenceInputs": [],
 				"referenceOutputs": []
 			}, {
 				"children": [],

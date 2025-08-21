@@ -9,33 +9,19 @@
 	"inputs": [],
 	"outputs": [],
 	"properties": {
-		"0wE62gbjRYSg90kSyIK9B8Bm8QMGv5Ca": {
-			"height": 110,
-			"title": "Move",
-			"width": 263,
-			"x": 480,
-			"y": -23
-		},
 		"5YGjXwr9r8hYj42rXHz0XBDPlbeG1dOn": {
 			"height": 110,
 			"title": "Move",
 			"width": 263,
-			"x": 480,
-			"y": -130
+			"x": 486,
+			"y": 56
 		},
-		"Doi4JWQQwuZy8mWLfpc4YFYHCTlAmbRd": {
+		"GGnrnMAMNfed5DYbWzupLynnj4IKNsKx": {
 			"height": 110,
 			"title": "Move",
 			"width": 263,
-			"x": 484,
-			"y": 85
-		},
-		"LJUxvCdaTlgnR8a9qNcXNfrrzyNfqkOY": {
-			"height": 110,
-			"title": "Move",
-			"width": 263,
-			"x": 484,
-			"y": 194
+			"x": 483,
+			"y": 176
 		},
 		"VdgjVjx4eWdPl9ZikAJ6c9whsXNtHWNf": {
 			"height": 70,
@@ -48,8 +34,8 @@
 			"height": 110,
 			"title": "Move",
 			"width": 263,
-			"x": 477,
-			"y": -232
+			"x": 479,
+			"y": -53
 		},
 		"ycZuE8zEDk0WNeqpbP6F9PZoxuyWBRLw": {
 			"height": 109,
@@ -86,27 +72,7 @@
 			"referenceOutputs": []
 		}, {
 			"children": [],
-			"id": "0wE62gbjRYSg90kSyIK9B8Bm8QMGv5Ca",
-			"nodeType": "reference",
-			"parameters": [ {
-				"name": "behaviourName",
-				"value": "nota_kcky_exam.move_luger"
-			} ],
-			"referenceInputs": [],
-			"referenceOutputs": []
-		}, {
-			"children": [],
-			"id": "Doi4JWQQwuZy8mWLfpc4YFYHCTlAmbRd",
-			"nodeType": "reference",
-			"parameters": [ {
-				"name": "behaviourName",
-				"value": "nota_kcky_exam.move_luger"
-			} ],
-			"referenceInputs": [],
-			"referenceOutputs": []
-		}, {
-			"children": [],
-			"id": "LJUxvCdaTlgnR8a9qNcXNfrrzyNfqkOY",
+			"id": "GGnrnMAMNfed5DYbWzupLynnj4IKNsKx",
 			"nodeType": "reference",
 			"parameters": [ {
 				"name": "behaviourName",

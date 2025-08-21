@@ -9,33 +9,26 @@
 	"inputs": [],
 	"outputs": [],
 	"properties": {
-		"6FOdMgfuoJ4YmFjsdoLLg0pLiCln6uTH": {
-			"height": 110,
-			"title": "Move",
-			"width": 263,
-			"x": 477,
-			"y": -129
-		},
 		"LSpb2ub8ZlJ4LCzRTrZLFx6xeug3xpX0": {
 			"height": 110,
 			"title": "Move",
 			"width": 263,
-			"x": 476,
-			"y": 180
+			"x": 487,
+			"y": 109
 		},
 		"P8bPM2cFO6kV8pAigt3wnvLn2nBNgqqP": {
 			"height": 110,
 			"title": "Move",
 			"width": 263,
-			"x": 476,
-			"y": 76
+			"x": 486,
+			"y": 2
 		},
 		"dqCVLYIu3c94QPFfi4Q87222LNn5CjYp": {
 			"height": 109,
 			"title": "Battle",
 			"width": 225,
-			"x": 479,
-			"y": 290
+			"x": 491,
+			"y": 217
 		},
 		"t1uKdRXxXxODUwMVBcbw23tIWBMX23Di": {
 			"height": 70,
@@ -43,20 +36,6 @@
 			"width": 202,
 			"x": 213,
 			"y": 7
-		},
-		"u8ovECE0drO2afPKZwCqLKq3gWFq9ePU": {
-			"height": 110,
-			"title": "Move",
-			"width": 263,
-			"x": 478,
-			"y": -26
-		},
-		"zKWbH2Tswh7KuRIpRItJai6XsLQJXvVC": {
-			"height": 110,
-			"title": "Move",
-			"width": 263,
-			"x": 477,
-			"y": -235
 		}
 	},
 	"roles": [ {
@@ -65,36 +44,6 @@
 	} ],
 	"root": {
 		"children": [ {
-			"children": [],
-			"id": "zKWbH2Tswh7KuRIpRItJai6XsLQJXvVC",
-			"nodeType": "reference",
-			"parameters": [ {
-				"name": "behaviourName",
-				"value": "nota_kcky_exam.move_mav"
-			} ],
-			"referenceInputs": [],
-			"referenceOutputs": []
-		}, {
-			"children": [],
-			"id": "6FOdMgfuoJ4YmFjsdoLLg0pLiCln6uTH",
-			"nodeType": "reference",
-			"parameters": [ {
-				"name": "behaviourName",
-				"value": "nota_kcky_exam.move_mav"
-			} ],
-			"referenceInputs": [],
-			"referenceOutputs": []
-		}, {
-			"children": [],
-			"id": "u8ovECE0drO2afPKZwCqLKq3gWFq9ePU",
-			"nodeType": "reference",
-			"parameters": [ {
-				"name": "behaviourName",
-				"value": "nota_kcky_exam.move_mav"
-			} ],
-			"referenceInputs": [],
-			"referenceOutputs": []
-		}, {
 			"children": [],
 			"id": "P8bPM2cFO6kV8pAigt3wnvLn2nBNgqqP",
 			"nodeType": "reference",
