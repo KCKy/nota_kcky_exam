@@ -29,4 +29,4 @@ function Run(self, units, parameter)
     return RUNNING
 end
 
-function Reset(self) end
+function Reset() end

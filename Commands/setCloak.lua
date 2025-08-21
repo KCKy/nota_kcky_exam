@@ -36,4 +36,4 @@ function Run(self, units, params)
     return SUCCESS
 end
 
-function Reset(self) end
+function Reset() end

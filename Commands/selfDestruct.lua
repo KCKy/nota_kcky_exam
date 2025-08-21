@@ -23,4 +23,4 @@ function Run(self, units, parameters)
     return SUCCESS
 end
 
-function Reset(self) end
+function Reset() end

@@ -42,4 +42,4 @@ function Run(self, units, parameter)
 	return SUCCESS
 end
 
-function Reset(self) end
+function Reset() end

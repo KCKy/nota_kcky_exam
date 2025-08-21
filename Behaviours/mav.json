@@ -27,7 +27,7 @@
 			"height": 60,
 			"title": "Update information",
 			"width": 202,
-			"x": 492,
+			"x": 494,
 			"y": -180
 		},
 		"BZUKqxTNFGXLcJUFqRCX7vERkgaSfILa": {
@@ -41,7 +41,7 @@
 			"height": 160,
 			"title": "Move to specified line and fire at will",
 			"width": 289,
-			"x": 745,
+			"x": 747,
 			"y": 359
 		},
 		"NHwolEZwTRkjZW7bNeGDCt6175z4MbhM": {
@@ -49,7 +49,7 @@
 			"title": "Move close but safe to shika",
 			"width": 377,
 			"x": 1962,
-			"y": 58
+			"y": 59
 		},
 		"P3V9b06HIhg3N0hoCA7PAF2ieyJANrp7": {
 			"height": 100,
@@ -69,7 +69,7 @@
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 726,
+			"x": 728,
 			"y": -179
 		},
 		"hBeSAZhewOgZUmjhhY99o1mfxrQar2a7": {
@@ -83,14 +83,14 @@
 			"height": 92,
 			"title": "Keep the middle position",
 			"width": 237,
-			"x": 1965,
-			"y": 154
+			"x": 1964,
+			"y": 158
 		},
 		"t6JGwTOseOMPbZaKqkBXqRgHBd3kjRyy": {
 			"height": 60,
 			"title": "Do battle",
 			"width": 194,
-			"x": 512,
+			"x": 514,
 			"y": 392
 		},
 		"wKmI40bzvdlg5J7tYdEbwTxZcaT4hqrd": {
@@ -164,7 +164,7 @@
 								"value": "bb.mavPos"
 							}, {
 								"name": "value",
-								"value": "shika + Vec3(-700, 0, 700)"
+								"value": "shika + Vec3(-520, 0, 520)"
 							}, {
 								"name": "scriptName",
 								"value": "store"
@@ -190,7 +190,7 @@
 						"nodeType": "luaCondition",
 						"parameters": [ {
 							"name": "expression",
-							"value": "shika and (ProjectMiddle(shika) < bb.middleProgress + 0.08)"
+							"value": "shika and (ProjectMiddle(shika) < bb.middleProgress + 0.07)"
 						}, {
 							"name": "repeat",
 							"value": "true"

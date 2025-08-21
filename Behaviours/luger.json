@@ -9,96 +9,145 @@
 	"inputs": [],
 	"outputs": [],
 	"properties": {
+		"2C6G82JrgePLIdqPlkZmlWp9jt3zfinq": {
+			"height": 92,
+			"title": "Fire",
+			"width": 222,
+			"x": 1671,
+			"y": 131
+		},
+		"C636F66xnnlvgsA6dxfwxniB1vd3GIix": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1921,
+			"y": 50
+		},
 		"CCF7fmZ8iqHKEl1CSwRGpetWy6yHROLA": {
 			"height": 100,
 			"title": "Find the closest tower id",
 			"width": 443,
-			"x": 930,
+			"x": 938,
 			"y": -347
 		},
 		"F5USeizc1yS35CpDpfjZkycscLmhRbzo": {
 			"height": 96,
 			"title": "Are we too close to the battle line?",
-			"width": 704,
-			"x": 930,
+			"width": 712,
+			"x": 938,
 			"y": -144
 		},
 		"G1qULBysxuPrAS3xcN8wYDCimuIemjRt": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 738,
+			"x": 747,
 			"y": -83
 		},
 		"Kn7ahwwyokSD64UqvDLeHXFYKaWcVNTy": {
 			"height": 92,
 			"title": "Forget about the tower",
 			"width": 239,
-			"x": 1674,
+			"x": 1691,
 			"y": -143
 		},
 		"PZiuW7xSWtmUqvqHOOznsOQnLKFJj2IQ": {
 			"height": 60,
 			"title": "Update information",
 			"width": 202,
-			"x": 509,
+			"x": 514,
 			"y": -82
 		},
 		"QWuXXIwoRXxt83lmV05yz9iiaZxmBTh0": {
 			"height": 104,
 			"title": "Take out the dead",
 			"width": 552,
-			"x": 928,
+			"x": 936,
 			"y": -449
 		},
+		"QvPrDWWViQ0jAQCND0Wxt85EGa1JzwMm": {
+			"height": 94,
+			"title": "store",
+			"width": 385,
+			"x": 2101,
+			"y": -95
+		},
 		"SKHvtQgIGNRGai3btxe3ZazpqdJLCCca": {
-			"height": 101,
-			"title": "Take out the dead",
-			"width": 439,
-			"x": 926,
-			"y": -241
+			"height": 100,
+			"title": "Determine luger position",
+			"width": 680,
+			"x": 938,
+			"y": -244
 		},
 		"ZIBLmg8nHphUjIyxWGNmWXu6a7D1yUbf": {
 			"height": 54,
 			"title": "No need to retreat",
 			"width": 197,
-			"x": 1673,
+			"x": 1692,
 			"y": -54
 		},
-		"c5lI6Vg9qzubmQu9nLQLdG3y1SIHuxTN": {
-			"height": 96,
-			"title": "Fire at the shika",
-			"width": 184,
-			"x": 1129,
-			"y": 53
+		"ZIJM3niz3MZWX599zkpgk6cprl0eIYY8": {
+			"height": 94,
+			"title": "store",
+			"width": 326,
+			"x": 2100,
+			"y": 102
+		},
+		"cfaX7VBUyWu5GFeZAVQS6YQLUNDRDurr": {
+			"height": 166,
+			"title": "Move forward and fire at will",
+			"width": 239,
+			"x": 1391,
+			"y": 242
 		},
 		"gejpEmfYGlgg0dYXu4dpQ4nmAVYWc6e9": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 274,
+			"x": 277,
 			"y": 8
 		},
 		"h2WqoPqSmetainT1tLS9XOACSYGpBBfC": {
 			"height": 60,
 			"title": "Do battle",
 			"width": 163,
-			"x": 518,
+			"x": 524,
 			"y": 133
 		},
 		"ibhMpbXzKg0ioVVqdpgtCQIjZRW06E4p": {
-			"height": 166,
-			"title": "Move forward and fire at will",
+			"height": 156,
+			"title": "Get close to fire",
 			"width": 239,
-			"x": 1130,
-			"y": 161
+			"x": 1670,
+			"y": 232
 		},
 		"v5z3wH24aZLpNAfTzB3qngaKo6pJDL34": {
 			"height": 88,
 			"title": "Is there a shika to attack and mavs to support us?",
-			"width": 398,
-			"x": 699,
+			"width": 618,
+			"x": 707,
 			"y": 126
+		},
+		"waSeY4N9EpCUN3C2Edvu8hk4MuwCdYRK": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 1395,
+			"y": 138
+		},
+		"zoVKcfIfYPWZLN0WnUI2x3HU3SdKdRy3": {
+			"height": 94,
+			"title": "store",
+			"width": 326,
+			"x": 2100,
+			"y": 2
+		},
+		"zwaiFZ8FxO529Ejt17o0YJVoWxj0j85H": {
+			"height": 60,
+			"title": "Split close and far units",
+			"width": 228,
+			"x": 1673,
+			"y": 50
 		}
 	},
 	"roles": [ {
@@ -129,7 +178,7 @@
 					"nodeType": "luaCommand",
 					"parameters": [ {
 						"name": "var",
-						"value": "tower"
+						"value": "bb.lugerTarget"
 					}, {
 						"name": "value",
 						"value": "nota_kcky_exam.FindClosestEnemyTowerID(\"Middle\")"
@@ -147,7 +196,7 @@
 						"value": "bb.lugerPos"
 					}, {
 						"name": "value",
-						"value": "(bb.mavPos or bb.middlePosition) - Vec3(300, 0, -300)"
+						"value": "bb.mavPos and (bb.mavPos - Vec3(100, 0, -100)) or (bb.middlePosition - Vec3(400, 0, -400)) "
 					}, {
 						"name": "scriptName",
 						"value": "store"
@@ -160,7 +209,7 @@
 						"nodeType": "luaCommand",
 						"parameters": [ {
 							"name": "var",
-							"value": "tower"
+							"value": "bb.lugerTarget"
 						}, {
 							"name": "value",
 							"value": "nil"
@@ -179,7 +228,7 @@
 					"nodeType": "luaCondition",
 					"parameters": [ {
 						"name": "expression",
-						"value": "bb.lugers[1] and (ProjectMiddle(Vec3(Spring.GetUnitPosition(bb.lugers[1]))) > bb.middleProgress - 0.03)"
+						"value": "bb.lugers[1] and (ProjectMiddle(Vec3(Spring.GetUnitPosition(bb.lugers[1]))) > bb.middleProgress - 0.005)"
 					}, {
 						"name": "repeat",
 						"value": "false"
@@ -195,23 +244,110 @@
 		}, {
 			"children": [ {
 				"children": [ {
-					"children": [],
-					"id": "c5lI6Vg9qzubmQu9nLQLdG3y1SIHuxTN",
-					"nodeType": "luaCommand",
-					"parameters": [ {
-						"name": "unitsIDs",
-						"value": "bb.lugers"
+					"children": [ {
+						"children": [ {
+							"children": [ {
+								"children": [],
+								"id": "QvPrDWWViQ0jAQCND0Wxt85EGa1JzwMm",
+								"nodeType": "luaCommand",
+								"parameters": [ {
+									"name": "var",
+									"value": "split"
+								}, {
+									"name": "value",
+									"value": "SplitByDistance(bb.lugers, bb.lugerTarget, 895)"
+								}, {
+									"name": "scriptName",
+									"value": "store"
+								} ],
+								"scriptName": "store"
+							}, {
+								"children": [],
+								"id": "zoVKcfIfYPWZLN0WnUI2x3HU3SdKdRy3",
+								"nodeType": "luaCommand",
+								"parameters": [ {
+									"name": "var",
+									"value": "bb.farLugers"
+								}, {
+									"name": "value",
+									"value": "split.far"
+								}, {
+									"name": "scriptName",
+									"value": "store"
+								} ],
+								"scriptName": "store"
+							}, {
+								"children": [],
+								"id": "ZIJM3niz3MZWX599zkpgk6cprl0eIYY8",
+								"nodeType": "luaCommand",
+								"parameters": [ {
+									"name": "var",
+									"value": "bb.closeLugers"
+								}, {
+									"name": "value",
+									"value": "split.close"
+								}, {
+									"name": "scriptName",
+									"value": "store"
+								} ],
+								"scriptName": "store"
+							} ],
+							"id": "C636F66xnnlvgsA6dxfwxniB1vd3GIix",
+							"nodeType": "sequence",
+							"parameters": []
+						} ],
+						"id": "zwaiFZ8FxO529Ejt17o0YJVoWxj0j85H",
+						"nodeType": "repeat",
+						"parameters": []
 					}, {
-						"name": "targetUnitID",
-						"value": "tower"
+						"children": [],
+						"id": "2C6G82JrgePLIdqPlkZmlWp9jt3zfinq",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "unitsVariable",
+							"value": "\"closeLugers\""
+						}, {
+							"name": "targetVariable",
+							"value": "\"lugerTarget\""
+						}, {
+							"name": "scriptName",
+							"value": "nota_kcky_exam.fireAt"
+						} ],
+						"scriptName": "nota_kcky_exam.fireAt"
 					}, {
-						"name": "scriptName",
-						"value": "nota_mestek_labs.fireAt"
+						"children": [],
+						"id": "ibhMpbXzKg0ioVVqdpgtCQIjZRW06E4p",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "unitsVariable",
+							"value": "\"farLugers\""
+						}, {
+							"name": "positionVariable",
+							"value": "\"lugerPos\""
+						}, {
+							"name": "direction",
+							"value": "Vec3(10, 0, -10)"
+						}, {
+							"name": "gap",
+							"value": "50"
+						}, {
+							"name": "attack",
+							"value": "false"
+						}, {
+							"name": "scriptName",
+							"value": "nota_kcky_exam.moveWing"
+						} ],
+						"scriptName": "nota_kcky_exam.moveWing"
 					} ],
-					"scriptName": "nota_mestek_labs.fireAt"
+					"id": "waSeY4N9EpCUN3C2Edvu8hk4MuwCdYRK",
+					"nodeType": "parallel",
+					"parameters": [ {
+						"name": "mode",
+						"value": "all-success"
+					} ]
 				}, {
 					"children": [],
-					"id": "ibhMpbXzKg0ioVVqdpgtCQIjZRW06E4p",
+					"id": "cfaX7VBUyWu5GFeZAVQS6YQLUNDRDurr",
 					"nodeType": "luaCommand",
 					"parameters": [ {
 						"name": "unitsVariable",
@@ -238,7 +374,7 @@
 				"nodeType": "luaCondition",
 				"parameters": [ {
 					"name": "expression",
-					"value": "tower and bb.mavPos"
+					"value": "bb.lugerTarget and bb.mavPos"
 				}, {
 					"name": "repeat",
 					"value": "true"
