@@ -16,7 +16,7 @@
 			"height": 94,
 			"title": "store",
 			"width": 421,
-			"x": 1007,
+			"x": 1006,
 			"y": 157
 		},
 		"9DdSIk25zemuhLoatdQg5V1z6wYIZ76P": {
@@ -30,15 +30,8 @@
 			"height": 172,
 			"title": "Move to the battleline",
 			"width": 278,
-			"x": 1014,
+			"x": 1013,
 			"y": -340
-		},
-		"C0di5CHNMG7LjGnJxePyP8KYKD7mHyRe": {
-			"height": 92,
-			"title": "Move a bit to the side to not get hit accidentally",
-			"width": 378,
-			"x": 1019,
-			"y": -168
 		},
 		"CuCVMIdZXvUNwTyvovzkZh2ViWi17QJ1": {
 			"height": 60,
@@ -51,42 +44,49 @@
 			"height": 103,
 			"title": "Does our spy exist?",
 			"width": 350,
-			"x": 430,
+			"x": 431,
 			"y": 8
+		},
+		"IHEwZcNJoB16LSmwjr0xk2lD94F41UHp": {
+			"height": 92,
+			"title": "nota_krejci_exam.moveUnit",
+			"width": 263,
+			"x": 1018,
+			"y": -168
 		},
 		"KBaezOsBDuGrBWvB3OoLRZGGlkQ48aJq": {
 			"height": 112,
-			"title": "Seek shikas to highlight them",
+			"title": "Seek towers to highlight them",
 			"width": 258,
-			"x": 1173,
+			"x": 1172,
 			"y": -72
 		},
 		"O2fdihnuSksgE79ndqe6p5EvCFOrQ2b6": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 276,
+			"x": 277,
 			"y": 24
 		},
 		"c4e3tE00PxL1U1c9jRmoq8B3BpBvUnvo": {
 			"height": 92,
 			"title": "store",
 			"width": 210,
-			"x": 1003,
+			"x": 1002,
 			"y": 64
 		},
 		"i1YQRM9lCkA1DOfv9VscCDmK4Gey3qji": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 1017,
+			"x": 1016,
 			"y": -56
 		},
 		"uiGdDtHfdYnITNq3pKvr8OkkogheijVB": {
 			"height": 92,
 			"title": "store",
 			"width": 292,
-			"x": 1008,
+			"x": 1007,
 			"y": 251
 		}
 	},
@@ -118,19 +118,19 @@
 					"referenceOutputs": []
 				}, {
 					"children": [],
-					"id": "C0di5CHNMG7LjGnJxePyP8KYKD7mHyRe",
+					"id": "IHEwZcNJoB16LSmwjr0xk2lD94F41UHp",
 					"nodeType": "luaCommand",
 					"parameters": [ {
-						"name": "unitID",
+						"name": "unit",
 						"value": "spy"
 					}, {
-						"name": "path",
-						"value": "{bb.safeMiddle + offset * 2}"
+						"name": "position",
+						"value": "bb.safeMiddle + offset * 2"
 					}, {
 						"name": "scriptName",
-						"value": "nota_mestek_labs.followPath"
+						"value": "nota_krejci_exam.moveUnit"
 					} ],
-					"scriptName": "nota_mestek_labs.followPath"
+					"scriptName": "nota_krejci_exam.moveUnit"
 				}, {
 					"children": [ {
 						"children": [],

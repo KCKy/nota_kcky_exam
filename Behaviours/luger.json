@@ -11,7 +11,7 @@
 	"properties": {
 		"CCF7fmZ8iqHKEl1CSwRGpetWy6yHROLA": {
 			"height": 100,
-			"title": "Find the closest shika id",
+			"title": "Find the closest tower id",
 			"width": 443,
 			"x": 924,
 			"y": -285
@@ -27,12 +27,12 @@
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 730,
+			"x": 731,
 			"y": -21
 		},
 		"Kn7ahwwyokSD64UqvDLeHXFYKaWcVNTy": {
 			"height": 92,
-			"title": "Forget about the shika",
+			"title": "Forget about the tower",
 			"width": 239,
 			"x": 1669,
 			"y": -81
@@ -41,7 +41,7 @@
 			"height": 60,
 			"title": "Update information",
 			"width": 202,
-			"x": 510,
+			"x": 511,
 			"y": -21
 		},
 		"QWuXXIwoRXxt83lmV05yz9iiaZxmBTh0": {
@@ -76,14 +76,14 @@
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 271,
+			"x": 272,
 			"y": 8
 		},
 		"h2WqoPqSmetainT1tLS9XOACSYGpBBfC": {
 			"height": 60,
 			"title": "Do battle",
 			"width": 163,
-			"x": 515,
+			"x": 516,
 			"y": 133
 		},
 		"ibhMpbXzKg0ioVVqdpgtCQIjZRW06E4p": {
@@ -97,7 +97,7 @@
 			"height": 88,
 			"title": "Is there a shika to attack?",
 			"width": 244,
-			"x": 697,
+			"x": 698,
 			"y": 126
 		}
 	},
@@ -129,7 +129,7 @@
 					"nodeType": "luaCommand",
 					"parameters": [ {
 						"name": "var",
-						"value": "shika"
+						"value": "tower"
 					}, {
 						"name": "value",
 						"value": "nota_kcky_exam.FindClosestEnemyTowerID(\"Middle\")"
@@ -160,7 +160,7 @@
 						"nodeType": "luaCommand",
 						"parameters": [ {
 							"name": "var",
-							"value": "shika"
+							"value": "tower"
 						}, {
 							"name": "value",
 							"value": "nil"
@@ -203,7 +203,7 @@
 						"value": "bb.lugers"
 					}, {
 						"name": "targetUnitID",
-						"value": "shika"
+						"value": "tower"
 					}, {
 						"name": "scriptName",
 						"value": "nota_mestek_labs.fireAt"
@@ -238,7 +238,7 @@
 				"nodeType": "luaCondition",
 				"parameters": [ {
 					"name": "expression",
-					"value": "shika"
+					"value": "tower"
 				}, {
 					"name": "repeat",
 					"value": "true"

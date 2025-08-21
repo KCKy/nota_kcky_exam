@@ -2,7 +2,7 @@ function getInfo()
 	return
 	{
 		onNoUnits = SUCCESS,
-		tooltip = "Make spy seek to the closes shika tower on the middle line (adapted from nota_sirwok_exam)",
+		tooltip = "Make spy seek to the closes tower tower on the middle line (adapted from nota_sirwok_exam)",
 		parameterDefs =
 		{
 			{ 
@@ -28,8 +28,8 @@ function getInfo()
 end
 
 function Run(self, units, parameter)
-    local shika = Sensors.nota_kcky_exam.FindClosestEnemyTowerID("Middle")
-	shika = shika and Vec3(Spring.GetUnitPosition(shika))
+    local tower = Sensors.nota_kcky_exam.FindClosestEnemyTowerID("Middle")
+	tower = tower and Vec3(Spring.GetUnitPosition(tower))
     local seek_pos = parameter.seekPosition
 	if parameter.spyID == nil or parameter.seekPosition == nil then
 		return FAILURE
@@ -41,9 +41,9 @@ function Run(self, units, parameter)
 
     local x,y,z = Spring.GetUnitPosition(parameter.spyID)
 
-    if shika ~= nil then
+    if tower ~= nil then
         Spring.GiveOrderToUnit(parameter.spyID, CMD.STOP,{},{})
-        Spring.GiveOrderToUnit(parameter.spyID, CMD.MOVE, (shika+parameter.offset):AsSpringVector(),{})
+        Spring.GiveOrderToUnit(parameter.spyID, CMD.MOVE, (tower+parameter.offset):AsSpringVector(),{})
 		return SUCCESS
 	end
 
