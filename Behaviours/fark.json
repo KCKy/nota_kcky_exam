@@ -41,13 +41,6 @@
 			"x": 1039,
 			"y": -64
 		},
-		"9LqwO7o9jlx7hpWR5vntxk3FKovws9yc": {
-			"height": 60,
-			"title": "repeat",
-			"width": 131,
-			"x": 1464,
-			"y": -351
-		},
 		"9fwABz17lKUhr5hVUQYBYFB2NsKc4Nh7": {
 			"height": 82,
 			"title": "NOTE",
@@ -83,19 +76,19 @@
 			"x": 273,
 			"y": 16
 		},
-		"QSsKfJFgWN4RYFrYcxqAnBmxcMeY1Sjq": {
+		"UAu9k317axIsBJatTQgHbq3qQixtyzxD": {
 			"height": 72,
 			"title": "wait",
 			"width": 131,
-			"x": 1804,
-			"y": -298
+			"x": 1810,
+			"y": -268
 		},
 		"UWbnIpq3r3Q4qfQjooXceJfOr9oMXNoY": {
 			"height": 101,
 			"title": "Reclaim the useless unit",
 			"width": 802,
 			"x": 1800,
-			"y": -400
+			"y": -366
 		},
 		"UwtRvUJEIsQ3iHjKNDyNNOMnQOK9pnt1": {
 			"height": 103,
@@ -108,21 +101,21 @@
 			"height": 60,
 			"title": "Get a fark",
 			"width": 144,
-			"x": 839,
+			"x": 840,
 			"y": 105
 		},
-		"ViM172dQiPeChr5A5egVx2DJZuMQnJXo": {
-			"height": 60,
-			"title": "sequence",
-			"width": 143,
-			"x": 1616,
-			"y": -353
+		"WAIEMl2t6zoSVEy99d7qSNJOpfJPL9hW": {
+			"height": 54,
+			"title": "success",
+			"width": 132,
+			"x": 1499,
+			"y": -234
 		},
 		"adyfihLYO7ASSXMLilmXftNu6EIpqEWk": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 837,
+			"x": 838,
 			"y": -114
 		},
 		"dFZ13ySVNHjkX0u1hhoJk8OoSmJJVnIS": {
@@ -132,12 +125,26 @@
 			"x": 1030,
 			"y": -363
 		},
+		"eniEcf0vv9rIwIaFec9HfcI0pugFJL5f": {
+			"height": 60,
+			"title": "repeat",
+			"width": 131,
+			"x": 1501,
+			"y": -350
+		},
 		"o0BDhPVoqdJcoGHa2zdcYzac3NNkSPCF": {
 			"height": 92,
 			"title": "store",
 			"width": 202,
 			"x": 1025,
 			"y": 89
+		},
+		"v9EvgrKmjhQnx5XuGyLMKtXsD0ZPUrrk": {
+			"height": 60,
+			"title": "sequence",
+			"width": 143,
+			"x": 1639,
+			"y": -352
 		}
 	},
 	"roles": [ {
@@ -159,7 +166,7 @@
 									"value": "_"
 								}, {
 									"name": "value",
-									"value": "Spring.GiveOrderToUnit(GetNotActiveUnits({\"armpeep\", \"armbox\", \"armwar\"}, {})[1], CMD.RECLAIM, {target}, {})"
+									"value": "Spring.GiveOrderToUnit(fark, CMD.RECLAIM, {GetNotActiveUnits({\"armpeep\", \"armbox\", \"armwar\"}, {})[1]}, {})"
 								}, {
 									"name": "scriptName",
 									"value": "store"
@@ -167,19 +174,24 @@
 								"scriptName": "store"
 							}, {
 								"children": [],
-								"id": "QSsKfJFgWN4RYFrYcxqAnBmxcMeY1Sjq",
+								"id": "UAu9k317axIsBJatTQgHbq3qQixtyzxD",
 								"nodeType": "wait",
 								"parameters": [ {
 									"name": "time",
 									"value": 5
 								} ]
 							} ],
-							"id": "ViM172dQiPeChr5A5egVx2DJZuMQnJXo",
+							"id": "v9EvgrKmjhQnx5XuGyLMKtXsD0ZPUrrk",
 							"nodeType": "sequence",
 							"parameters": []
 						} ],
-						"id": "9LqwO7o9jlx7hpWR5vntxk3FKovws9yc",
+						"id": "eniEcf0vv9rIwIaFec9HfcI0pugFJL5f",
 						"nodeType": "repeat",
+						"parameters": []
+					}, {
+						"children": [],
+						"id": "WAIEMl2t6zoSVEy99d7qSNJOpfJPL9hW",
+						"nodeType": "success",
 						"parameters": []
 					} ],
 					"id": "dFZ13ySVNHjkX0u1hhoJk8OoSmJJVnIS",
