@@ -25,7 +25,7 @@
 		},
 		"BVh6VrU5juAdr7rSELAXKEplxNx4I5Ny": {
 			"height": 103,
-			"title": "Does our unit exist?",
+			"title": "Does our mav exist?",
 			"width": 350,
 			"x": 430,
 			"y": 8
@@ -39,17 +39,17 @@
 		},
 		"IAHrO7IqaNsZzotqeSXq88UivWgalsIW": {
 			"height": 102,
-			"title": "store",
+			"title": "Add unit to battle",
 			"width": 226,
 			"x": 1019,
-			"y": -115
+			"y": -114
 		},
 		"Khm1VvnLHNHnEMzgNdWddXmYUK2eyTmZ": {
 			"height": 173,
-			"title": "reference",
-			"width": 269,
-			"x": 1013,
-			"y": -286
+			"title": "Move to the battleline",
+			"width": 278,
+			"x": 1015,
+			"y": -288
 		},
 		"UgP8QhsbxBz8L5ag2PTKkMr9gDFwqQif": {
 			"height": 60,
@@ -60,10 +60,10 @@
 		},
 		"UjWpYLB0DPTyaEfH21dtRFmva7dqYaqr": {
 			"height": 102,
-			"title": "store",
+			"title": "Reset",
 			"width": 226,
-			"x": 1027,
-			"y": -13
+			"x": 1019,
+			"y": -12
 		},
 		"VhUjN54DBKvSrneBCMeUXAQCU14wxc1O": {
 			"height": 92,
@@ -73,11 +73,11 @@
 			"y": 97
 		},
 		"Y8T7GzXH6uFhLse7UhdVBEmEYFyFqclh": {
-			"height": 72,
-			"title": "nota_kcky_exam.disableMoveState",
-			"width": 285,
-			"x": 1024,
-			"y": -368
+			"height": 78,
+			"title": "Order mav to not move to seek fights",
+			"width": 296,
+			"x": 1015,
+			"y": -367
 		},
 		"s5KgdAiIntD3b94u0GYLXup2C8ts6b8k": {
 			"height": 94,

@@ -16,50 +16,50 @@
 			"height": 94,
 			"title": "store",
 			"width": 421,
-			"x": 1013,
-			"y": 190
+			"x": 1007,
+			"y": 157
 		},
 		"9DdSIk25zemuhLoatdQg5V1z6wYIZ76P": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 825,
-			"y": -76
+			"x": 824,
+			"y": -67
 		},
 		"BAep1PRKM6RSa51wk3NbDuqlx5fdbxqa": {
-			"height": 173,
-			"title": "reference",
-			"width": 274,
+			"height": 172,
+			"title": "Move to the battleline",
+			"width": 278,
 			"x": 1014,
-			"y": -342
+			"y": -340
 		},
 		"C0di5CHNMG7LjGnJxePyP8KYKD7mHyRe": {
-			"height": 94,
-			"title": "nota_mestek_labs.followPath",
-			"width": 314,
-			"x": 1024,
-			"y": -170
+			"height": 92,
+			"title": "Move a bit to the side to not get hit accidentally",
+			"width": 378,
+			"x": 1019,
+			"y": -168
 		},
 		"CuCVMIdZXvUNwTyvovzkZh2ViWi17QJ1": {
 			"height": 60,
-			"title": "sequence",
-			"width": 143,
-			"x": 823,
-			"y": 113
+			"title": "Get a spy",
+			"width": 166,
+			"x": 817,
+			"y": 80
 		},
 		"EiagLF9EoAF0T7LuRLo4fSBScwUI2vp9": {
 			"height": 103,
-			"title": "Does our unit exist?",
+			"title": "Does our spy exist?",
 			"width": 350,
 			"x": 430,
 			"y": 8
 		},
 		"KBaezOsBDuGrBWvB3OoLRZGGlkQ48aJq": {
 			"height": 112,
-			"title": "nota_kcky_exam.spySeek",
-			"width": 246,
-			"x": 1196,
-			"y": -75
+			"title": "Seek shikas to highlight them",
+			"width": 258,
+			"x": 1173,
+			"y": -72
 		},
 		"O2fdihnuSksgE79ndqe6p5EvCFOrQ2b6": {
 			"height": 60,
@@ -72,22 +72,22 @@
 			"height": 92,
 			"title": "store",
 			"width": 210,
-			"x": 1009,
-			"y": 97
+			"x": 1003,
+			"y": 64
 		},
 		"i1YQRM9lCkA1DOfv9VscCDmK4Gey3qji": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 1039,
-			"y": -63
+			"x": 1017,
+			"y": -56
 		},
 		"uiGdDtHfdYnITNq3pKvr8OkkogheijVB": {
 			"height": 92,
 			"title": "store",
 			"width": 292,
-			"x": 1014,
-			"y": 284
+			"x": 1008,
+			"y": 251
 		}
 	},
 	"roles": [ {

@@ -20,101 +20,101 @@
 	"properties": {
 		"A7RDLjiCX7iWFevIKYUMMIB2hSH7BXGc": {
 			"height": 90,
-			"title": "luaCondition",
-			"width": 228,
+			"title": "Check if our request was accepted",
+			"width": 300,
 			"x": 755,
 			"y": 11
 		},
 		"CK8TBLrgqSZegDnrakVb68wR8vi8zXNx": {
 			"height": 94,
-			"title": "store",
+			"title": "Register for atlas transport",
 			"width": 260,
-			"x": 747,
-			"y": -123
+			"x": 746,
+			"y": -124
 		},
 		"EnQrnrEegaaHQtUD48EUc8vVDc5qqyOH": {
 			"height": 72,
 			"title": "wait",
 			"width": 131,
-			"x": 1737,
-			"y": 220
+			"x": 1847,
+			"y": 214
 		},
 		"KnBc9XsaZhLRtDsQAQoRhzfzilUhanLf": {
-			"height": 81,
-			"title": "waitUntil",
-			"width": 353,
-			"x": 753,
-			"y": 261
+			"height": 86,
+			"title": "Wait to not be carried by an atlas",
+			"width": 348,
+			"x": 744,
+			"y": 258
 		},
 		"ck6Yl9PFE9GvZK4SGBp511Tm8HGd0mNf": {
 			"height": 54,
 			"title": "success",
 			"width": 132,
-			"x": 1565,
-			"y": 54
+			"x": 1560,
+			"y": 60
 		},
 		"eZilIqgNpHZs6kCK3pRpiRzxVw7MmJmn": {
 			"height": 72,
-			"title": "nota_kcky_exam.stop",
+			"title": "Stop moving",
 			"width": 199,
-			"x": 1738,
-			"y": 155
+			"x": 1849,
+			"y": 142
 		},
 		"eh56mtlDNybgtbCoZfhn1hEy3JUSFYlV": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 559,
-			"y": 29
+			"x": 550,
+			"y": 32
 		},
 		"hzxj7DGJy8d6qLAPF1j9M3fKj5L01nLE": {
 			"height": 94,
-			"title": "store",
+			"title": "Unregister",
 			"width": 294,
-			"x": 411,
-			"y": 121
+			"x": 407,
+			"y": 103
 		},
 		"j7VApQdAjeL9WueZBVzaZsCSR7L5pKRr": {
 			"height": 60,
-			"title": "sequence",
-			"width": 143,
-			"x": 1552,
-			"y": 215
+			"title": "Wait for the atlas to take us",
+			"width": 254,
+			"x": 1555,
+			"y": 146
 		},
 		"jACBcV1JO1d7NnFCk1oyQEsHnE8IqF5Q": {
 			"height": 93,
-			"title": "nota_krejci_exam.moveUnit",
+			"title": "Move without atlas",
 			"width": 238,
-			"x": 1031,
-			"y": -26
+			"x": 1107,
+			"y": -29
 		},
 		"lSUz6n68ktAZFb0PDz0KmrIScXOub4BG": {
 			"height": 70,
 			"title": "selector",
 			"width": 131,
-			"x": 243,
+			"x": 244,
 			"y": 27
 		},
 		"tALH3oR5zeO4AGlbNsK0vRQsvrDKHaDO": {
-			"height": 101,
-			"title": "store",
-			"width": 302,
-			"x": 749,
-			"y": 148
+			"height": 103,
+			"title": "Unregister",
+			"width": 299,
+			"x": 744,
+			"y": 146
 		},
 		"uwg4x5l46DXE0UNcFUA9XAqI0j86B85e": {
 			"height": 93,
-			"title": "nota_krejci_exam.moveUnit",
-			"width": 238,
-			"x": 1736,
-			"y": 290
+			"title": "Atlas failed, continue moving",
+			"width": 242,
+			"x": 1845,
+			"y": 292
 		},
 		"vVPxSCbvS0Bv1a9ONcJTGsbRSexlVpcz": {
 			"height": 90,
-			"title": "luaCondition",
+			"title": "Check if we were taken",
 			"width": 418,
-			"x": 1109,
-			"y": 86
+			"x": 1103,
+			"y": 69
 		}
 	},
 	"roles": [ {

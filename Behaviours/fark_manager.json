@@ -1,0 +1,102 @@
+{
+	"additionalNodes": [],
+	"additionalParameters": {
+		"root": {
+			"height": 88,
+			"width": 180
+		}
+	},
+	"inputs": [],
+	"outputs": [],
+	"properties": {
+		"8huvjHCjf7XMxpiQ9hsF5DkhEz1zOUmK": {
+			"height": 70,
+			"title": "parallel",
+			"width": 202,
+			"x": 198,
+			"y": 8
+		},
+		"LVjVgGS9xMpmv6PHC2i2fTag6gTtmjtR": {
+			"height": 151,
+			"title": "Top",
+			"width": 242,
+			"x": 442,
+			"y": -2
+		},
+		"P5yBVt8hRvB1ObTyF8zDpqcuNGkKRDYn": {
+			"height": 151,
+			"title": "Bottom",
+			"width": 252,
+			"x": 439,
+			"y": 151
+		},
+		"y4ltB9z0lHhN0Yhl0KUTRSDGPlUz2ibS": {
+			"height": 151,
+			"title": "Middle",
+			"width": 250,
+			"x": 441,
+			"y": -159
+		}
+	},
+	"roles": [ {
+		"categories": [],
+		"name": "Role 0"
+	} ],
+	"root": {
+		"children": [ {
+			"children": [],
+			"id": "y4ltB9z0lHhN0Yhl0KUTRSDGPlUz2ibS",
+			"nodeType": "reference",
+			"parameters": [ {
+				"name": "behaviourName",
+				"value": "nota_kcky_exam.fark"
+			} ],
+			"referenceInputs": [ {
+				"name": "positionVariable",
+				"value": "\"farkMiddle\""
+			}, {
+				"name": "requests",
+				"value": "\"middleRequests\""
+			} ],
+			"referenceOutputs": []
+		}, {
+			"children": [],
+			"id": "LVjVgGS9xMpmv6PHC2i2fTag6gTtmjtR",
+			"nodeType": "reference",
+			"parameters": [ {
+				"name": "behaviourName",
+				"value": "nota_kcky_exam.fark"
+			} ],
+			"referenceInputs": [ {
+				"name": "positionVariable",
+				"value": "\"farkTop\""
+			}, {
+				"name": "requests",
+				"value": "\"trash\""
+			} ],
+			"referenceOutputs": []
+		}, {
+			"children": [],
+			"id": "P5yBVt8hRvB1ObTyF8zDpqcuNGkKRDYn",
+			"nodeType": "reference",
+			"parameters": [ {
+				"name": "behaviourName",
+				"value": "nota_kcky_exam.fark"
+			} ],
+			"referenceInputs": [ {
+				"name": "positionVariable",
+				"value": "\"farkBottom\""
+			}, {
+				"name": "requests",
+				"value": "\"trash\""
+			} ],
+			"referenceOutputs": []
+		} ],
+		"id": "8huvjHCjf7XMxpiQ9hsF5DkhEz1zOUmK",
+		"nodeType": "parallel",
+		"parameters": [ {
+			"name": "mode",
+			"value": "all-success"
+		} ]
+	}
+}

@@ -17,171 +17,171 @@
 	"properties": {
 		"3XECp0S46FOEnYRp7HWcaxFCaOU9Gb6x": {
 			"height": 95,
-			"title": "Does our fark exist?",
+			"title": "Does our atlas exist?",
 			"width": 352,
-			"x": 457,
-			"y": 9
+			"x": 455,
+			"y": 11
 		},
 		"6TsHloIKTjcABwH93lvwYzRtPKNernmW": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 292,
-			"y": 21
+			"x": 295,
+			"y": 24
 		},
 		"765XswoEmRRUItXQIrUg6ChrSaKeY1SF": {
 			"height": 54,
 			"title": "success",
 			"width": 132,
-			"x": 1816,
-			"y": -639
+			"x": 1955,
+			"y": -605
 		},
 		"G2oJXJ3IV5pGFnFLqFGBYQAKgPSwmOhC": {
-			"height": 94,
-			"title": "nota_krejci_exam.unloadUnit",
-			"width": 451,
-			"x": 1504,
-			"y": -218
+			"height": 93,
+			"title": "Unload them",
+			"width": 325,
+			"x": 1535,
+			"y": -219
 		},
 		"HJLSnw57uLOt8AmIz3GlVv6xmGnV86lV": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 1542,
-			"y": 94
+			"x": 1570,
+			"y": 98
 		},
 		"Hq0AAAHhkEh7ybpndNnq3Stz1HbKBgxC": {
 			"height": 88,
 			"title": "Come close to destination",
 			"width": 519,
-			"x": 1505,
+			"x": 1534,
 			"y": -306
 		},
 		"IFEzf55Nbc1RYUyKtIhTs3mttUamCDtZ": {
 			"height": 92,
-			"title": "store",
+			"title": "Reset",
 			"width": 143,
-			"x": 1503,
-			"y": -130
+			"x": 1534,
+			"y": -126
 		},
 		"LCGJYqfxNQhAZN6o9Grj10RO5tCLvse3": {
 			"height": 95,
-			"title": "nota_kcky_exam.move",
+			"title": "Move to the first strongpoint to wait there",
 			"width": 337,
-			"x": 1684,
-			"y": -20
+			"x": 1712,
+			"y": -16
 		},
 		"MU4LZAWYyt6xb84HqquK85vbFpXdBZkW": {
 			"height": 60,
-			"title": "sequence",
-			"width": 143,
-			"x": 843,
-			"y": 113
+			"title": "Get an atlas",
+			"width": 158,
+			"x": 873,
+			"y": 117
 		},
 		"QZnfMGY8V4I2mS8Opd3O7QhbVA59sNfs": {
 			"height": 54,
 			"title": "success",
 			"width": 132,
-			"x": 2054,
-			"y": -250
+			"x": 2083,
+			"y": -247
 		},
 		"SLJiDKPb2XHQegjRcwcZ9yT3W4YJE5l1": {
 			"height": 97,
-			"title": "store",
+			"title": "Reserve our passenger",
 			"width": 333,
-			"x": 1503,
-			"y": -501
+			"x": 1539,
+			"y": -499
 		},
 		"bghiWMQDRpiTk2fZWbvNHJBLz3YsMreT": {
 			"height": 95,
 			"title": "nota_kcky_exam.moveToRef",
 			"width": 246,
-			"x": 2054,
-			"y": -349
+			"x": 2081,
+			"y": -345
 		},
 		"fUyHKiFPomjN5444NVCInQygzVNJEWNY": {
 			"height": 54,
 			"title": "failure",
 			"width": 131,
-			"x": 1997,
-			"y": -493
+			"x": 2131,
+			"y": -470
 		},
 		"gjAR872o5YfJuMUV3e5TA5wMBUxde6YS": {
 			"height": 95,
 			"title": "store",
 			"width": 144,
-			"x": 1989,
-			"y": -584
+			"x": 2128,
+			"y": -561
 		},
 		"kgXmkBtoJHtI7L4mzczlNkTwNItXKnVd": {
 			"height": 92,
 			"title": "store",
 			"width": 316,
-			"x": 1030,
-			"y": 285
+			"x": 1070,
+			"y": 290
 		},
 		"mCPhejlBxzwjYuo6I97CQMgPPc7eEHCd": {
 			"height": 97,
-			"title": "store",
+			"title": "Check for a passenger",
 			"width": 304,
-			"x": 1690,
-			"y": 81
+			"x": 1718,
+			"y": 85
 		},
 		"nLOkmpTKUNdPvS4soGRFt2TEgtO793nJ": {
 			"height": 56,
 			"title": "sequence",
 			"width": 143,
-			"x": 1818,
-			"y": -572
+			"x": 1946,
+			"y": -548
 		},
 		"ouU3nTX4QuavtThD09GuxhaxNb2kKgGg": {
 			"height": 92,
 			"title": "store",
 			"width": 212,
-			"x": 1026,
-			"y": 97
+			"x": 1069,
+			"y": 102
 		},
 		"qSpgHBSPgVXqVtSvDgxXfqX4Ba0gAzzV": {
 			"height": 95,
 			"title": "Is there anybody to transport?",
 			"width": 412,
-			"x": 846,
-			"y": -117
+			"x": 848,
+			"y": -112
 		},
 		"uN0O9gPNbP5zfxSsNhpKP2kcl88vpIOS": {
-			"height": 92,
-			"title": "nota_krejci_exam.loadUnit",
-			"width": 229,
-			"x": 1507,
-			"y": -400
+			"height": 94,
+			"title": "Load them",
+			"width": 171,
+			"x": 1538,
+			"y": -403
 		},
 		"vB5qgY5Hp2d6ybPmHyVNlukQMU6c8vRE": {
 			"height": 96,
 			"title": "store",
 			"width": 407,
-			"x": 1030,
-			"y": 190
+			"x": 1068,
+			"y": 191
 		},
 		"wgUVKl5t6iFx51FFLUt95A8YFpEco5to": {
 			"height": 90,
-			"title": "luaCondition",
-			"width": 264,
-			"x": 1506,
-			"y": -587
+			"title": "Check whether passenger still needs transport",
+			"width": 376,
+			"x": 1538,
+			"y": -590
 		},
 		"ymHg58GrQCJhT7dl0m6BYsigbzKKXF7u": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 1298,
-			"y": 38
+			"x": 1328,
+			"y": 42
 		},
 		"z4mkuP0dMZSqbXbyWNZSYEQRnidIcjcq": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 1301,
-			"y": -205
+			"x": 1331,
+			"y": -201
 		}
 	},
 	"roles": [ {

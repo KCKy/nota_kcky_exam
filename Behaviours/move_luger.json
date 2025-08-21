@@ -11,21 +11,21 @@
 	"properties": {
 		"1xWiW8Ce9GZEiK9ygyi5FAE6Rz4tzQBq": {
 			"height": 102,
-			"title": "store",
+			"title": "Add unit to battle",
 			"width": 226,
-			"x": 1019,
-			"y": -115
+			"x": 1017,
+			"y": -124
 		},
 		"30FiU2z8RbRXJBF5DSSgRvwuyV79ccig": {
 			"height": 60,
-			"title": "sequence",
-			"width": 143,
-			"x": 823,
+			"title": "Get a luger",
+			"width": 157,
+			"x": 819,
 			"y": 113
 		},
 		"JjhjmwDr6S8LCkiOnQT0mbWT443OVcMv": {
 			"height": 103,
-			"title": "Does our unit exist?",
+			"title": "Does our luger exist?",
 			"width": 350,
 			"x": 430,
 			"y": 8
@@ -60,10 +60,10 @@
 		},
 		"emoCzvSfZItgDaO9FRp4QyEb2XYoIvR9": {
 			"height": 102,
-			"title": "store",
+			"title": "Reset",
 			"width": 226,
-			"x": 1027,
-			"y": -13
+			"x": 1018,
+			"y": -22
 		},
 		"l0hTRyTwusp4Dh1pUi6p03W6Wt1z5fzO": {
 			"height": 92,
@@ -74,10 +74,10 @@
 		},
 		"xpTrmFF3Wc3Vzr0HmOIVJ5awSlFhSDEw": {
 			"height": 173,
-			"title": "reference",
-			"width": 269,
-			"x": 1013,
-			"y": -286
+			"title": "Move to the battleline",
+			"width": 278,
+			"x": 1011,
+			"y": -293
 		}
 	},
 	"roles": [ {
