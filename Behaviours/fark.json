@@ -15,17 +15,10 @@
 	} ],
 	"outputs": [],
 	"properties": {
-		"AFOrcSVg4JduEoxp8BY7JCooejmNPXDE": {
-			"height": 78,
-			"title": "wait",
-			"width": 136,
-			"x": 1036,
-			"y": 369
-		},
 		"BPDkNKtfp4mWsNNV3ZYdNM1X7yzLd2G1": {
 			"height": 60,
-			"title": "Update targetarea",
-			"width": 198,
+			"title": "Update target area",
+			"width": 201,
 			"x": 1266,
 			"y": -234
 		},
@@ -61,8 +54,8 @@
 			"height": 97,
 			"title": "Reclaim the useless unit",
 			"width": 783,
-			"x": 1789,
-			"y": -474
+			"x": 1798,
+			"y": -473
 		},
 		"UwtRvUJEIsQ3iHjKNDyNNOMnQOK9pnt1": {
 			"height": 103,
@@ -196,7 +189,7 @@
 									"value": "_"
 								}, {
 									"name": "value",
-									"value": "Spring.GiveOrderToUnit(fark, CMD.RECLAIM, {GetNotActiveUnits({\"armpeep\", \"armbox\", \"armwar\"}, {})[1]}, {})"
+									"value": "Spring.GiveOrderToUnit(fark, CMD.RECLAIM, {GetNotActiveUnits({\"armbox\", \"armwar\"}, {})[1]}, {})"
 								}, {
 									"name": "scriptName",
 									"value": "store"
@@ -370,14 +363,6 @@
 						"value": "store"
 					} ],
 					"scriptName": "store"
-				}, {
-					"children": [],
-					"id": "AFOrcSVg4JduEoxp8BY7JCooejmNPXDE",
-					"nodeType": "wait",
-					"parameters": [ {
-						"name": "time",
-						"value": 5
-					} ]
 				} ],
 				"id": "VZcPmBufiXXUKgReiZPzTOpYwBaGbSsq",
 				"nodeType": "sequence",

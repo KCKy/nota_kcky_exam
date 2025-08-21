@@ -13,14 +13,14 @@
 			"height": 73,
 			"title": "Buy",
 			"width": 196,
-			"x": 1683,
+			"x": 1682,
 			"y": -159
 		},
 		"3qBZlqWec18dEUf7J2QixTvt0XqBi8om": {
 			"height": 70,
 			"title": "selector",
 			"width": 131,
-			"x": 800,
+			"x": 802,
 			"y": -254
 		},
 		"8m9PQDdxOzdZAyClpQQ1laHfmP97EtZk": {
@@ -34,42 +34,42 @@
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 837,
+			"x": 839,
 			"y": -624
 		},
 		"B9V7obLgd9g5MuujuXe38cIHQog3nnIc": {
 			"height": 78,
 			"title": "Upgrade",
 			"width": 225,
-			"x": 3281,
+			"x": 3280,
 			"y": 138
 		},
 		"D7Fxro5uhdYU3ppxscCpxhtH159EdgxH": {
 			"height": 89,
 			"title": "We need multiple spies to have redundancy",
 			"width": 358,
-			"x": 1292,
+			"x": 1291,
 			"y": -165
 		},
 		"FvmoUY6E5nWMq1epCNaVQsVRT7t2MM0L": {
 			"height": 110,
 			"title": "Manager mavs",
 			"width": 285,
-			"x": 653,
+			"x": 654,
 			"y": 323
 		},
 		"GaS8hlfO0moKqoxgZgbu1D3AqW1aeNeT": {
 			"height": 57,
 			"title": "Buy units",
 			"width": 145,
-			"x": 623,
+			"x": 624,
 			"y": -250
 		},
 		"Gsmy4rsLX6zkvyvcwLmlD1qUFbuXWzlq": {
 			"height": 109,
 			"title": "Manage atlases",
 			"width": 283,
-			"x": 647,
+			"x": 648,
 			"y": 12
 		},
 		"InGAQeESJ7Q3CLh6bQ3P1U7KRDp16otg": {
@@ -83,28 +83,28 @@
 			"height": 94,
 			"title": "Luger units partaking in battle",
 			"width": 323,
-			"x": 661,
+			"x": 662,
 			"y": -1083
 		},
 		"OmyNcbsGaXoHgL1g9lSdOBQEaQuESENU": {
 			"height": 73,
 			"title": "Buy",
 			"width": 196,
-			"x": 2628,
+			"x": 2627,
 			"y": 49
 		},
 		"PR16zrw2bpWnlfSZj5PZ9Z7pgI8tebGN": {
 			"height": 73,
 			"title": "Buy",
 			"width": 196,
-			"x": 1307,
+			"x": 1306,
 			"y": -257
 		},
 		"STyf99qTO2jihVuXvi86WPumevyJXqUf": {
 			"height": 94,
 			"title": "Mav units partaking in battle",
 			"width": 323,
-			"x": 662,
+			"x": 663,
 			"y": -989
 		},
 		"XY6JKLKw4jTN8ztCsiNbRibMi2QlAr7Y": {
@@ -118,35 +118,35 @@
 			"height": 89,
 			"title": "Buy mavs when we got enough lugers to advance",
 			"width": 564,
-			"x": 2034,
+			"x": 2033,
 			"y": 39
 		},
 		"Z4YBZkkhTkKeBielYyPl5JdMGT8ge5iw": {
 			"height": 60,
 			"title": "Update battlelines info",
 			"width": 223,
-			"x": 601,
+			"x": 602,
 			"y": -624
 		},
 		"a6SkVW7nX7AVtjnPGIzrdWzdqkpfOB1c": {
 			"height": 90,
 			"title": "Upgrade middle lane when we got enough lugers to advance",
 			"width": 628,
-			"x": 2629,
+			"x": 2628,
 			"y": 133
 		},
 		"etgnKjIsaoGcfDjTi5SY4ZOe6i7t9VTx": {
 			"height": 94,
 			"title": "Atlas passenger request table",
 			"width": 441,
-			"x": 660,
+			"x": 661,
 			"y": -1180
 		},
 		"fkYY2Jhj5La5jU9o2zdacgpasUWbz7Aw": {
 			"height": 109,
 			"title": "Manage spys",
 			"width": 275,
-			"x": 649,
+			"x": 650,
 			"y": 115
 		},
 		"i2AVwLBJMNxJX5Tx99x5nNKzxtevGEil": {
@@ -160,7 +160,7 @@
 			"height": 92,
 			"title": "Keep atlases for transport",
 			"width": 324,
-			"x": 1675,
+			"x": 1674,
 			"y": -59
 		},
 		"pFdeRGmusmkEwejto0ELledanuFMwrKW": {
@@ -195,7 +195,7 @@
 			"height": 110,
 			"title": "Manage lugers",
 			"width": 285,
-			"x": 650,
+			"x": 651,
 			"y": 218
 		},
 		"vaiCJXRW2enG37NraxSQ5MutoZvpMF9m": {
@@ -209,14 +209,14 @@
 			"height": 73,
 			"title": "Buy",
 			"width": 196,
-			"x": 3283,
+			"x": 3282,
 			"y": 216
 		},
 		"xGuBma2AU2Me37DGmgL6CQrACBxqczJM": {
 			"height": 110,
 			"title": "Manage farks",
 			"width": 277,
-			"x": 644,
+			"x": 645,
 			"y": -93
 		},
 		"zjCuGmXMrBGdnNWz3buthEuJxSYlFYfe": {
@@ -230,7 +230,7 @@
 			"height": 73,
 			"title": "Buy",
 			"width": 196,
-			"x": 2035,
+			"x": 2034,
 			"y": -48
 		}
 	},
@@ -510,14 +510,14 @@
 						"nodeType": "wait",
 						"parameters": [ {
 							"name": "time",
-							"value": 15
+							"value": 5
 						} ]
 					} ],
 					"id": "3qBZlqWec18dEUf7J2QixTvt0XqBi8om",
 					"nodeType": "selector",
 					"parameters": [ {
 						"name": "active",
-						"value": "true"
+						"value": "false"
 					} ]
 				} ],
 				"id": "GaS8hlfO0moKqoxgZgbu1D3AqW1aeNeT",

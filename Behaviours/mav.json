@@ -13,7 +13,7 @@
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 250,
+			"x": 251,
 			"y": 3
 		},
 		"3GO126M3fkmSOm1pwvTkNTdK63RWzuzD": {
@@ -27,7 +27,7 @@
 			"height": 60,
 			"title": "Update information",
 			"width": 202,
-			"x": 491,
+			"x": 492,
 			"y": -180
 		},
 		"BZUKqxTNFGXLcJUFqRCX7vERkgaSfILa": {
@@ -41,7 +41,7 @@
 			"height": 160,
 			"title": "Move to specified line and fire at will",
 			"width": 289,
-			"x": 744,
+			"x": 745,
 			"y": 359
 		},
 		"NHwolEZwTRkjZW7bNeGDCt6175z4MbhM": {
@@ -69,7 +69,7 @@
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 725,
+			"x": 726,
 			"y": -179
 		},
 		"hBeSAZhewOgZUmjhhY99o1mfxrQar2a7": {
@@ -90,7 +90,7 @@
 			"height": 60,
 			"title": "Do battle",
 			"width": 194,
-			"x": 511,
+			"x": 512,
 			"y": 392
 		},
 		"wKmI40bzvdlg5J7tYdEbwTxZcaT4hqrd": {
@@ -218,7 +218,7 @@
 						"value": "#bb.mavs > 0"
 					}, {
 						"name": "repeat",
-						"value": "true"
+						"value": "false"
 					} ]
 				} ],
 				"id": "V2GMMmUIQSJ3zze4sXBiQpWs1euPJ2bE",

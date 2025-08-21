@@ -19,189 +19,182 @@
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 1713,
+			"x": 1712,
 			"y": 96
 		},
 		"3XECp0S46FOEnYRp7HWcaxFCaOU9Gb6x": {
 			"height": 95,
 			"title": "Does our atlas exist?",
 			"width": 352,
-			"x": 457,
+			"x": 458,
 			"y": 11
 		},
 		"6TsHloIKTjcABwH93lvwYzRtPKNernmW": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 297,
+			"x": 298,
 			"y": 24
 		},
 		"765XswoEmRRUItXQIrUg6ChrSaKeY1SF": {
 			"height": 54,
 			"title": "success",
 			"width": 132,
-			"x": 1943,
+			"x": 1942,
 			"y": -657
 		},
 		"G2oJXJ3IV5pGFnFLqFGBYQAKgPSwmOhC": {
 			"height": 93,
 			"title": "Unload them",
 			"width": 325,
-			"x": 1524,
+			"x": 1523,
 			"y": -270
 		},
 		"HJLSnw57uLOt8AmIz3GlVv6xmGnV86lV": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 1568,
+			"x": 1567,
 			"y": 98
 		},
 		"Hq0AAAHhkEh7ybpndNnq3Stz1HbKBgxC": {
 			"height": 88,
 			"title": "Come close to destination",
 			"width": 519,
-			"x": 1523,
+			"x": 1522,
 			"y": -357
 		},
 		"IFEzf55Nbc1RYUyKtIhTs3mttUamCDtZ": {
 			"height": 92,
 			"title": "Reset",
 			"width": 143,
-			"x": 1523,
+			"x": 1522,
 			"y": -177
 		},
 		"LCGJYqfxNQhAZN6o9Grj10RO5tCLvse3": {
 			"height": 95,
 			"title": "Move to the first strongpoint to wait there",
 			"width": 337,
-			"x": 1568,
+			"x": 1567,
 			"y": -13
 		},
 		"MU4LZAWYyt6xb84HqquK85vbFpXdBZkW": {
 			"height": 60,
 			"title": "Get an atlas",
 			"width": 158,
-			"x": 874,
+			"x": 875,
 			"y": 117
 		},
 		"QZnfMGY8V4I2mS8Opd3O7QhbVA59sNfs": {
 			"height": 54,
 			"title": "success",
 			"width": 132,
-			"x": 2072,
+			"x": 2071,
 			"y": -298
 		},
 		"SLJiDKPb2XHQegjRcwcZ9yT3W4YJE5l1": {
 			"height": 97,
 			"title": "Reserve our passenger",
 			"width": 333,
-			"x": 1528,
+			"x": 1527,
 			"y": -550
 		},
 		"bghiWMQDRpiTk2fZWbvNHJBLz3YsMreT": {
 			"height": 95,
 			"title": "nota_kcky_exam.moveToRef",
 			"width": 246,
-			"x": 2070,
+			"x": 2069,
 			"y": -396
 		},
 		"fUyHKiFPomjN5444NVCInQygzVNJEWNY": {
 			"height": 54,
 			"title": "failure",
 			"width": 131,
-			"x": 2119,
+			"x": 2118,
 			"y": -524
 		},
 		"gc8gdzlmotPWXHQBfoTFJnnPFgIsUa63": {
 			"height": 78,
 			"title": "wait",
 			"width": 136,
-			"x": 1885,
+			"x": 1884,
 			"y": 179
 		},
 		"gjAR872o5YfJuMUV3e5TA5wMBUxde6YS": {
 			"height": 96,
 			"title": "store",
 			"width": 144,
-			"x": 2118,
+			"x": 2117,
 			"y": -615
 		},
 		"kgXmkBtoJHtI7L4mzczlNkTwNItXKnVd": {
 			"height": 92,
 			"title": "store",
 			"width": 316,
-			"x": 1069,
+			"x": 1068,
 			"y": 290
 		},
 		"mCPhejlBxzwjYuo6I97CQMgPPc7eEHCd": {
 			"height": 97,
 			"title": "Check for a passenger",
 			"width": 304,
-			"x": 1889,
+			"x": 1888,
 			"y": 82
 		},
 		"nLOkmpTKUNdPvS4soGRFt2TEgtO793nJ": {
 			"height": 56,
 			"title": "sequence",
 			"width": 143,
-			"x": 1942,
+			"x": 1941,
 			"y": -601
 		},
 		"ouU3nTX4QuavtThD09GuxhaxNb2kKgGg": {
 			"height": 92,
 			"title": "store",
 			"width": 212,
-			"x": 1068,
+			"x": 1067,
 			"y": 102
 		},
 		"qSpgHBSPgVXqVtSvDgxXfqX4Ba0gAzzV": {
 			"height": 95,
 			"title": "Is there anybody to transport?",
 			"width": 412,
-			"x": 850,
+			"x": 851,
 			"y": -112
 		},
 		"uN0O9gPNbP5zfxSsNhpKP2kcl88vpIOS": {
 			"height": 94,
 			"title": "Load them",
 			"width": 171,
-			"x": 1527,
+			"x": 1526,
 			"y": -454
-		},
-		"uhbjIGfHUZJKZF3g4frMlsrLtrCeZlMv": {
-			"height": 78,
-			"title": "wait",
-			"width": 136,
-			"x": 1072,
-			"y": 381
 		},
 		"vB5qgY5Hp2d6ybPmHyVNlukQMU6c8vRE": {
 			"height": 96,
 			"title": "store",
 			"width": 407,
-			"x": 1067,
+			"x": 1066,
 			"y": 191
 		},
 		"wgUVKl5t6iFx51FFLUt95A8YFpEco5to": {
 			"height": 90,
 			"title": "Check whether passenger still needs transport",
 			"width": 376,
-			"x": 1527,
+			"x": 1526,
 			"y": -641
 		},
 		"ymHg58GrQCJhT7dl0m6BYsigbzKKXF7u": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 1326,
+			"x": 1325,
 			"y": 42
 		},
 		"z4mkuP0dMZSqbXbyWNZSYEQRnidIcjcq": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 1320,
+			"x": 1319,
 			"y": -252
 		}
 	},
@@ -461,14 +454,6 @@
 						"value": "store"
 					} ],
 					"scriptName": "store"
-				}, {
-					"children": [],
-					"id": "uhbjIGfHUZJKZF3g4frMlsrLtrCeZlMv",
-					"nodeType": "wait",
-					"parameters": [ {
-						"name": "time",
-						"value": 5
-					} ]
 				} ],
 				"id": "MU4LZAWYyt6xb84HqquK85vbFpXdBZkW",
 				"nodeType": "sequence",

@@ -9,88 +9,81 @@
 	"inputs": [],
 	"outputs": [],
 	"properties": {
-		"06LD51ed6DLKBoYDZHsu9ACYFCdYUmYn": {
-			"height": 78,
-			"title": "wait",
-			"width": 136,
-			"x": 1015,
-			"y": 374
-		},
 		"1jwj3EpZIyh1u22n6MGhyVFmCXIdtLsP": {
 			"height": 92,
 			"title": "store",
 			"width": 292,
-			"x": 1013,
+			"x": 1014,
 			"y": 284
 		},
 		"Ap0NYyShN2tkA0S9hFUcdoNlhv9qVbba": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 823,
+			"x": 824,
 			"y": 113
 		},
 		"BVh6VrU5juAdr7rSELAXKEplxNx4I5Ny": {
 			"height": 103,
 			"title": "Does our mav exist?",
 			"width": 350,
-			"x": 430,
+			"x": 431,
 			"y": 8
 		},
 		"G3vyvR84PHOiMUa2aXp18IsGFfYUGcN5": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 276,
+			"x": 277,
 			"y": 24
 		},
 		"IAHrO7IqaNsZzotqeSXq88UivWgalsIW": {
 			"height": 102,
 			"title": "Add unit to battle",
 			"width": 226,
-			"x": 1018,
+			"x": 1019,
 			"y": -114
 		},
 		"Khm1VvnLHNHnEMzgNdWddXmYUK2eyTmZ": {
 			"height": 173,
 			"title": "Move to the battleline",
 			"width": 278,
-			"x": 1014,
+			"x": 1015,
 			"y": -288
 		},
 		"UgP8QhsbxBz8L5ag2PTKkMr9gDFwqQif": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 825,
+			"x": 826,
 			"y": -91
 		},
 		"UjWpYLB0DPTyaEfH21dtRFmva7dqYaqr": {
 			"height": 102,
 			"title": "Reset",
 			"width": 226,
-			"x": 1018,
+			"x": 1019,
 			"y": -12
 		},
 		"VhUjN54DBKvSrneBCMeUXAQCU14wxc1O": {
 			"height": 92,
 			"title": "store",
 			"width": 210,
-			"x": 1008,
+			"x": 1009,
 			"y": 97
 		},
 		"Y8T7GzXH6uFhLse7UhdVBEmEYFyFqclh": {
 			"height": 78,
 			"title": "Order mav to not move to seek fights",
 			"width": 296,
-			"x": 1014,
+			"x": 1015,
 			"y": -367
 		},
 		"s5KgdAiIntD3b94u0GYLXup2C8ts6b8k": {
 			"height": 94,
 			"title": "store",
 			"width": 421,
-			"x": 1012,
+			"x": 1013,
 			"y": 190
 		}
 	},
@@ -212,14 +205,6 @@
 						"value": "store"
 					} ],
 					"scriptName": "store"
-				}, {
-					"children": [],
-					"id": "06LD51ed6DLKBoYDZHsu9ACYFCdYUmYn",
-					"nodeType": "wait",
-					"parameters": [ {
-						"name": "time",
-						"value": 5
-					} ]
 				} ],
 				"id": "Ap0NYyShN2tkA0S9hFUcdoNlhv9qVbba",
 				"nodeType": "sequence",
