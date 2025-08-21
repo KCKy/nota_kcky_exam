@@ -376,7 +376,7 @@
 					"nodeType": "wait",
 					"parameters": [ {
 						"name": "time",
-						"value": 2
+						"value": 5
 					} ]
 				} ],
 				"id": "VZcPmBufiXXUKgReiZPzTOpYwBaGbSsq",

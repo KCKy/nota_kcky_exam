@@ -13,7 +13,7 @@
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 249,
+			"x": 250,
 			"y": 3
 		},
 		"3GO126M3fkmSOm1pwvTkNTdK63RWzuzD": {
@@ -23,18 +23,11 @@
 			"x": 1183,
 			"y": 100
 		},
-		"9gB8RtozgNQU7Ay0yO6guT6zlODjH0Xd": {
-			"height": 78,
-			"title": "wait",
-			"width": 136,
-			"x": 925,
-			"y": 200
-		},
 		"AmN8RPWBPxS6figGggyHXcKWzbTMFXFR": {
 			"height": 60,
 			"title": "Update information",
 			"width": 202,
-			"x": 490,
+			"x": 491,
 			"y": -180
 		},
 		"BZUKqxTNFGXLcJUFqRCX7vERkgaSfILa": {
@@ -48,7 +41,7 @@
 			"height": 160,
 			"title": "Move to specified line and fire at will",
 			"width": 289,
-			"x": 743,
+			"x": 744,
 			"y": 359
 		},
 		"NHwolEZwTRkjZW7bNeGDCt6175z4MbhM": {
@@ -76,7 +69,7 @@
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 724,
+			"x": 725,
 			"y": -179
 		},
 		"hBeSAZhewOgZUmjhhY99o1mfxrQar2a7": {
@@ -97,7 +90,7 @@
 			"height": 60,
 			"title": "Do battle",
 			"width": 194,
-			"x": 510,
+			"x": 511,
 			"y": 392
 		},
 		"wKmI40bzvdlg5J7tYdEbwTxZcaT4hqrd": {
@@ -226,14 +219,6 @@
 					}, {
 						"name": "repeat",
 						"value": "true"
-					} ]
-				}, {
-					"children": [],
-					"id": "9gB8RtozgNQU7Ay0yO6guT6zlODjH0Xd",
-					"nodeType": "wait",
-					"parameters": [ {
-						"name": "time",
-						"value": 2
 					} ]
 				} ],
 				"id": "V2GMMmUIQSJ3zze4sXBiQpWs1euPJ2bE",

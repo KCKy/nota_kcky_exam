@@ -58,13 +58,6 @@
 			"x": 926,
 			"y": -241
 		},
-		"VAJqPa5jWJ61KMPplqe9h0WWnDhgeULd": {
-			"height": 78,
-			"title": "wait",
-			"width": 136,
-			"x": 936,
-			"y": -48
-		},
 		"ZIBLmg8nHphUjIyxWGNmWXu6a7D1yUbf": {
 			"height": 54,
 			"title": "No need to retreat",
@@ -190,14 +183,6 @@
 					}, {
 						"name": "repeat",
 						"value": "false"
-					} ]
-				}, {
-					"children": [],
-					"id": "VAJqPa5jWJ61KMPplqe9h0WWnDhgeULd",
-					"nodeType": "wait",
-					"parameters": [ {
-						"name": "time",
-						"value": 2
 					} ]
 				} ],
 				"id": "G1qULBysxuPrAS3xcN8wYDCimuIemjRt",

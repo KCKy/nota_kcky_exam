@@ -72,13 +72,6 @@
 			"x": 647,
 			"y": 12
 		},
-		"IMK5u5pLZqujWRzUom374JTvpRmzdEdy": {
-			"height": 78,
-			"title": "wait",
-			"width": 136,
-			"x": 1018,
-			"y": -379
-		},
 		"InGAQeESJ7Q3CLh6bQ3P1U7KRDp16otg": {
 			"height": 70,
 			"title": "parallel",
@@ -374,14 +367,6 @@
 							"value": "store"
 						} ],
 						"scriptName": "store"
-					}, {
-						"children": [],
-						"id": "IMK5u5pLZqujWRzUom374JTvpRmzdEdy",
-						"nodeType": "wait",
-						"parameters": [ {
-							"name": "time",
-							"value": 2
-						} ]
 					} ],
 					"id": "90V1MSlGMFrvx7K3i8b1dacmV9RFHJmo",
 					"nodeType": "sequence",
@@ -525,7 +510,7 @@
 						"nodeType": "wait",
 						"parameters": [ {
 							"name": "time",
-							"value": 10
+							"value": 15
 						} ]
 					} ],
 					"id": "3qBZlqWec18dEUf7J2QixTvt0XqBi8om",
