@@ -26,7 +26,7 @@ return function(laneName)
             end
         end
         for _, closeUnitID in ipairs(closeUnits) do
-            if UnitDefs[Spring.GetUnitDefID(closeUnitID)].name == "dca"
+            if UnitDefs[Spring.GetUnitDefID(closeUnitID)].name == "armllt"
                 and not Spring.IsUnitAllied(closeUnitID) then
                 return closeUnitID
             end
