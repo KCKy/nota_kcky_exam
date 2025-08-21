@@ -2,8 +2,8 @@
 	"additionalNodes": [],
 	"additionalParameters": {
 		"root": {
-			"height": 108,
-			"width": 156
+			"height": 90,
+			"width": 222
 		}
 	},
 	"inputs": [],
@@ -13,141 +13,92 @@
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 200,
-			"y": 13
+			"x": 249,
+			"y": 3
 		},
 		"3GO126M3fkmSOm1pwvTkNTdK63RWzuzD": {
 			"height": 92,
 			"title": "Are we close to a tower?",
 			"width": 738,
-			"x": 956,
-			"y": 218
+			"x": 1182,
+			"y": 192
 		},
 		"AmN8RPWBPxS6figGggyHXcKWzbTMFXFR": {
 			"height": 60,
-			"title": "RepeatInfo",
-			"width": 170,
-			"x": 469,
-			"y": -95
+			"title": "Update information",
+			"width": 202,
+			"x": 499,
+			"y": -87
 		},
 		"BZUKqxTNFGXLcJUFqRCX7vERkgaSfILa": {
 			"height": 90,
-			"title": "Do we have enough?",
+			"title": "Do we have any?",
 			"width": 217,
-			"x": 694,
-			"y": 218
+			"x": 922,
+			"y": 191
+		},
+		"JGqGoHaNKfG6qV0lbUZptc3jQzW0skd5": {
+			"height": 160,
+			"title": "Move to specified line and fire at will",
+			"width": 289,
+			"x": 742,
+			"y": 359
 		},
 		"NHwolEZwTRkjZW7bNeGDCt6175z4MbhM": {
 			"height": 97,
-			"title": "store",
+			"title": "Move close but safe to shika",
 			"width": 377,
-			"x": 1753,
-			"y": 70
-		},
-		"OmOZZBEN27shhJ0HgR567Q2KNbP11Uon": {
-			"height": 97,
-			"title": "TransformTheLineFormation ",
-			"width": 649,
-			"x": 860,
-			"y": -72
+			"x": 1962,
+			"y": 150
 		},
 		"P3V9b06HIhg3N0hoCA7PAF2ieyJANrp7": {
-			"height": 101,
-			"title": "Get closest tower",
-			"width": 633,
-			"x": 869,
-			"y": 116
-		},
-		"PND1npscXkWcyxOJgMeZnLTA4TkGETFM": {
-			"height": 92,
-			"title": "store",
-			"width": 155,
-			"x": 1093,
-			"y": 403
+			"height": 100,
+			"title": "Get closest shika position",
+			"width": 381,
+			"x": 918,
+			"y": 84
 		},
 		"RhRGphgSOWAnzyQ3gHXxNrJUg0AgS2gO": {
-			"height": 112,
+			"height": 102,
 			"title": "Take out the dead",
-			"width": 550,
-			"x": 862,
-			"y": -365
+			"width": 537,
+			"x": 915,
+			"y": -111
 		},
 		"V2GMMmUIQSJ3zze4sXBiQpWs1euPJ2bE": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 676,
-			"y": -97
-		},
-		"Vqf9RahlY2zN3NxjAIXAiLMrUHFGlmHV": {
-			"height": 94,
-			"title": "GetTheLineFormation",
-			"width": 351,
-			"x": 862,
-			"y": -258
-		},
-		"ZhbELd5G3fyeqr6lwY5FI65R5N40shX7": {
-			"height": 90,
-			"title": "luaCondition",
-			"width": 194,
-			"x": 683,
-			"y": 457
-		},
-		"blo6LFXA7cEmeuXOUUNPaNq1jkK7mcAe": {
-			"height": 137,
-			"title": "Keep position",
-			"width": 264,
-			"x": 1336,
-			"y": 494
-		},
-		"dKWETJPkonsWFtNVUqcb6GxMAeyWDMOw": {
-			"height": 90,
-			"title": "luaCondition",
-			"width": 194,
-			"x": 1098,
-			"y": 509
+			"x": 723,
+			"y": -87
 		},
 		"hBeSAZhewOgZUmjhhY99o1mfxrQar2a7": {
-			"height": 92,
-			"title": "store",
-			"width": 141,
-			"x": 962,
-			"y": 316
+			"height": 96,
+			"title": "Unset mav battle line",
+			"width": 214,
+			"x": 1180,
+			"y": 286
 		},
 		"lA6Wj3ivkagb8p6waGPCWpQ4T6AZWM5t": {
-			"height": 96,
-			"title": "store",
-			"width": 197,
-			"x": 1755,
-			"y": 165
-		},
-		"qgPXEcrbvuy1YxyYSB3K95uirYEyxHEz": {
-			"height": 94,
-			"title": "GetGroupDefinition",
-			"width": 473,
-			"x": 861,
-			"y": -168
+			"height": 92,
+			"title": "Keep the middle position",
+			"width": 237,
+			"x": 1965,
+			"y": 246
 		},
 		"t6JGwTOseOMPbZaKqkBXqRgHBd3kjRyy": {
 			"height": 60,
-			"title": "RepeatCommand",
+			"title": "Do battle",
 			"width": 194,
-			"x": 458,
-			"y": 467
+			"x": 509,
+			"y": 392
 		},
 		"wKmI40bzvdlg5J7tYdEbwTxZcaT4hqrd": {
 			"height": 95,
-			"title": "Get closest tower",
+			"title": "Get closest shika id",
 			"width": 430,
-			"x": 865,
-			"y": 26
-		},
-		"yFi87grQU98orXt3AJ1uJmcGUAXX9TwT": {
-			"height": 60,
-			"title": "RepeatBattle",
-			"width": 163,
-			"x": 478,
-			"y": 137
+			"x": 920,
+			"y": -15
 		}
 	},
 	"roles": [ {
@@ -174,56 +125,11 @@
 					"scriptName": "store"
 				}, {
 					"children": [],
-					"id": "Vqf9RahlY2zN3NxjAIXAiLMrUHFGlmHV",
-					"nodeType": "luaCommand",
-					"parameters": [ {
-						"name": "var",
-						"value": "formationDefinition"
-					}, {
-						"name": "value",
-						"value": "nota_kyzro_sandsail2.GetLineFormation()"
-					}, {
-						"name": "scriptName",
-						"value": "store"
-					} ],
-					"scriptName": "store"
-				}, {
-					"children": [],
-					"id": "qgPXEcrbvuy1YxyYSB3K95uirYEyxHEz",
-					"nodeType": "luaCommand",
-					"parameters": [ {
-						"name": "var",
-						"value": "groupDefinition"
-					}, {
-						"name": "value",
-						"value": "nota_kyzro_sandsail2.GetUnitsInFormationFormat(bb.mavs)"
-					}, {
-						"name": "scriptName",
-						"value": "store"
-					} ],
-					"scriptName": "store"
-				}, {
-					"children": [],
-					"id": "OmOZZBEN27shhJ0HgR567Q2KNbP11Uon",
-					"nodeType": "luaCommand",
-					"parameters": [ {
-						"name": "var",
-						"value": "formationTransformed"
-					}, {
-						"name": "value",
-						"value": "formation.StaticTransform(formationDefinition, Vec3(1,0,-1), Vec3(0,0,0), Vec3(70,1,70))"
-					}, {
-						"name": "scriptName",
-						"value": "store"
-					} ],
-					"scriptName": "store"
-				}, {
-					"children": [],
 					"id": "wKmI40bzvdlg5J7tYdEbwTxZcaT4hqrd",
 					"nodeType": "luaCommand",
 					"parameters": [ {
 						"name": "var",
-						"value": "closestEnemyTowerMid"
+						"value": "shika"
 					}, {
 						"name": "value",
 						"value": "nota_kcky_exam.FindClosestEnemyTowerID(\"Middle\")"
@@ -238,15 +144,82 @@
 					"nodeType": "luaCommand",
 					"parameters": [ {
 						"name": "var",
-						"value": "closestEnemyTowerMid"
+						"value": "shika"
 					}, {
 						"name": "value",
-						"value": "closestEnemyTowerMid and Vec3(Spring.GetUnitPosition(closestEnemyTowerMid))"
+						"value": "shika and Vec3(Spring.GetUnitPosition(shika))"
 					}, {
 						"name": "scriptName",
 						"value": "store"
 					} ],
 					"scriptName": "store"
+				}, {
+					"children": [ {
+						"children": [ {
+							"children": [],
+							"id": "NHwolEZwTRkjZW7bNeGDCt6175z4MbhM",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "var",
+								"value": "bb.mavPos"
+							}, {
+								"name": "value",
+								"value": "shika + Vec3(-520, 0, 520)"
+							}, {
+								"name": "scriptName",
+								"value": "store"
+							} ],
+							"scriptName": "store"
+						}, {
+							"children": [],
+							"id": "lA6Wj3ivkagb8p6waGPCWpQ4T6AZWM5t",
+							"nodeType": "luaCommand",
+							"parameters": [ {
+								"name": "var",
+								"value": "bb.mavPos"
+							}, {
+								"name": "value",
+								"value": "bb.middlePosition"
+							}, {
+								"name": "scriptName",
+								"value": "store"
+							} ],
+							"scriptName": "store"
+						} ],
+						"id": "3GO126M3fkmSOm1pwvTkNTdK63RWzuzD",
+						"nodeType": "luaCondition",
+						"parameters": [ {
+							"name": "expression",
+							"value": "shika and (ProjectMiddle(shika) < bb.middleProgress + 0.08)"
+						}, {
+							"name": "repeat",
+							"value": "true"
+						} ]
+					}, {
+						"children": [],
+						"id": "hBeSAZhewOgZUmjhhY99o1mfxrQar2a7",
+						"nodeType": "luaCommand",
+						"parameters": [ {
+							"name": "var",
+							"value": "bb.mavPos"
+						}, {
+							"name": "value",
+							"value": "nil"
+						}, {
+							"name": "scriptName",
+							"value": "store"
+						} ],
+						"scriptName": "store"
+					} ],
+					"id": "BZUKqxTNFGXLcJUFqRCX7vERkgaSfILa",
+					"nodeType": "luaCondition",
+					"parameters": [ {
+						"name": "expression",
+						"value": "#bb.mavs > 0"
+					}, {
+						"name": "repeat",
+						"value": "true"
+					} ]
 				} ],
 				"id": "V2GMMmUIQSJ3zze4sXBiQpWs1euPJ2bE",
 				"nodeType": "sequence",
@@ -257,135 +230,29 @@
 			"parameters": []
 		}, {
 			"children": [ {
-				"children": [ {
-					"children": [ {
-						"children": [],
-						"id": "NHwolEZwTRkjZW7bNeGDCt6175z4MbhM",
-						"nodeType": "luaCommand",
-						"parameters": [ {
-							"name": "var",
-							"value": "bb.mavPos"
-						}, {
-							"name": "value",
-							"value": "closestEnemyTowerMid + Vec3(-520, 0, 520)"
-						}, {
-							"name": "scriptName",
-							"value": "store"
-						} ],
-						"scriptName": "store"
-					}, {
-						"children": [],
-						"id": "lA6Wj3ivkagb8p6waGPCWpQ4T6AZWM5t",
-						"nodeType": "luaCommand",
-						"parameters": [ {
-							"name": "var",
-							"value": "bb.mavPos"
-						}, {
-							"name": "value",
-							"value": "bb.middlePosition"
-						}, {
-							"name": "scriptName",
-							"value": "store"
-						} ],
-						"scriptName": "store"
-					} ],
-					"id": "3GO126M3fkmSOm1pwvTkNTdK63RWzuzD",
-					"nodeType": "luaCondition",
-					"parameters": [ {
-						"name": "expression",
-						"value": "closestEnemyTowerMid and ProjectMiddle(closestEnemyTowerMid) < bb.middleProgress + 0.08"
-					}, {
-						"name": "repeat",
-						"value": "true"
-					} ]
-				}, {
-					"children": [],
-					"id": "hBeSAZhewOgZUmjhhY99o1mfxrQar2a7",
-					"nodeType": "luaCommand",
-					"parameters": [ {
-						"name": "var",
-						"value": "bb.mavPos"
-					}, {
-						"name": "value",
-						"value": "nil"
-					}, {
-						"name": "scriptName",
-						"value": "store"
-					} ],
-					"scriptName": "store"
-				} ],
-				"id": "BZUKqxTNFGXLcJUFqRCX7vERkgaSfILa",
-				"nodeType": "luaCondition",
+				"children": [],
+				"id": "JGqGoHaNKfG6qV0lbUZptc3jQzW0skd5",
+				"nodeType": "luaCommand",
 				"parameters": [ {
-					"name": "expression",
-					"value": "#bb.mavs > 0"
+					"name": "unitsVariable",
+					"value": "\"mavs\""
 				}, {
-					"name": "repeat",
+					"name": "positionVariable",
+					"value": "\"mavPos\""
+				}, {
+					"name": "direction",
+					"value": "Vec3(10, 0, -10)"
+				}, {
+					"name": "gap",
+					"value": "30"
+				}, {
+					"name": "attack",
 					"value": "true"
-				} ]
-			} ],
-			"id": "yFi87grQU98orXt3AJ1uJmcGUAXX9TwT",
-			"nodeType": "repeat",
-			"parameters": []
-		}, {
-			"children": [ {
-				"children": [ {
-					"children": [],
-					"id": "PND1npscXkWcyxOJgMeZnLTA4TkGETFM",
-					"nodeType": "luaCommand",
-					"parameters": [ {
-						"name": "var",
-						"value": "current"
-					}, {
-						"name": "value",
-						"value": "bb.mavPos"
-					}, {
-						"name": "scriptName",
-						"value": "store"
-					} ],
-					"scriptName": "store"
 				}, {
-					"children": [ {
-						"children": [],
-						"id": "blo6LFXA7cEmeuXOUUNPaNq1jkK7mcAe",
-						"nodeType": "luaCommand",
-						"parameters": [ {
-							"name": "groupDefintion",
-							"value": "groupDefinition"
-						}, {
-							"name": "position",
-							"value": "current"
-						}, {
-							"name": "formation",
-							"value": "formationTransformed"
-						}, {
-							"name": "fight",
-							"value": "true"
-						}, {
-							"name": "scriptName",
-							"value": "nota_kyzro_swampdota.moveCustomGroup"
-						} ],
-						"scriptName": "nota_kyzro_swampdota.moveCustomGroup"
-					} ],
-					"id": "dKWETJPkonsWFtNVUqcb6GxMAeyWDMOw",
-					"nodeType": "luaCondition",
-					"parameters": [ {
-						"name": "expression",
-						"value": "current"
-					}, {
-						"name": "repeat",
-						"value": "false"
-					} ]
+					"name": "scriptName",
+					"value": "nota_kcky_exam.moveWing"
 				} ],
-				"id": "ZhbELd5G3fyeqr6lwY5FI65R5N40shX7",
-				"nodeType": "luaCondition",
-				"parameters": [ {
-					"name": "expression",
-					"value": "bb.mavPos ~= current"
-				}, {
-					"name": "repeat",
-					"value": "true"
-				} ]
+				"scriptName": "nota_kcky_exam.moveWing"
 			} ],
 			"id": "t6JGwTOseOMPbZaKqkBXqRgHBd3kjRyy",
 			"nodeType": "repeat",
