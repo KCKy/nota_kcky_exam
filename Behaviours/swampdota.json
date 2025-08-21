@@ -13,28 +13,28 @@
 			"height": 73,
 			"title": "Buy",
 			"width": 196,
-			"x": 1880,
+			"x": 1881,
 			"y": -161
 		},
 		"2bOjzvc0elRrNnwNugrI8xBkWkUnJIVk": {
 			"height": 72,
 			"title": "Wait for next tick",
 			"width": 186,
-			"x": 954,
+			"x": 955,
 			"y": -179
 		},
 		"3qBZlqWec18dEUf7J2QixTvt0XqBi8om": {
 			"height": 70,
 			"title": "selector",
 			"width": 131,
-			"x": 992,
+			"x": 993,
 			"y": -258
 		},
 		"8m9PQDdxOzdZAyClpQQ1laHfmP97EtZk": {
 			"height": 94,
 			"title": "Mission info",
 			"width": 198,
-			"x": 1020,
+			"x": 1021,
 			"y": -832
 		},
 		"90V1MSlGMFrvx7K3i8b1dacmV9RFHJmo": {
@@ -44,18 +44,11 @@
 			"x": 842,
 			"y": -624
 		},
-		"B9V7obLgd9g5MuujuXe38cIHQog3nnIc": {
-			"height": 78,
-			"title": "Upgrade",
-			"width": 225,
-			"x": 3476,
-			"y": 136
-		},
 		"D7Fxro5uhdYU3ppxscCpxhtH159EdgxH": {
 			"height": 89,
 			"title": "We need multiple spies to have redundancy",
 			"width": 358,
-			"x": 1490,
+			"x": 1491,
 			"y": -167
 		},
 		"FvmoUY6E5nWMq1epCNaVQsVRT7t2MM0L": {
@@ -111,7 +104,7 @@
 			"height": 73,
 			"title": "Buy",
 			"width": 196,
-			"x": 1502,
+			"x": 1503,
 			"y": -261
 		},
 		"STyf99qTO2jihVuXvi86WPumevyJXqUf": {
@@ -125,14 +118,14 @@
 			"height": 95,
 			"title": "Current position at the middle lane",
 			"width": 330,
-			"x": 1024,
+			"x": 1025,
 			"y": -652
 		},
 		"XyHk9uwo2iH9GbRqZQcnEg2vaeDSv5Vq": {
 			"height": 89,
 			"title": "Buy mavs when we got enough lugers to advance",
 			"width": 564,
-			"x": 2230,
+			"x": 2231,
 			"y": 37
 		},
 		"Z4YBZkkhTkKeBielYyPl5JdMGT8ge5iw": {
@@ -141,13 +134,6 @@
 			"width": 223,
 			"x": 603,
 			"y": -624
-		},
-		"a6SkVW7nX7AVtjnPGIzrdWzdqkpfOB1c": {
-			"height": 90,
-			"title": "Upgrade middle lane when we got enough lugers to advance",
-			"width": 640,
-			"x": 2824,
-			"y": 131
 		},
 		"etgnKjIsaoGcfDjTi5SY4ZOe6i7t9VTx": {
 			"height": 94,
@@ -167,21 +153,21 @@
 			"height": 94,
 			"title": "Progress on the middle lane",
 			"width": 259,
-			"x": 1022,
+			"x": 1023,
 			"y": -742
 		},
 		"mA38pQMJzyyOJeh0iW3k1Ll78TlGp1iZ": {
 			"height": 92,
 			"title": "Keep atlases for transport",
 			"width": 324,
-			"x": 1872,
+			"x": 1873,
 			"y": -61
 		},
 		"pFdeRGmusmkEwejto0ELledanuFMwrKW": {
 			"height": 92,
 			"title": "We need farks",
 			"width": 292,
-			"x": 1168,
+			"x": 1169,
 			"y": -264
 		},
 		"qaKCzlLMVjVAc2DARUAflVIPgqLccwgx": {
@@ -202,7 +188,7 @@
 			"height": 96,
 			"title": "Desired fark middle position",
 			"width": 726,
-			"x": 1022,
+			"x": 1023,
 			"y": -562
 		},
 		"tSLdEa7qE1G76UzPgaXoe4DE3buWrFsB": {
@@ -216,15 +202,15 @@
 			"height": 74,
 			"title": "Wait for more metal",
 			"width": 207,
-			"x": 1197,
+			"x": 1198,
 			"y": -170
 		},
 		"wJiNUE0vXlBdzb9RsaW0R96Xs03Ndjwd": {
 			"height": 73,
 			"title": "Buy",
 			"width": 196,
-			"x": 3478,
-			"y": 214
+			"x": 2825,
+			"y": 124
 		},
 		"xGuBma2AU2Me37DGmgL6CQrACBxqczJM": {
 			"height": 110,
@@ -237,14 +223,14 @@
 			"height": 94,
 			"title": "Atlas destination for middle lane",
 			"width": 616,
-			"x": 1023,
+			"x": 1024,
 			"y": -471
 		},
 		"zzybwMQw6dGtYQWJGlR8AMRliYFHILGc": {
 			"height": 73,
 			"title": "Buy",
 			"width": 196,
-			"x": 2231,
+			"x": 2232,
 			"y": -50
 		}
 	},
@@ -445,40 +431,17 @@
 											} ],
 											"scriptName": "nota_kcky_exam.buy"
 										}, {
-											"children": [ {
-												"children": [],
-												"id": "B9V7obLgd9g5MuujuXe38cIHQog3nnIc",
-												"nodeType": "luaCommand",
-												"parameters": [ {
-													"name": "lineName",
-													"value": "'GoodMiddle'"
-												}, {
-													"name": "scriptName",
-													"value": "nota_kcky_exam.upgrade"
-												} ],
-												"scriptName": "nota_kcky_exam.upgrade"
-											}, {
-												"children": [],
-												"id": "wJiNUE0vXlBdzb9RsaW0R96Xs03Ndjwd",
-												"nodeType": "luaCommand",
-												"parameters": [ {
-													"name": "unitName",
-													"value": "'armmart'"
-												}, {
-													"name": "scriptName",
-													"value": "nota_kcky_exam.buy"
-												} ],
-												"scriptName": "nota_kcky_exam.buy"
-											} ],
-											"id": "a6SkVW7nX7AVtjnPGIzrdWzdqkpfOB1c",
-											"nodeType": "luaCondition",
+											"children": [],
+											"id": "wJiNUE0vXlBdzb9RsaW0R96Xs03Ndjwd",
+											"nodeType": "luaCommand",
 											"parameters": [ {
-												"name": "expression",
-												"value": "bb.ms.battleLines.GoodMiddle.extraSpawnSize  < #GetNotActiveUnits({\"armmart\"}, {}) / 2.5"
+												"name": "unitName",
+												"value": "'armmart'"
 											}, {
-												"name": "repeat",
-												"value": "true"
-											} ]
+												"name": "scriptName",
+												"value": "nota_kcky_exam.buy"
+											} ],
+											"scriptName": "nota_kcky_exam.buy"
 										} ],
 										"id": "XyHk9uwo2iH9GbRqZQcnEg2vaeDSv5Vq",
 										"nodeType": "luaCondition",

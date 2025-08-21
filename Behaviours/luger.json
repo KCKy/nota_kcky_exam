@@ -27,21 +27,21 @@
 			"height": 100,
 			"title": "Find the closest tower id",
 			"width": 443,
-			"x": 938,
+			"x": 939,
 			"y": -347
 		},
 		"F5USeizc1yS35CpDpfjZkycscLmhRbzo": {
 			"height": 96,
 			"title": "Are we too close to the battle line?",
 			"width": 712,
-			"x": 938,
+			"x": 939,
 			"y": -144
 		},
 		"G1qULBysxuPrAS3xcN8wYDCimuIemjRt": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 747,
+			"x": 748,
 			"y": -83
 		},
 		"Kn7ahwwyokSD64UqvDLeHXFYKaWcVNTy": {
@@ -55,14 +55,14 @@
 			"height": 60,
 			"title": "Update information",
 			"width": 202,
-			"x": 514,
+			"x": 515,
 			"y": -82
 		},
 		"QWuXXIwoRXxt83lmV05yz9iiaZxmBTh0": {
 			"height": 104,
 			"title": "Take out the dead",
 			"width": 552,
-			"x": 936,
+			"x": 937,
 			"y": -449
 		},
 		"QvPrDWWViQ0jAQCND0Wxt85EGa1JzwMm": {
@@ -76,7 +76,7 @@
 			"height": 100,
 			"title": "Determine luger position",
 			"width": 680,
-			"x": 938,
+			"x": 939,
 			"y": -244
 		},
 		"ZIBLmg8nHphUjIyxWGNmWXu6a7D1yUbf": {
@@ -111,7 +111,7 @@
 			"height": 60,
 			"title": "Do battle",
 			"width": 163,
-			"x": 524,
+			"x": 525,
 			"y": 133
 		},
 		"ibhMpbXzKg0ioVVqdpgtCQIjZRW06E4p": {
@@ -125,7 +125,7 @@
 			"height": 88,
 			"title": "Is there a shika to attack and mavs to support us?",
 			"width": 618,
-			"x": 707,
+			"x": 708,
 			"y": 126
 		},
 		"waSeY4N9EpCUN3C2Edvu8hk4MuwCdYRK": {
@@ -332,7 +332,7 @@
 							"value": "50"
 						}, {
 							"name": "attack",
-							"value": "false"
+							"value": "true"
 						}, {
 							"name": "scriptName",
 							"value": "nota_kcky_exam.moveWing"
