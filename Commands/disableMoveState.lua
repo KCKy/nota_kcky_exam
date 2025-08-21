@@ -2,7 +2,7 @@ function getInfo()
     return
     {
         onNoUnits = SUCCESS,
-        tooltip = "Order units to not wander",
+        tooltip = "Order units to not wander to fight",
 		parameterDefs =
         {
             {
@@ -15,12 +15,11 @@ function getInfo()
     }
 end
 
-local commandName = "disableMoveState"
-
 function Run(self, units, params)
     for _, unit in ipairs(params.units) do
         Spring.GiveOrderToUnit(unit, CMD.MOVE_STATE, {0}, {"shift"})
-     end
+    end
+
     return SUCCESS
 end
 

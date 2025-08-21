@@ -25,9 +25,8 @@ function Run(self, units, parameter)
     for _, unit in ipairs(parameter.units) do
         Spring.GiveOrderToUnit(unit, CMD.MOVE, parameter.position:AsSpringVector(), {})
     end
+    
     return RUNNING
 end
 
-function Reset(self)
-	return self
-end
+function Reset(self) end

@@ -3,10 +3,12 @@ VFS.Include(modules.attach.data.path .. modules.attach.data.head)
 attach.Module(modules, "message")
 
 function getInfo()
-	return {
+	return
+	{
 		onNoUnits = SUCCESS,
 		tooltip = "Upgrade given lane",
-		parameterDefs = {
+		parameterDefs =
+		{
 			{ 
 				name = "lineName",
 				variableType = "expression",
@@ -27,18 +29,17 @@ function Run(self, units, parameter)
 		return FAILURE
 	end
 
-    message.SendRules({
+    message.SendRules(
+	{
         subject = "swampdota_upgradeLine",
-        data = {
+        data =
+		{
 			lineName = parameter.lineName,
 			upgradeLevel = 1,
-		},
+		}
     })
 	
 	return SUCCESS
 end
 
-
-function Reset(self)
-	return self
-end
+function Reset(self) end

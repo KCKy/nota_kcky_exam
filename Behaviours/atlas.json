@@ -303,7 +303,7 @@
 							"value": "atlas"
 						}, {
 							"name": "area",
-							"value": "{center = bb[destination], radius = 100}"
+							"value": "{center = bb[destination], radius = 300}"
 						}, {
 							"name": "scriptName",
 							"value": "nota_krejci_exam.unloadUnit"

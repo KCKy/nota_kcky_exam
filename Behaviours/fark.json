@@ -300,7 +300,7 @@
 					"nodeType": "reference",
 					"parameters": [ {
 						"name": "behaviourName",
-						"value": "nota_kcky_exam.moveToSafe"
+						"value": "nota_kcky_exam.move_to_safe"
 					} ],
 					"referenceInputs": [ {
 						"name": "requests",

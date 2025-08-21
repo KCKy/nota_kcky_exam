@@ -1,8 +1,10 @@
 function getInfo()
-	return {
-		onNoUnits = SUCCESS, -- instant success
-		tooltip = "Spy seek tower",
-		parameterDefs = {
+	return
+	{
+		onNoUnits = SUCCESS,
+		tooltip = "Make spy seek to the closes shika tower on the middle line (adapted from nota_sirwok_exam)",
+		parameterDefs =
+		{
 			{ 
 				name = "spyID",
 				variableType = "expression",
@@ -24,10 +26,6 @@ function getInfo()
 		}
 	}
 end
-
--- Adapted from nota_sirwok_exam
-
-function Reset(self) end
 
 function Run(self, units, parameter)
     local shika = Sensors.nota_kcky_exam.FindClosestEnemyTowerID("Middle")
@@ -53,3 +51,5 @@ function Run(self, units, parameter)
 
 	return RUNNING
 end
+
+function Reset(self) end

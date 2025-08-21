@@ -1,9 +1,9 @@
 local sensorInfo = {
-	name = "Max",
-	desc = "Get a max of a list",
-	author = "KCKy",
-	date = "2025-08-11",
-	license = "MIT",
+    name = "Max",
+    desc = "Get a max of a list",
+    author = "KCKy",
+    date = "2025-08-21",
+    license = "MIT",
 }
 
 function getInfo() return { period = -1 } end

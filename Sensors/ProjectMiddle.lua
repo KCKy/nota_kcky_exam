@@ -2,7 +2,7 @@ local sensorInfo = {
     name = "ProjectMiddle",
     desc = "Project a position to the middle lane (approximate), returns 0 - 1",
     author = "KCKy",
-    date = "2025-08-11",
+    date = "2025-08-21",
     license = "MIT",
 }
 
@@ -17,7 +17,8 @@ function getInfo() return { period = -1 } end
 local function projectLine(a, b, point)
     local pointRelative = point - a
     local direction = (b - a):GetNormalized()
-    return direction:DotProduct(pointRelative)
+    local length = (b - a):Length()
+    return direction:DotProduct(pointRelative) / length
 end
 
 return function(position)

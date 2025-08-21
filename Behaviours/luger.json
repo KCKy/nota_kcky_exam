@@ -83,7 +83,7 @@
 			"height": 92,
 			"title": "nota_mestek_labs.fireAt",
 			"width": 289,
-			"x": 3081,
+			"x": 3118,
 			"y": 6
 		},
 		"gejpEmfYGlgg0dYXu4dpQ4nmAVYWc6e9": {
@@ -265,7 +265,7 @@
 							"nodeType": "luaCondition",
 							"parameters": [ {
 								"name": "expression",
-								"value": "AreUnitsClose(bb.lugers, \"Middle\", 0.01)"
+								"value": "AreUnitsClose(bb.lugers, 0.01)"
 							}, {
 								"name": "repeat",
 								"value": "true"

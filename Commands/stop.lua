@@ -2,7 +2,7 @@ function getInfo()
     return
     {
         onNoUnits = SUCCESS,
-        tooltip = "Give the stop command to units",
+        tooltip = "Give the stop command to given units",
 		parameterDefs =
         {
             {
@@ -19,9 +19,8 @@ function Run(self, units, parameter)
     for _, unit in ipairs(parameter.units) do
         Spring.GiveOrderToUnit(unit, CMD.STOP, {}, {})
     end
+
     return SUCCESS
 end
 
-function Reset(self)
-	return self
-end
+function Reset(self) end

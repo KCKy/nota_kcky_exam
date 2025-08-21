@@ -1,8 +1,8 @@
 local sensorInfo = {
     name = "AreUnitsClose",
-    desc = "Get the units close to each other?",
+    desc = "Check if the units close to each other",
     author = "KCKy",
-    date = "2025-08-11",
+    date = "2025-08-21",
     license = "MIT",
 }
 

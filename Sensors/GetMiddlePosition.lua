@@ -2,7 +2,7 @@ local sensorInfo = {
     name = "GetMiddlePosition",
     desc = "Get position of the middle lane at given percentage (approximate)",
     author = "KCKy",
-    date = "2025-08-11",
+    date = "2025-08-21",
     license = "MIT",
 }
 

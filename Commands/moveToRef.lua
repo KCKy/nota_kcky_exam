@@ -2,7 +2,7 @@ function getInfo()
     return
     {
         onNoUnits = SUCCESS,
-        tooltip = "Continuously move units to given reference",
+        tooltip = "Continuously move units to position at given blackboard reference",
 		parameterDefs =
         {
             {
@@ -25,9 +25,8 @@ function Run(self, units, parameter)
     for _, unit in ipairs(parameter.units) do
         Spring.GiveOrderToUnit(unit, CMD.MOVE, bb[parameter.positionRef]:AsSpringVector(), {})
     end
+    
     return RUNNING
 end
 
-function Reset(self)
-	return self
-end
+function Reset(self) end

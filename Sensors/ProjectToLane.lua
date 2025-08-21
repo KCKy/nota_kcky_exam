@@ -2,7 +2,7 @@ local sensorInfo = {
     name = "ProjectToLane",
     desc = "Project a position to a lane, returns 0 - 1",
     author = "KCKy",
-    date = "2025-08-11",
+    date = "2025-08-21",
     license = "MIT",
 }
 
