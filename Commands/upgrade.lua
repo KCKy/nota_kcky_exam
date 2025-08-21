@@ -25,10 +25,14 @@ function Run(self, units, parameter)
 		return FAILURE
 	end
 
-	if Spring.GetTeamResources(Spring.GetMyTeamID(), "metal") <= price then
+	if Spring.GetTeamResources(Spring.GetMyTeamID(), "metal") <= price + 10 then
 		return FAILURE
 	end
 
+	if bb.ms.battleLines.GoodMiddle.extraSpawnSize >= bb.ms.upgrade.lineMaxLevel then
+		return SUCCESS
+	end
+	
     message.SendRules(
 	{
         subject = "swampdota_upgradeLine",

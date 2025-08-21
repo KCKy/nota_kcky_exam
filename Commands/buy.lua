@@ -25,7 +25,7 @@ function Run(self, units, parameter)
         return FAILURE
     end
 
-    if Spring.GetTeamResources(Spring.GetMyTeamID(), "metal") <= price then
+    if Spring.GetTeamResources(Spring.GetMyTeamID(), "metal") <= price + 10 then
         return FAILURE
     end
 
