@@ -22,6 +22,6 @@ local function projectLine(a, b, point)
 end
 
 return function(position)
-    local points = Sensors.core.MissionInfo().corridors.Middle.points
+    local points = bb.ms.corridors.Middle.points
     return projectLine(points[1].position, points[#points].position, position)
 end

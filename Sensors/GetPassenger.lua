@@ -19,4 +19,3 @@ return function(unit, requests)
     table.sort(requests, compare)
     return requests[#requests]
 end
-

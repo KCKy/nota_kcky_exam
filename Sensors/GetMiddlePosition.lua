@@ -15,7 +15,7 @@ local contains = Sensors.nota_kcky_exam.Contains
 function getInfo() return { period = -1 } end
 
 return function(progress)
-    local points = Sensors.core.MissionInfo().corridors.Middle.points
+    local points = bb.ms.corridors.Middle.points
     local a = points[1].position
     local b = points[#points].position
     b = b - a

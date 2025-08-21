@@ -13,7 +13,7 @@
 			"height": 73,
 			"title": "Buy",
 			"width": 196,
-			"x": 1682,
+			"x": 1683,
 			"y": -159
 		},
 		"3qBZlqWec18dEUf7J2QixTvt0XqBi8om": {
@@ -118,7 +118,7 @@
 			"height": 89,
 			"title": "Buy mavs when we got enough lugers to advance",
 			"width": 564,
-			"x": 2033,
+			"x": 2034,
 			"y": 39
 		},
 		"Z4YBZkkhTkKeBielYyPl5JdMGT8ge5iw": {
@@ -131,7 +131,7 @@
 		"a6SkVW7nX7AVtjnPGIzrdWzdqkpfOB1c": {
 			"height": 90,
 			"title": "Upgrade middle lane when we got enough lugers to advance",
-			"width": 628,
+			"width": 640,
 			"x": 2628,
 			"y": 133
 		},
@@ -160,7 +160,7 @@
 			"height": 92,
 			"title": "Keep atlases for transport",
 			"width": 324,
-			"x": 1674,
+			"x": 1675,
 			"y": -59
 		},
 		"pFdeRGmusmkEwejto0ELledanuFMwrKW": {
@@ -230,7 +230,7 @@
 			"height": 73,
 			"title": "Buy",
 			"width": 196,
-			"x": 2034,
+			"x": 2035,
 			"y": -48
 		}
 	},
@@ -298,7 +298,7 @@
 						"nodeType": "luaCommand",
 						"parameters": [ {
 							"name": "var",
-							"value": "ms"
+							"value": "bb.ms"
 						}, {
 							"name": "value",
 							"value": "core.MissionInfo()"
@@ -459,7 +459,7 @@
 										"nodeType": "luaCondition",
 										"parameters": [ {
 											"name": "expression",
-											"value": "ms.battleLines.GoodMiddle.extraSpawnSize + 3 < #GetNotActiveUnits({\"armmart\"}, {}) / 2.5"
+											"value": "bb.ms.battleLines.GoodMiddle.extraSpawnSize + 3 < #GetNotActiveUnits({\"armmart\"}, {}) / 2.5"
 										}, {
 											"name": "repeat",
 											"value": "true"

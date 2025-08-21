@@ -15,6 +15,7 @@ local max = Sensors.nota_kcky_exam.Max
 local contains = Sensors.nota_kcky_exam.Contains
 
 return function(laneName)
-    local points = Sensors.core.missionInfo().corridors[laneName].points
+    local points = bb.ms.corridors[laneName].points
     return filter(points, function(x) return x.isStrongpoint and x.ownerAllyID == Spring.GetMyAllyTeamID() end)
 end
+

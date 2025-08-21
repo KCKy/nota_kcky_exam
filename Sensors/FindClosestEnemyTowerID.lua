@@ -15,7 +15,7 @@ local max = Sensors.nota_kcky_exam.Max
 local contains = Sensors.nota_kcky_exam.Contains
 
 return function(laneName)
-    local points = Sensors.core.missionInfo().corridors[laneName].points
+    local points = bb.ms.corridors[laneName].points
     for _, node in ipairs(points) do
         local position = node.position
         local closeUnits = Spring.GetUnitsInSphere(position.x, position.y, position.z, 800)

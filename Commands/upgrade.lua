@@ -20,7 +20,7 @@ function getInfo()
 end
 
 function Run(self, units, parameter)
-	local price = Sensors.core.MissionInfo().upgrade.line
+	local price = bb.ms.upgrade.line
 	if not price then
 		return FAILURE
 	end

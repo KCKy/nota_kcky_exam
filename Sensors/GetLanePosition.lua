@@ -27,7 +27,7 @@ local function totalLength(points)
 end
 
 return function(laneName, progress)
-    local points = Sensors.core.MissionInfo().corridors[laneName].points
+    local points = bb.ms.corridors[laneName].points
     points = map(points, function(x) return x.position end)
     local laneLength = totalLength(points)  
     
