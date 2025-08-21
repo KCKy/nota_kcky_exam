@@ -18,7 +18,7 @@ return function(laneName)
     local points = bb.ms.corridors[laneName].points
     for _, node in ipairs(points) do
         local position = node.position
-        local closeUnits = Spring.GetUnitsInSphere(position.x, position.y, position.z, 800)
+        local closeUnits = Spring.GetUnitsInSphere(position.x, position.y, position.z, 400)
         for _, closeUnitID in ipairs(closeUnits) do
             if UnitDefs[Spring.GetUnitDefID(closeUnitID)].name == "shika"
                 and not Spring.IsUnitAllied(closeUnitID) then
