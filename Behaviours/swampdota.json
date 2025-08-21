@@ -13,7 +13,7 @@
 			"height": 73,
 			"title": "Buy",
 			"width": 196,
-			"x": 1682,
+			"x": 1683,
 			"y": -159
 		},
 		"3qBZlqWec18dEUf7J2QixTvt0XqBi8om": {
@@ -27,7 +27,7 @@
 			"height": 94,
 			"title": "Mission info",
 			"width": 198,
-			"x": 1027,
+			"x": 1028,
 			"y": -743
 		},
 		"90V1MSlGMFrvx7K3i8b1dacmV9RFHJmo": {
@@ -48,7 +48,7 @@
 			"height": 89,
 			"title": "We need multiple spies to have redundancy",
 			"width": 358,
-			"x": 1291,
+			"x": 1292,
 			"y": -165
 		},
 		"FvmoUY6E5nWMq1epCNaVQsVRT7t2MM0L": {
@@ -97,7 +97,7 @@
 			"height": 73,
 			"title": "Buy",
 			"width": 196,
-			"x": 1306,
+			"x": 1307,
 			"y": -257
 		},
 		"STyf99qTO2jihVuXvi86WPumevyJXqUf": {
@@ -111,7 +111,7 @@
 			"height": 95,
 			"title": "Current position at the middle lane",
 			"width": 330,
-			"x": 1031,
+			"x": 1032,
 			"y": -563
 		},
 		"XyHk9uwo2iH9GbRqZQcnEg2vaeDSv5Vq": {
@@ -153,14 +153,14 @@
 			"height": 94,
 			"title": "Progress on the middle lane",
 			"width": 259,
-			"x": 1029,
+			"x": 1030,
 			"y": -653
 		},
 		"mA38pQMJzyyOJeh0iW3k1Ll78TlGp1iZ": {
 			"height": 92,
 			"title": "Keep atlases for transport",
 			"width": 324,
-			"x": 1674,
+			"x": 1675,
 			"y": -59
 		},
 		"pFdeRGmusmkEwejto0ELledanuFMwrKW": {
@@ -188,7 +188,7 @@
 			"height": 96,
 			"title": "Desired fark middle position",
 			"width": 726,
-			"x": 1029,
+			"x": 1030,
 			"y": -473
 		},
 		"tSLdEa7qE1G76UzPgaXoe4DE3buWrFsB": {
@@ -223,7 +223,7 @@
 			"height": 94,
 			"title": "Atlas destination for middle lane",
 			"width": 616,
-			"x": 1030,
+			"x": 1031,
 			"y": -382
 		},
 		"zzybwMQw6dGtYQWJGlR8AMRliYFHILGc": {
@@ -469,7 +469,7 @@
 									"nodeType": "luaCondition",
 									"parameters": [ {
 										"name": "expression",
-										"value": "#GetNotActiveUnits({\"armmav\"}, {}) + 1 < #GetNotActiveUnits({\"armmart\"}, {}) / 2.5"
+										"value": "#GetNotActiveUnits({\"armmav\"}, {}) < #GetNotActiveUnits({\"armmart\"}, {}) / 2.5"
 									}, {
 										"name": "repeat",
 										"value": "true"
