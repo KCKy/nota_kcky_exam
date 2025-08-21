@@ -13,7 +13,7 @@
 			"height": 73,
 			"title": "Buy",
 			"width": 196,
-			"x": 1683,
+			"x": 1684,
 			"y": -159
 		},
 		"3qBZlqWec18dEUf7J2QixTvt0XqBi8om": {
@@ -27,14 +27,14 @@
 			"height": 94,
 			"title": "Mission info",
 			"width": 198,
-			"x": 1017,
+			"x": 1018,
 			"y": -832
 		},
 		"90V1MSlGMFrvx7K3i8b1dacmV9RFHJmo": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 839,
+			"x": 840,
 			"y": -624
 		},
 		"B9V7obLgd9g5MuujuXe38cIHQog3nnIc": {
@@ -48,7 +48,7 @@
 			"height": 89,
 			"title": "We need multiple spies to have redundancy",
 			"width": 358,
-			"x": 1291,
+			"x": 1292,
 			"y": -165
 		},
 		"FvmoUY6E5nWMq1epCNaVQsVRT7t2MM0L": {
@@ -97,7 +97,7 @@
 			"height": 73,
 			"title": "Buy",
 			"width": 196,
-			"x": 1306,
+			"x": 1307,
 			"y": -257
 		},
 		"STyf99qTO2jihVuXvi86WPumevyJXqUf": {
@@ -111,7 +111,7 @@
 			"height": 95,
 			"title": "Current position at the middle lane",
 			"width": 330,
-			"x": 1021,
+			"x": 1022,
 			"y": -652
 		},
 		"XyHk9uwo2iH9GbRqZQcnEg2vaeDSv5Vq": {
@@ -153,21 +153,21 @@
 			"height": 94,
 			"title": "Progress on the middle lane",
 			"width": 259,
-			"x": 1019,
+			"x": 1020,
 			"y": -742
 		},
 		"mA38pQMJzyyOJeh0iW3k1Ll78TlGp1iZ": {
 			"height": 92,
 			"title": "Keep atlases for transport",
 			"width": 324,
-			"x": 1675,
+			"x": 1676,
 			"y": -59
 		},
 		"pFdeRGmusmkEwejto0ELledanuFMwrKW": {
 			"height": 92,
 			"title": "We need farks",
 			"width": 292,
-			"x": 969,
+			"x": 970,
 			"y": -262
 		},
 		"qaKCzlLMVjVAc2DARUAflVIPgqLccwgx": {
@@ -188,7 +188,7 @@
 			"height": 96,
 			"title": "Desired fark middle position",
 			"width": 726,
-			"x": 1019,
+			"x": 1020,
 			"y": -562
 		},
 		"tSLdEa7qE1G76UzPgaXoe4DE3buWrFsB": {
@@ -202,7 +202,7 @@
 			"height": 74,
 			"title": "Wait for more metal",
 			"width": 207,
-			"x": 969,
+			"x": 970,
 			"y": -165
 		},
 		"wJiNUE0vXlBdzb9RsaW0R96Xs03Ndjwd": {
@@ -223,7 +223,7 @@
 			"height": 94,
 			"title": "Atlas destination for middle lane",
 			"width": 616,
-			"x": 1020,
+			"x": 1021,
 			"y": -471
 		},
 		"zzybwMQw6dGtYQWJGlR8AMRliYFHILGc": {
@@ -469,7 +469,7 @@
 									"nodeType": "luaCondition",
 									"parameters": [ {
 										"name": "expression",
-										"value": "#GetNotActiveUnits({\"armmav\"}, {}) < #GetNotActiveUnits({\"armmart\"}, {}) / 2.5"
+										"value": "#GetNotActiveUnits({\"armmav\"}, {}) < #GetNotActiveUnits({\"armmart\"}, {}) / 2"
 									}, {
 										"name": "repeat",
 										"value": "true"

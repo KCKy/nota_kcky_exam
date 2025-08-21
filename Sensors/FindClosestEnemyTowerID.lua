@@ -20,13 +20,19 @@ return function(laneName)
         local position = node.position
         local closeUnits = Spring.GetUnitsInSphere(position.x, position.y, position.z, 800)
         for _, closeUnitID in ipairs(closeUnits) do
-            if UnitDefs[Spring.GetUnitDefID(closeUnitID)].name == "corlab"
+            if UnitDefs[Spring.GetUnitDefID(closeUnitID)].name == "shika"
                 and not Spring.IsUnitAllied(closeUnitID) then
                 return closeUnitID
             end
         end
         for _, closeUnitID in ipairs(closeUnits) do
-            if UnitDefs[Spring.GetUnitDefID(closeUnitID)].name == "shika"
+            if UnitDefs[Spring.GetUnitDefID(closeUnitID)].name == "dca"
+                and not Spring.IsUnitAllied(closeUnitID) then
+                return closeUnitID
+            end
+        end
+                for _, closeUnitID in ipairs(closeUnits) do
+            if UnitDefs[Spring.GetUnitDefID(closeUnitID)].name == "corlab"
                 and not Spring.IsUnitAllied(closeUnitID) then
                 return closeUnitID
             end
