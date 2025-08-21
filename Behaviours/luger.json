@@ -13,84 +13,91 @@
 			"height": 100,
 			"title": "Find the closest tower id",
 			"width": 443,
-			"x": 925,
-			"y": -285
+			"x": 930,
+			"y": -347
 		},
 		"F5USeizc1yS35CpDpfjZkycscLmhRbzo": {
 			"height": 96,
 			"title": "Are we too close to the battle line?",
 			"width": 704,
-			"x": 925,
-			"y": -82
+			"x": 930,
+			"y": -144
 		},
 		"G1qULBysxuPrAS3xcN8wYDCimuIemjRt": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 732,
-			"y": -21
+			"x": 738,
+			"y": -83
 		},
 		"Kn7ahwwyokSD64UqvDLeHXFYKaWcVNTy": {
 			"height": 92,
 			"title": "Forget about the tower",
 			"width": 239,
-			"x": 1669,
-			"y": -81
+			"x": 1674,
+			"y": -143
 		},
 		"PZiuW7xSWtmUqvqHOOznsOQnLKFJj2IQ": {
 			"height": 60,
 			"title": "Update information",
 			"width": 202,
-			"x": 512,
-			"y": -21
+			"x": 509,
+			"y": -82
 		},
 		"QWuXXIwoRXxt83lmV05yz9iiaZxmBTh0": {
 			"height": 104,
 			"title": "Take out the dead",
 			"width": 552,
-			"x": 923,
-			"y": -387
+			"x": 928,
+			"y": -449
 		},
 		"SKHvtQgIGNRGai3btxe3ZazpqdJLCCca": {
 			"height": 101,
 			"title": "Take out the dead",
 			"width": 439,
-			"x": 921,
-			"y": -179
+			"x": 926,
+			"y": -241
+		},
+		"VAJqPa5jWJ61KMPplqe9h0WWnDhgeULd": {
+			"height": 78,
+			"title": "wait",
+			"width": 136,
+			"x": 936,
+			"y": -48
 		},
 		"ZIBLmg8nHphUjIyxWGNmWXu6a7D1yUbf": {
 			"height": 54,
 			"title": "No need to retreat",
 			"width": 197,
-			"x": 1668,
-			"y": 8
+			"x": 1673,
+			"y": -54
 		},
 		"c5lI6Vg9qzubmQu9nLQLdG3y1SIHuxTN": {
 			"height": 96,
 			"title": "Fire at the shika",
 			"width": 184,
-			"x": 1130,
+			"x": 1129,
 			"y": 53
 		},
 		"gejpEmfYGlgg0dYXu4dpQ4nmAVYWc6e9": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 273,
+			"x": 274,
 			"y": 8
 		},
 		"h2WqoPqSmetainT1tLS9XOACSYGpBBfC": {
 			"height": 60,
 			"title": "Do battle",
 			"width": 163,
-			"x": 517,
+			"x": 518,
 			"y": 133
 		},
 		"ibhMpbXzKg0ioVVqdpgtCQIjZRW06E4p": {
 			"height": 166,
 			"title": "Move forward and fire at will",
 			"width": 239,
-			"x": 1131,
+			"x": 1130,
 			"y": 161
 		},
 		"v5z3wH24aZLpNAfTzB3qngaKo6pJDL34": {
@@ -183,6 +190,14 @@
 					}, {
 						"name": "repeat",
 						"value": "false"
+					} ]
+				}, {
+					"children": [],
+					"id": "VAJqPa5jWJ61KMPplqe9h0WWnDhgeULd",
+					"nodeType": "wait",
+					"parameters": [ {
+						"name": "time",
+						"value": 2
 					} ]
 				} ],
 				"id": "G1qULBysxuPrAS3xcN8wYDCimuIemjRt",

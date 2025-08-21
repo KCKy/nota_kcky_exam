@@ -13,8 +13,8 @@
 			"height": 102,
 			"title": "Add unit to battle",
 			"width": 226,
-			"x": 1017,
-			"y": -124
+			"x": 1011,
+			"y": -163
 		},
 		"30FiU2z8RbRXJBF5DSSgRvwuyV79ccig": {
 			"height": 60,
@@ -34,14 +34,14 @@
 			"height": 92,
 			"title": "store",
 			"width": 210,
-			"x": 1009,
+			"x": 1008,
 			"y": 97
 		},
 		"U1MNKUHNwBjQ9txoPnYwiYFGRDQEm1UH": {
 			"height": 94,
 			"title": "store",
 			"width": 421,
-			"x": 1013,
+			"x": 1012,
 			"y": 190
 		},
 		"dAqy81Awu0x8K2lSl5V71zyYemxlyzmn": {
@@ -55,29 +55,36 @@
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 825,
-			"y": -91
+			"x": 820,
+			"y": -130
 		},
 		"emoCzvSfZItgDaO9FRp4QyEb2XYoIvR9": {
 			"height": 102,
 			"title": "Reset",
 			"width": 226,
-			"x": 1018,
-			"y": -22
+			"x": 1012,
+			"y": -61
 		},
 		"l0hTRyTwusp4Dh1pUi6p03W6Wt1z5fzO": {
 			"height": 92,
 			"title": "store",
 			"width": 292,
-			"x": 1014,
+			"x": 1013,
 			"y": 284
+		},
+		"rNRED3NBB2OETPXzYUuywQgYgCKLWX9L": {
+			"height": 78,
+			"title": "wait",
+			"width": 136,
+			"x": 1016,
+			"y": 377
 		},
 		"xpTrmFF3Wc3Vzr0HmOIVJ5awSlFhSDEw": {
 			"height": 173,
 			"title": "Move to the battleline",
 			"width": 278,
-			"x": 1011,
-			"y": -293
+			"x": 1005,
+			"y": -332
 		}
 	},
 	"roles": [ {
@@ -186,6 +193,14 @@
 						"value": "store"
 					} ],
 					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "rNRED3NBB2OETPXzYUuywQgYgCKLWX9L",
+					"nodeType": "wait",
+					"parameters": [ {
+						"name": "time",
+						"value": 2
+					} ]
 				} ],
 				"id": "30FiU2z8RbRXJBF5DSSgRvwuyV79ccig",
 				"nodeType": "sequence",

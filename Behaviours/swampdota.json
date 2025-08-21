@@ -20,22 +20,22 @@
 			"height": 70,
 			"title": "selector",
 			"width": 131,
-			"x": 799,
+			"x": 800,
 			"y": -254
 		},
 		"8m9PQDdxOzdZAyClpQQ1laHfmP97EtZk": {
 			"height": 94,
 			"title": "Mission info",
 			"width": 198,
-			"x": 1028,
-			"y": -743
+			"x": 1017,
+			"y": -832
 		},
 		"90V1MSlGMFrvx7K3i8b1dacmV9RFHJmo": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 847,
-			"y": -535
+			"x": 837,
+			"y": -624
 		},
 		"B9V7obLgd9g5MuujuXe38cIHQog3nnIc": {
 			"height": 78,
@@ -55,35 +55,42 @@
 			"height": 110,
 			"title": "Manager mavs",
 			"width": 285,
-			"x": 652,
+			"x": 653,
 			"y": 323
 		},
 		"GaS8hlfO0moKqoxgZgbu1D3AqW1aeNeT": {
 			"height": 57,
 			"title": "Buy units",
 			"width": 145,
-			"x": 622,
+			"x": 623,
 			"y": -250
 		},
 		"Gsmy4rsLX6zkvyvcwLmlD1qUFbuXWzlq": {
 			"height": 109,
 			"title": "Manage atlases",
 			"width": 283,
-			"x": 646,
+			"x": 647,
 			"y": 12
+		},
+		"IMK5u5pLZqujWRzUom374JTvpRmzdEdy": {
+			"height": 78,
+			"title": "wait",
+			"width": 136,
+			"x": 1018,
+			"y": -379
 		},
 		"InGAQeESJ7Q3CLh6bQ3P1U7KRDp16otg": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 376,
+			"x": 377,
 			"y": 12
 		},
 		"Mty6z0iZQTOs3XTu97NoeGmYwreMj4g4": {
 			"height": 94,
 			"title": "Luger units partaking in battle",
 			"width": 323,
-			"x": 660,
+			"x": 661,
 			"y": -1083
 		},
 		"OmyNcbsGaXoHgL1g9lSdOBQEaQuESENU": {
@@ -104,15 +111,15 @@
 			"height": 94,
 			"title": "Mav units partaking in battle",
 			"width": 323,
-			"x": 661,
+			"x": 662,
 			"y": -989
 		},
 		"XY6JKLKw4jTN8ztCsiNbRibMi2QlAr7Y": {
 			"height": 95,
 			"title": "Current position at the middle lane",
 			"width": 330,
-			"x": 1032,
-			"y": -563
+			"x": 1021,
+			"y": -652
 		},
 		"XyHk9uwo2iH9GbRqZQcnEg2vaeDSv5Vq": {
 			"height": 89,
@@ -125,8 +132,8 @@
 			"height": 60,
 			"title": "Update battlelines info",
 			"width": 223,
-			"x": 611,
-			"y": -535
+			"x": 601,
+			"y": -624
 		},
 		"a6SkVW7nX7AVtjnPGIzrdWzdqkpfOB1c": {
 			"height": 90,
@@ -139,22 +146,22 @@
 			"height": 94,
 			"title": "Atlas passenger request table",
 			"width": 441,
-			"x": 659,
+			"x": 660,
 			"y": -1180
 		},
 		"fkYY2Jhj5La5jU9o2zdacgpasUWbz7Aw": {
 			"height": 109,
 			"title": "Manage spys",
 			"width": 275,
-			"x": 648,
+			"x": 649,
 			"y": 115
 		},
 		"i2AVwLBJMNxJX5Tx99x5nNKzxtevGEil": {
 			"height": 94,
 			"title": "Progress on the middle lane",
 			"width": 259,
-			"x": 1030,
-			"y": -653
+			"x": 1019,
+			"y": -742
 		},
 		"mA38pQMJzyyOJeh0iW3k1Ll78TlGp1iZ": {
 			"height": 92,
@@ -174,28 +181,28 @@
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 197,
+			"x": 198,
 			"y": 10
 		},
 		"rsLuH8z02yGp5vmzI8b8kUiwPcSWFPrf": {
 			"height": 60,
 			"title": "Initialize",
 			"width": 143,
-			"x": 452,
+			"x": 453,
 			"y": -992
 		},
 		"s4ObQjGdjxTfXUqyUyi9smBiuKU0qVVB": {
 			"height": 96,
 			"title": "Desired fark middle position",
 			"width": 726,
-			"x": 1030,
-			"y": -473
+			"x": 1019,
+			"y": -562
 		},
 		"tSLdEa7qE1G76UzPgaXoe4DE3buWrFsB": {
 			"height": 110,
 			"title": "Manage lugers",
 			"width": 285,
-			"x": 649,
+			"x": 650,
 			"y": 218
 		},
 		"vaiCJXRW2enG37NraxSQ5MutoZvpMF9m": {
@@ -216,15 +223,15 @@
 			"height": 110,
 			"title": "Manage farks",
 			"width": 277,
-			"x": 643,
+			"x": 644,
 			"y": -93
 		},
 		"zjCuGmXMrBGdnNWz3buthEuJxSYlFYfe": {
 			"height": 94,
 			"title": "Atlas destination for middle lane",
 			"width": 616,
-			"x": 1031,
-			"y": -382
+			"x": 1020,
+			"y": -471
 		},
 		"zzybwMQw6dGtYQWJGlR8AMRliYFHILGc": {
 			"height": 73,
@@ -367,6 +374,14 @@
 							"value": "store"
 						} ],
 						"scriptName": "store"
+					}, {
+						"children": [],
+						"id": "IMK5u5pLZqujWRzUom374JTvpRmzdEdy",
+						"nodeType": "wait",
+						"parameters": [ {
+							"name": "time",
+							"value": 2
+						} ]
 					} ],
 					"id": "90V1MSlGMFrvx7K3i8b1dacmV9RFHJmo",
 					"nodeType": "sequence",

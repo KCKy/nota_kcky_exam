@@ -9,11 +9,18 @@
 	"inputs": [],
 	"outputs": [],
 	"properties": {
+		"06LD51ed6DLKBoYDZHsu9ACYFCdYUmYn": {
+			"height": 78,
+			"title": "wait",
+			"width": 136,
+			"x": 1015,
+			"y": 374
+		},
 		"1jwj3EpZIyh1u22n6MGhyVFmCXIdtLsP": {
 			"height": 92,
 			"title": "store",
 			"width": 292,
-			"x": 1014,
+			"x": 1013,
 			"y": 284
 		},
 		"Ap0NYyShN2tkA0S9hFUcdoNlhv9qVbba": {
@@ -41,14 +48,14 @@
 			"height": 102,
 			"title": "Add unit to battle",
 			"width": 226,
-			"x": 1019,
+			"x": 1018,
 			"y": -114
 		},
 		"Khm1VvnLHNHnEMzgNdWddXmYUK2eyTmZ": {
 			"height": 173,
 			"title": "Move to the battleline",
 			"width": 278,
-			"x": 1015,
+			"x": 1014,
 			"y": -288
 		},
 		"UgP8QhsbxBz8L5ag2PTKkMr9gDFwqQif": {
@@ -62,28 +69,28 @@
 			"height": 102,
 			"title": "Reset",
 			"width": 226,
-			"x": 1019,
+			"x": 1018,
 			"y": -12
 		},
 		"VhUjN54DBKvSrneBCMeUXAQCU14wxc1O": {
 			"height": 92,
 			"title": "store",
 			"width": 210,
-			"x": 1009,
+			"x": 1008,
 			"y": 97
 		},
 		"Y8T7GzXH6uFhLse7UhdVBEmEYFyFqclh": {
 			"height": 78,
 			"title": "Order mav to not move to seek fights",
 			"width": 296,
-			"x": 1015,
+			"x": 1014,
 			"y": -367
 		},
 		"s5KgdAiIntD3b94u0GYLXup2C8ts6b8k": {
 			"height": 94,
 			"title": "store",
 			"width": 421,
-			"x": 1013,
+			"x": 1012,
 			"y": 190
 		}
 	},
@@ -205,6 +212,14 @@
 						"value": "store"
 					} ],
 					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "06LD51ed6DLKBoYDZHsu9ACYFCdYUmYn",
+					"nodeType": "wait",
+					"parameters": [ {
+						"name": "time",
+						"value": 2
+					} ]
 				} ],
 				"id": "Ap0NYyShN2tkA0S9hFUcdoNlhv9qVbba",
 				"nodeType": "sequence",

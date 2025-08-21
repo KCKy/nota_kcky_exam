@@ -15,25 +15,32 @@
 	} ],
 	"outputs": [],
 	"properties": {
+		"AFOrcSVg4JduEoxp8BY7JCooejmNPXDE": {
+			"height": 78,
+			"title": "wait",
+			"width": 136,
+			"x": 1036,
+			"y": 369
+		},
 		"BPDkNKtfp4mWsNNV3ZYdNM1X7yzLd2G1": {
 			"height": 60,
 			"title": "Update targetarea",
 			"width": 198,
-			"x": 1267,
+			"x": 1266,
 			"y": -234
 		},
 		"LeCVsxxzFukiagi9bConw6uNxOHVRAlp": {
 			"height": 92,
 			"title": "store",
 			"width": 276,
-			"x": 1036,
+			"x": 1034,
 			"y": 274
 		},
 		"M5i8dIWKqdJUzqqD1xjsOeuVbFi5bkOC": {
 			"height": 94,
 			"title": "store",
 			"width": 421,
-			"x": 1040,
+			"x": 1038,
 			"y": 182
 		},
 		"PNh9waozPUX64yxSwxsU5YjKetXxc2KG": {
@@ -47,14 +54,14 @@
 			"height": 72,
 			"title": "wait",
 			"width": 131,
-			"x": 1800,
+			"x": 1799,
 			"y": -376
 		},
 		"UWbnIpq3r3Q4qfQjooXceJfOr9oMXNoY": {
 			"height": 97,
 			"title": "Reclaim the useless unit",
 			"width": 783,
-			"x": 1790,
+			"x": 1789,
 			"y": -474
 		},
 		"UwtRvUJEIsQ3iHjKNDyNNOMnQOK9pnt1": {
@@ -75,7 +82,7 @@
 			"height": 54,
 			"title": "success",
 			"width": 132,
-			"x": 1493,
+			"x": 1492,
 			"y": -342
 		},
 		"adyfihLYO7ASSXMLilmXftNu6EIpqEWk": {
@@ -89,85 +96,85 @@
 			"height": 60,
 			"title": "Move and collect",
 			"width": 188,
-			"x": 1271,
+			"x": 1270,
 			"y": -115
 		},
 		"dFZ13ySVNHjkX0u1hhoJk8OoSmJJVnIS": {
 			"height": 93,
 			"title": "Are there spawn units we can scrap?",
 			"width": 417,
-			"x": 1033,
+			"x": 1031,
 			"y": -462
 		},
 		"eniEcf0vv9rIwIaFec9HfcI0pugFJL5f": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 1495,
+			"x": 1494,
 			"y": -458
 		},
 		"jCISbKmKcEejhgNOqDbb0CtefayljvYJ": {
 			"height": 92,
 			"title": "Move",
 			"width": 246,
-			"x": 2066,
-			"y": -48
+			"x": 2267,
+			"y": -46
 		},
 		"jJ5h7e3CFjBSoUz2uzNQrbQkwl8XsYhr": {
 			"height": 98,
 			"title": "store",
 			"width": 457,
-			"x": 1481,
+			"x": 1480,
 			"y": -253
 		},
 		"jv8QB5vUlBpNPQSS1vBfzgmuicqLGOeC": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 1883,
-			"y": -150
+			"x": 2267,
+			"y": -175
 		},
 		"nFJmGAfO3ghOkdheucNOVD1Qwi9WnuGF": {
 			"height": 72,
 			"title": "wait",
 			"width": 131,
-			"x": 2069,
+			"x": 2468,
 			"y": -125
 		},
 		"njQ7C1NImBHfD6hhbEvms7GnFA8h09QB": {
 			"height": 91,
-			"title": "We move only when not enough metal",
-			"width": 324,
-			"x": 1482,
+			"title": "We move only when not enough metal or when we should fall back",
+			"width": 751,
+			"x": 1481,
 			"y": -126
 		},
 		"o0BDhPVoqdJcoGHa2zdcYzac3NNkSPCF": {
 			"height": 92,
 			"title": "store",
 			"width": 202,
-			"x": 1036,
+			"x": 1034,
 			"y": 89
 		},
 		"uGdymTCvi2ep8j9WOigoNmi2pdhH8vxQ": {
 			"height": 70,
 			"title": "parallel",
 			"width": 202,
-			"x": 1032,
+			"x": 1030,
 			"y": -121
 		},
 		"v9EvgrKmjhQnx5XuGyLMKtXsD0ZPUrrk": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 1632,
+			"x": 1631,
 			"y": -460
 		},
 		"vnwQKlk65vQrhScSojj8wom8NpJxqBT3": {
 			"height": 103,
 			"title": "Collect",
 			"width": 771,
-			"x": 2068,
-			"y": -229
+			"x": 2465,
+			"y": -236
 		}
 	},
 	"roles": [ {
@@ -201,7 +208,7 @@
 								"nodeType": "wait",
 								"parameters": [ {
 									"name": "time",
-									"value": 5
+									"value": 10
 								} ]
 							} ],
 							"id": "v9EvgrKmjhQnx5XuGyLMKtXsD0ZPUrrk",
@@ -297,7 +304,7 @@
 							"nodeType": "luaCondition",
 							"parameters": [ {
 								"name": "expression",
-								"value": "nota_mestek_labs.MetalInArea(area) > 20"
+								"value": "nota_mestek_labs.MetalInArea(area) > 20 and ProjectMiddle(area.center) < ProjectMiddle(bb[positionVariable])"
 							}, {
 								"name": "repeat",
 								"value": "true"
@@ -363,6 +370,14 @@
 						"value": "store"
 					} ],
 					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "AFOrcSVg4JduEoxp8BY7JCooejmNPXDE",
+					"nodeType": "wait",
+					"parameters": [ {
+						"name": "time",
+						"value": 2
+					} ]
 				} ],
 				"id": "VZcPmBufiXXUKgReiZPzTOpYwBaGbSsq",
 				"nodeType": "sequence",

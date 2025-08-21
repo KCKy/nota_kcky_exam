@@ -22,8 +22,8 @@
 			"height": 90,
 			"title": "Check if our request was accepted",
 			"width": 300,
-			"x": 755,
-			"y": 11
+			"x": 745,
+			"y": 13
 		},
 		"CK8TBLrgqSZegDnrakVb68wR8vi8zXNx": {
 			"height": 94,
@@ -71,8 +71,8 @@
 			"height": 94,
 			"title": "Unregister",
 			"width": 294,
-			"x": 407,
-			"y": 103
+			"x": 404,
+			"y": 117
 		},
 		"j7VApQdAjeL9WueZBVzaZsCSR7L5pKRr": {
 			"height": 60,
@@ -85,7 +85,7 @@
 			"height": 93,
 			"title": "Move without atlas",
 			"width": 238,
-			"x": 1107,
+			"x": 1102,
 			"y": -29
 		},
 		"lSUz6n68ktAZFb0PDz0KmrIScXOub4BG": {
@@ -113,8 +113,8 @@
 			"height": 90,
 			"title": "Check if we were taken",
 			"width": 418,
-			"x": 1103,
-			"y": 69
+			"x": 1096,
+			"y": 71
 		}
 	},
 	"roles": [ {

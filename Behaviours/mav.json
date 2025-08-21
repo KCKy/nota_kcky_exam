@@ -21,21 +21,28 @@
 			"title": "Are we close to a tower?",
 			"width": 738,
 			"x": 1183,
-			"y": 192
+			"y": 100
+		},
+		"9gB8RtozgNQU7Ay0yO6guT6zlODjH0Xd": {
+			"height": 78,
+			"title": "wait",
+			"width": 136,
+			"x": 925,
+			"y": 200
 		},
 		"AmN8RPWBPxS6figGggyHXcKWzbTMFXFR": {
 			"height": 60,
 			"title": "Update information",
 			"width": 202,
-			"x": 499,
-			"y": -87
+			"x": 490,
+			"y": -180
 		},
 		"BZUKqxTNFGXLcJUFqRCX7vERkgaSfILa": {
 			"height": 90,
 			"title": "Do we have any?",
 			"width": 217,
 			"x": 923,
-			"y": 191
+			"y": 99
 		},
 		"JGqGoHaNKfG6qV0lbUZptc3jQzW0skd5": {
 			"height": 160,
@@ -49,42 +56,42 @@
 			"title": "Move close but safe to shika",
 			"width": 377,
 			"x": 1962,
-			"y": 150
+			"y": 58
 		},
 		"P3V9b06HIhg3N0hoCA7PAF2ieyJANrp7": {
 			"height": 100,
 			"title": "Get closest shika position",
 			"width": 381,
 			"x": 919,
-			"y": 84
+			"y": -8
 		},
 		"RhRGphgSOWAnzyQ3gHXxNrJUg0AgS2gO": {
 			"height": 102,
 			"title": "Take out the dead",
 			"width": 537,
-			"x": 916,
-			"y": -111
+			"x": 917,
+			"y": -214
 		},
 		"V2GMMmUIQSJ3zze4sXBiQpWs1euPJ2bE": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
 			"x": 724,
-			"y": -87
+			"y": -179
 		},
 		"hBeSAZhewOgZUmjhhY99o1mfxrQar2a7": {
 			"height": 96,
 			"title": "Unset mav battle line",
 			"width": 214,
 			"x": 1181,
-			"y": 286
+			"y": 194
 		},
 		"lA6Wj3ivkagb8p6waGPCWpQ4T6AZWM5t": {
 			"height": 92,
 			"title": "Keep the middle position",
 			"width": 237,
 			"x": 1965,
-			"y": 246
+			"y": 154
 		},
 		"t6JGwTOseOMPbZaKqkBXqRgHBd3kjRyy": {
 			"height": 60,
@@ -98,7 +105,7 @@
 			"title": "Get closest shika id",
 			"width": 430,
 			"x": 921,
-			"y": -15
+			"y": -107
 		}
 	},
 	"roles": [ {
@@ -219,6 +226,14 @@
 					}, {
 						"name": "repeat",
 						"value": "true"
+					} ]
+				}, {
+					"children": [],
+					"id": "9gB8RtozgNQU7Ay0yO6guT6zlODjH0Xd",
+					"nodeType": "wait",
+					"parameters": [ {
+						"name": "time",
+						"value": 2
 					} ]
 				} ],
 				"id": "V2GMMmUIQSJ3zze4sXBiQpWs1euPJ2bE",

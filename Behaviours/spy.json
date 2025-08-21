@@ -19,28 +19,35 @@
 			"height": 94,
 			"title": "store",
 			"width": 421,
-			"x": 1006,
+			"x": 1004,
 			"y": 157
 		},
 		"9DdSIk25zemuhLoatdQg5V1z6wYIZ76P": {
 			"height": 60,
 			"title": "sequence",
 			"width": 143,
-			"x": 824,
+			"x": 822,
 			"y": -67
 		},
 		"BAep1PRKM6RSa51wk3NbDuqlx5fdbxqa": {
 			"height": 172,
 			"title": "Move to the battleline",
 			"width": 278,
-			"x": 1013,
+			"x": 1011,
 			"y": -340
+		},
+		"CIl2JzcfuyJxsan17N565zOw0zVEGLJz": {
+			"height": 78,
+			"title": "wait",
+			"width": 136,
+			"x": 1008,
+			"y": 346
 		},
 		"CuCVMIdZXvUNwTyvovzkZh2ViWi17QJ1": {
 			"height": 60,
 			"title": "Get a spy",
 			"width": 166,
-			"x": 817,
+			"x": 815,
 			"y": 80
 		},
 		"EiagLF9EoAF0T7LuRLo4fSBScwUI2vp9": {
@@ -54,14 +61,14 @@
 			"height": 92,
 			"title": "nota_krejci_exam.moveUnit",
 			"width": 273,
-			"x": 1018,
+			"x": 1016,
 			"y": -168
 		},
 		"KBaezOsBDuGrBWvB3OoLRZGGlkQ48aJq": {
 			"height": 112,
 			"title": "Seek towers to highlight them",
 			"width": 258,
-			"x": 1172,
+			"x": 1170,
 			"y": -72
 		},
 		"O2fdihnuSksgE79ndqe6p5EvCFOrQ2b6": {
@@ -75,21 +82,21 @@
 			"height": 92,
 			"title": "store",
 			"width": 210,
-			"x": 1002,
+			"x": 1000,
 			"y": 64
 		},
 		"i1YQRM9lCkA1DOfv9VscCDmK4Gey3qji": {
 			"height": 60,
 			"title": "repeat",
 			"width": 131,
-			"x": 1016,
+			"x": 1014,
 			"y": -56
 		},
 		"uiGdDtHfdYnITNq3pKvr8OkkogheijVB": {
 			"height": 92,
 			"title": "store",
 			"width": 292,
-			"x": 1007,
+			"x": 1005,
 			"y": 251
 		}
 	},
@@ -207,6 +214,14 @@
 						"value": "store"
 					} ],
 					"scriptName": "store"
+				}, {
+					"children": [],
+					"id": "CIl2JzcfuyJxsan17N565zOw0zVEGLJz",
+					"nodeType": "wait",
+					"parameters": [ {
+						"name": "time",
+						"value": 2
+					} ]
 				} ],
 				"id": "CuCVMIdZXvUNwTyvovzkZh2ViWi17QJ1",
 				"nodeType": "sequence",
